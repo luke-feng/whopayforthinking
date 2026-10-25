@@ -1,0 +1,4514 @@
+{
+  "schema": "lcb-preparation-v2",
+  "dataset_sha256": "4519422b52d7dd243358ee721ecfe94e26ab364a7af2938c8e5d170a17bcadcd",
+  "seed": 20261006,
+  "start_date": "2025-02-01",
+  "end_date": "2025-04-30",
+  "eligible": 122,
+  "conflict_rule": "declared_comparator_keep_first_v1",
+  "selection_rule": "seed_sha256_all_remaining_v1",
+  "sample_policy": {
+    "pilot_count": 16,
+    "main_count_rule": "all_remaining",
+    "minimum_main_count": 80
+  },
+  "eligible_tasks": [
+    {
+      "task_id": "atcoder/abc391_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc391_d",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc391_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc391_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc391_g",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc392_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc392_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc392_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc392_d",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc392_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc392_g",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc393_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc393_d",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc393_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc393_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc394_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc394_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc394_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc394_d",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc394_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc394_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc394_g",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc395_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc395_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc395_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc395_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc395_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc396_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc396_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc396_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc396_d",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc396_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc396_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc396_g",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc397_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc397_b",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc397_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc397_d",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc397_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc397_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc397_g",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc398_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc398_b",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc398_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc398_d",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc398_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc398_g",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc399_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc399_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc399_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc399_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc399_f",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/abc400_a",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc400_b",
+      "platform": "atcoder",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "atcoder/abc400_c",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/abc400_d",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/arc192_a",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/arc192_b",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc192_d",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc192_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc193_a",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc193_b",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc194_a",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/arc194_b",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc194_c",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc194_d",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc194_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc195_a",
+      "platform": "atcoder",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "atcoder/arc195_b",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc195_e",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc196_a",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc196_c",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "atcoder/arc196_d",
+      "platform": "atcoder",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3692",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3696",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3697",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3701",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3705",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3709",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3717",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3722",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3723",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3733",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3736",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3743",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3744",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3748",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3750",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3753",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3754",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3759",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3760",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3762",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3763",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3764",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3765",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3768",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3770",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3771",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3773",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3776",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3777",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3778",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3779",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3781",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3783",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3784",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3785",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3786",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3788",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3789",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3791",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3793",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3794",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3795",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3799",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3801",
+      "platform": "leetcode",
+      "difficulty": "hard"
+    },
+    {
+      "task_id": "leetcode/3805",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3809",
+      "platform": "leetcode",
+      "difficulty": "medium"
+    },
+    {
+      "task_id": "leetcode/3811",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3817",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    },
+    {
+      "task_id": "leetcode/3832",
+      "platform": "leetcode",
+      "difficulty": "easy"
+    }
+  ],
+  "eligible_composition": {
+    "platform_counts": {
+      "atcoder": 73,
+      "leetcode": 49
+    },
+    "difficulty_counts": {
+      "easy": 29,
+      "hard": 55,
+      "medium": 38
+    }
+  },
+  "input_limits": {
+    "raw_dataset_row_bytes": 134217728,
+    "test_content_and_decompression_limit": 33554432,
+    "raw_row_counts_line_ending": true
+  },
+  "input_record_statistics": {
+    "physical_lines": 1055,
+    "nonblank_records": 1055,
+    "largest_line_bytes": 92838755
+  },
+  "excluded": [
+    {
+      "task_id": "codeforces/1873_A",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1873_B",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1873_D",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1883_B",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1883_C",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1899_A",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1899_B",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1899_C",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "codeforces/1899_D",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2727",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2728",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2730",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2754",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2755",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2756",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2757",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2777",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2779",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2784",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2785",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2786",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2791",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2792",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2800",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2802",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2808",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2810",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2811",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2812",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2816",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2817",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2819",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2824",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2825",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2827",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2828",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2831",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2832",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2833",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2834",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2837",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2839",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2844",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2845",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2847",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2848",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2849",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2850",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2854",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2855",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2856",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2857",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2866",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2867",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2868",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2869",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2870",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2872",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2873",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2876",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2877",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2878",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2879",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2881",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2882",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2883",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2884",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2886",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2887",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2888",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2891",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2892",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2893",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2902",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2915",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2916",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2917",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2919",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2920",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2921",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2952",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2953",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2954",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2955",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2977",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2979",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2998",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/2999",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3000",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3017",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3018",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3019",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3024",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3025",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3031",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3032",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3033",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3034",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3044",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3045",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3046",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3047",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3055",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3080",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3081",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3091",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3093",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3094",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3104",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3106",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3114",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3141",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3150",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3151",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3153",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3154",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3163",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3164",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3166",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3171",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3172",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3174",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3176",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3183",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3184",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3188",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3190",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3192",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3193",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3194",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3195",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3196",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3199",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3200",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3203",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3206",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3207",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3209",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3210",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3211",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3212",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3213",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3219",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3220",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3221",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3223",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3224",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3225",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3226",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3227",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3228",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3229",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3230",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3231",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3233",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3234",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3235",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3236",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3239",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3240",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3242",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3243",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3244",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3245",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3246",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3249",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3251",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3252",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3261",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3262",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3263",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3265",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3267",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3269",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3279",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3291",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3292",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3297",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3298",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3299",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3308",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3309",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3311",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3312",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3317",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3320",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3324",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3329",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3331",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3347",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc301_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc301_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc301_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc301_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc301_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc301_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc302_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc302_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc302_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc302_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc302_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc302_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc303_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc303_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc303_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc303_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc303_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc304_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc304_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc304_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc304_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc304_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc305_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc305_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc305_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc305_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc305_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc306_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc306_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc306_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc306_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc306_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc307_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc307_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc307_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc307_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc307_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc308_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc308_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc308_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc308_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc308_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc308_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc309_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc309_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc309_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc309_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc309_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc310_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc310_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc310_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc310_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc310_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc310_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc311_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc311_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc311_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc311_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc311_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc312_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc312_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc312_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc312_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc312_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc312_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc313_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc313_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc313_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc314_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc314_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc314_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc314_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc314_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc314_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc315_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc315_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc315_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc315_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc315_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc315_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc318_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc318_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc318_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc318_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc318_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc319_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc319_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc319_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc319_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc320_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc320_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc320_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc320_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc320_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc321_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc321_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc321_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc321_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc321_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc322_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc322_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc322_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc322_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc322_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc323_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc323_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc323_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc323_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc323_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc324_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc324_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc324_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc324_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc324_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc324_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc325_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc325_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc325_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc325_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc325_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc325_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc326_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc326_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc326_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc326_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc326_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc327_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc327_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc327_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc327_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc327_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc328_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc328_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc328_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc328_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc328_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc329_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc329_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc329_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc329_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc329_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc329_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc330_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc330_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc330_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc330_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc330_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc331_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc331_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc331_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc331_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc331_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc332_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc332_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc332_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc332_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc333_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc333_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc333_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc333_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc333_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc334_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc334_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc334_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc334_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc334_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc335_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc335_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc335_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc335_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc336_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc336_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc336_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc336_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc337_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc337_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc337_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc337_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc337_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc338_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc338_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc338_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc338_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc338_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc338_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc339_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc339_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc339_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc339_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc340_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc340_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc340_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc340_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc340_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc341_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc341_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc341_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc341_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc341_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc341_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc342_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc342_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc342_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc342_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc342_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc343_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc343_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc343_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc343_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc343_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc344_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc344_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc344_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc344_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc344_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc345_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc345_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc346_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc346_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc346_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc346_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc346_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc347_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc347_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc347_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc347_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc348_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc348_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc348_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc348_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc348_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc349_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc349_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc349_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc349_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc349_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc350_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc350_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc350_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc350_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc350_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc351_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc351_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc351_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc351_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc351_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc351_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc352_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc352_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc352_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc352_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc352_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc353_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc353_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc353_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc353_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc353_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc354_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc354_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc354_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc354_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc354_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc355_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc355_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc355_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc355_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc355_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3334",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3351",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3356",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3313",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3353",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3337",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3360",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3327",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3349",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3328",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3363",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3376",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3371",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3374",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3344",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3372",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3346",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3387",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3361",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3373",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3375",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3364",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3367",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3306",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3354",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3345",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3381",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3355",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3316",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3379",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3382",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3408",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3397",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3394",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3362",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3396",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3384",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3395",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3402",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3398",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3388",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3406",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3412",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3383",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3429",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3416",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3414",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3446",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3451",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3423",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3403",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3411",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3428",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3420",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc356_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc356_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc356_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc356_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc356_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc357_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc357_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc357_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc357_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc357_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc358_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc358_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc358_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc358_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc358_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc359_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc359_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc359_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc359_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc359_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc360_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc360_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc360_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc360_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc360_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc361_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc361_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc361_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc361_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc361_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc361_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc362_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc362_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc362_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc362_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc362_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc363_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc363_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc363_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc363_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc363_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc363_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc364_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc364_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc364_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc364_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc364_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc364_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc365_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc365_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc365_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc365_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc365_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3426",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3430",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3436",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3450",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3422",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3442",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3421",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3437",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3438",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3471",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3461",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3464",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3469",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3490",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3439",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3468",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3453",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3492",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3482",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3484",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3494",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3508",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3462",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3493",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3454",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3515",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3507",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3479",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3478",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3517",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3527",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3533",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3535",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3447",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3413",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3456",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3476",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3475",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3460",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3463",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3264",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3466",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3511",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3455",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3498",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3519",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3526",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3532",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc366_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc367_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc368_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc369_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc369_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc369_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc369_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc369_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc369_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc370_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc371_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc372_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc372_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc372_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc372_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc372_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc372_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc373_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc373_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc373_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc373_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc373_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc373_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc181_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc181_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc181_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc181_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc182_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc182_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc182_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc182_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc183_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc183_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc183_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc183_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3026",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3543",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3525",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3552",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3555",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3534",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3553",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3495",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3563",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3551",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3567",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3485",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3528",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3560",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3518",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3559",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3522",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3550",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3568",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3540",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3548",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3531",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3558",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3575",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3571",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3541",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3496",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3573",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3600",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3570",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3579",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3583",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3606",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3510",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3584",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3580",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc374_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc375_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc376_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc377_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc378_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc379_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc380_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc381_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc381_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc381_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc381_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc381_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc382_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc382_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc382_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc382_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc382_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc382_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc383_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc383_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc383_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc383_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc383_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc384_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc385_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc385_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc385_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc385_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc385_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc385_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc386_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc386_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc386_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc386_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc386_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc386_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc184_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc184_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc184_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc185_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc185_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc185_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc185_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc186_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc186_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc186_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc186_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc186_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc187_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc188_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc188_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc188_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc188_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc189_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc189_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc189_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc189_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3610",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3588",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3566",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3502",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3607",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3603",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3593",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3629",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3608",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3636",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3627",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3637",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3612",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3646",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3631",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3616",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3639",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3658",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3644",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3654",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3675",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3605",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3487",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3604",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3617",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3587",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3626",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3622",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3625",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3591",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3647",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3648",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3676",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3594",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3651",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3681",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3653",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3621",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3649",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3655",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3680",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3632",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3613",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3686",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3638",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3656",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3620",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3690",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3683",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3699",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3682",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3685",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3659",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3657",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3700",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3702",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3634",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3715",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3562",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3684",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3716",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3688",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc387_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc387_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc387_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc387_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc388_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc389_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc389_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc389_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc389_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc389_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc389_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_e",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_g",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_b",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_f",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc390_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/abc391_a",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/abc393_a",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/abc399_d",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/abc400_e",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/abc400_g",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/arc190_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc190_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc190_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc191_d",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc191_c",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc191_a",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "atcoder/arc193_d",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/arc195_c",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/arc195_d",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "atcoder/arc196_b",
+      "reason": "Fewer than 4 weak plus 10 common audit tests after de-duplication"
+    },
+    {
+      "task_id": "leetcode/3708",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3677",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3720",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3674",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3731",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3714",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3737",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3725",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3704",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3721",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3751",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3747",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3687",
+      "reason": "Outside frozen contest-date window"
+    },
+    {
+      "task_id": "leetcode/3739",
+      "reason": "Outside frozen contest-date window"
+    }
+  ],
+  "split_rule": "W2 subset W4; common audit disjoint W4; minimum audit 10",
+  "status": "prepared_not_executed",
+  "pilot_count": 16,
+  "main_count": 106,
+  "pilot_task_ids": [
+    "leetcode/3773",
+    "leetcode/3759",
+    "atcoder/arc195_e",
+    "leetcode/3777",
+    "leetcode/3789",
+    "atcoder/abc400_b",
+    "atcoder/abc396_e",
+    "leetcode/3794",
+    "leetcode/3743",
+    "atcoder/abc398_c",
+    "leetcode/3748",
+    "atcoder/abc392_a",
+    "atcoder/abc393_b",
+    "atcoder/abc399_f",
+    "atcoder/abc394_e",
+    "atcoder/abc392_d"
+  ],
+  "main_task_ids": [
+    "atcoder/abc393_e",
+    "atcoder/abc399_c",
+    "atcoder/abc399_e",
+    "atcoder/abc396_c",
+    "atcoder/arc192_e",
+    "atcoder/abc395_b",
+    "atcoder/arc194_a",
+    "atcoder/abc391_d",
+    "atcoder/abc391_f",
+    "leetcode/3801",
+    "atcoder/arc196_a",
+    "atcoder/abc394_g",
+    "atcoder/abc394_a",
+    "atcoder/abc395_f",
+    "atcoder/abc397_d",
+    "atcoder/arc195_b",
+    "leetcode/3709",
+    "atcoder/abc391_g",
+    "leetcode/3750",
+    "atcoder/abc393_d",
+    "atcoder/arc196_d",
+    "leetcode/3785",
+    "leetcode/3788",
+    "atcoder/abc399_a",
+    "leetcode/3763",
+    "leetcode/3779",
+    "atcoder/abc395_c",
+    "atcoder/abc396_d",
+    "leetcode/3805",
+    "atcoder/abc399_b",
+    "atcoder/arc193_a",
+    "leetcode/3765",
+    "atcoder/abc398_g",
+    "leetcode/3770",
+    "atcoder/abc396_f",
+    "leetcode/3832",
+    "leetcode/3809",
+    "leetcode/3817",
+    "atcoder/abc395_e",
+    "atcoder/abc393_f",
+    "atcoder/arc192_a",
+    "leetcode/3764",
+    "atcoder/abc394_d",
+    "atcoder/abc394_c",
+    "leetcode/3762",
+    "atcoder/abc391_e",
+    "atcoder/abc398_b",
+    "atcoder/arc194_b",
+    "atcoder/arc194_e",
+    "atcoder/abc400_c",
+    "atcoder/abc396_g",
+    "leetcode/3722",
+    "atcoder/abc398_a",
+    "atcoder/abc398_f",
+    "atcoder/abc396_b",
+    "leetcode/3776",
+    "atcoder/abc391_b",
+    "leetcode/3793",
+    "leetcode/3696",
+    "atcoder/arc192_d",
+    "leetcode/3768",
+    "atcoder/arc193_b",
+    "atcoder/abc400_d",
+    "atcoder/abc397_f",
+    "atcoder/abc394_f",
+    "leetcode/3786",
+    "atcoder/abc397_b",
+    "leetcode/3791",
+    "leetcode/3744",
+    "atcoder/arc194_c",
+    "atcoder/abc397_e",
+    "leetcode/3723",
+    "atcoder/arc194_d",
+    "leetcode/3799",
+    "leetcode/3778",
+    "atcoder/abc395_a",
+    "leetcode/3705",
+    "atcoder/abc392_b",
+    "atcoder/abc392_f",
+    "atcoder/arc195_a",
+    "atcoder/abc400_a",
+    "atcoder/abc394_b",
+    "leetcode/3692",
+    "atcoder/abc392_c",
+    "leetcode/3701",
+    "leetcode/3753",
+    "atcoder/abc397_c",
+    "atcoder/arc196_c",
+    "leetcode/3795",
+    "atcoder/abc392_g",
+    "leetcode/3733",
+    "atcoder/abc398_d",
+    "atcoder/abc397_g",
+    "atcoder/abc397_a",
+    "leetcode/3784",
+    "leetcode/3783",
+    "leetcode/3781",
+    "leetcode/3811",
+    "leetcode/3760",
+    "leetcode/3717",
+    "atcoder/abc396_a",
+    "leetcode/3697",
+    "leetcode/3754",
+    "leetcode/3771",
+    "atcoder/arc192_b",
+    "leetcode/3736"
+  ],
+  "prompts_sha256": "ce810c06ae9111d8ea83c9a856ef4ce96f2ff18973b9f9130dec37ec00a05f14",
+  "private_tests_sha256": "74200b850c97aa674b64d35a8e0d709db21122c53e409d1715498a5bec4ff219"
+}

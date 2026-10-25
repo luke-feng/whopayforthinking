@@ -1,0 +1,2005 @@
+{
+  "cells": [
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|batch16|k1|r0",
+      "extract_source_sha256": "b0000728836c6ef6f9589268dd1d7eadfeafe35719b7aeede8f52f5208a98fe8",
+      "collect_source_sha256": "d78a78fff240928e3b0d3a88c3a5c4b52338bcb08c0aaf8244de932a48511445",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm0-collect.json",
+        "data/experiment-records/main-collect-1/cm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|batch16|k1|r1",
+      "extract_source_sha256": "d916c30c77403e3619e9717bd73c1f1da01fc59398fd65b0ab7e3917d8716f95",
+      "collect_source_sha256": "023915ee828dac358dba833261e34760644c0820e412ffdbf9da8aed269fb9ec",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm1-collect.json",
+        "data/experiment-records/main-collect-1/cm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|batch16|k1|r2",
+      "extract_source_sha256": "39bdef2e62db576e177d38f8152ed958a06035c5917cad2a5eb4d384e4db22c3",
+      "collect_source_sha256": "6e2b2a9a2853a163bb81cb5f2c1b7fab95a94dca9eaccd7a26f003caf8446571",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm2-collect.json",
+        "data/experiment-records/main-collect-1/cm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|batch16|k8|r0",
+      "extract_source_sha256": "88861a053875c8eafe3edc94940caf9ade2c1c0e50fcdafd54533be9a3ee3f17",
+      "collect_source_sha256": "d78a78fff240928e3b0d3a88c3a5c4b52338bcb08c0aaf8244de932a48511445",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm0-collect.json",
+        "data/experiment-records/main-collect-1/cm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|batch16|k8|r1",
+      "extract_source_sha256": "0e4edb66d8bf34289cc699462b2deb1424856a524037b05218f0d11fca8b84d7",
+      "collect_source_sha256": "023915ee828dac358dba833261e34760644c0820e412ffdbf9da8aed269fb9ec",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm1-collect.json",
+        "data/experiment-records/main-collect-1/cm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|batch16|k8|r2",
+      "extract_source_sha256": "73a258999cab5bf6d517e9e82a898d85f673ed35582e5ad2c6709c5fcf843726",
+      "collect_source_sha256": "6e2b2a9a2853a163bb81cb5f2c1b7fab95a94dca9eaccd7a26f003caf8446571",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm2-collect.json",
+        "data/experiment-records/main-collect-1/cm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|serial|k1|r0",
+      "extract_source_sha256": "524f0fd2c08d9cced84889efab7c7afa2acaf4fc8726bb6f3b3a7ac2652aa549",
+      "collect_source_sha256": "d78a78fff240928e3b0d3a88c3a5c4b52338bcb08c0aaf8244de932a48511445",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm0-collect.json",
+        "data/experiment-records/main-collect-1/cm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|serial|k1|r1",
+      "extract_source_sha256": "95d014e8199ff1960b513a51fb6226cb54602542d762a7b028612f21f69cc2b3",
+      "collect_source_sha256": "023915ee828dac358dba833261e34760644c0820e412ffdbf9da8aed269fb9ec",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm1-collect.json",
+        "data/experiment-records/main-collect-1/cm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|serial|k1|r2",
+      "extract_source_sha256": "caa076af1bff715cc4a38eb769586344eafc40e08bef351dfa2960b4c9d96a8c",
+      "collect_source_sha256": "6e2b2a9a2853a163bb81cb5f2c1b7fab95a94dca9eaccd7a26f003caf8446571",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm2-collect.json",
+        "data/experiment-records/main-collect-1/cm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|serial|k8|r0",
+      "extract_source_sha256": "618ce42e8e168cfac40ed8398adff0b5cda25af3369d3aa3f78b4a129ec133a8",
+      "collect_source_sha256": "d78a78fff240928e3b0d3a88c3a5c4b52338bcb08c0aaf8244de932a48511445",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm0-collect.json",
+        "data/experiment-records/main-collect-1/cm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|serial|k8|r1",
+      "extract_source_sha256": "8348f80da1d9410ef6a13d62b51d00d473c18e729717342511deb5651dc59146",
+      "collect_source_sha256": "023915ee828dac358dba833261e34760644c0820e412ffdbf9da8aed269fb9ec",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm1-collect.json",
+        "data/experiment-records/main-collect-1/cm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "coder-nonthinking|serial|k8|r2",
+      "extract_source_sha256": "cefe72d04b262004b162562373499e618fe9f2b56a2ddf5ac5f509ba6fe19f4e",
+      "collect_source_sha256": "6e2b2a9a2853a163bb81cb5f2c1b7fab95a94dca9eaccd7a26f003caf8446571",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/cm2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/cm2-collect.json",
+        "data/experiment-records/main-collect-1/cm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|batch16|k1|r0",
+      "extract_source_sha256": "7d3008bc91bbd6b10e216830010380279eb61bcc160507ea2b6b3faecbc795df",
+      "collect_source_sha256": "f8b74be65882b480df450f5e032c454baefdc8c390d3cfaa6b5e40d689d601b5",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/nm0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/nm0-collect.json",
+        "data/experiment-records/main-collect-1/nm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|batch16|k1|r1",
+      "extract_source_sha256": "ed1f48d33d1ad5b44ea5bf696259d31669ee809f6c9da5b9856fa137415ab9dd",
+      "collect_source_sha256": "0a61804b539e13b16b2da89fd76c99973fcdd8bc260c1beb6c56d90170509e65",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm1-collect.json",
+        "data/experiment-records/main-collect-2/nm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|batch16|k1|r2",
+      "extract_source_sha256": "dd6a380ad576aa82efa29d657049eba117a93dd1a063e58acf789a7743835f3e",
+      "collect_source_sha256": "db2d59491b77c552d3043c5118013f602544459ab54142cb5fc654e755594d5e",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm2-collect.json",
+        "data/experiment-records/main-collect-2/nm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|batch16|k8|r0",
+      "extract_source_sha256": "22aa6534755b91b87ce28c9599a0d96b9f837051d476904a9f5b43290c8d94db",
+      "collect_source_sha256": "f8b74be65882b480df450f5e032c454baefdc8c390d3cfaa6b5e40d689d601b5",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/nm0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/nm0-collect.json",
+        "data/experiment-records/main-collect-1/nm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|batch16|k8|r1",
+      "extract_source_sha256": "8dacf5e1f6d509cb3dcfd5202bde6b0c95325e15e29a6ed218df4c644dfe21ba",
+      "collect_source_sha256": "0a61804b539e13b16b2da89fd76c99973fcdd8bc260c1beb6c56d90170509e65",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm1-collect.json",
+        "data/experiment-records/main-collect-2/nm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|batch16|k8|r2",
+      "extract_source_sha256": "5a95e992705e11a341205d29309e5eb385098220a63d5d89bd3ac656b3934be7",
+      "collect_source_sha256": "db2d59491b77c552d3043c5118013f602544459ab54142cb5fc654e755594d5e",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm2-collect.json",
+        "data/experiment-records/main-collect-2/nm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|serial|k1|r0",
+      "extract_source_sha256": "86949f2e5c79774ceeaddf91f2ac8a476922c927891794c65c2909b9c1e624b5",
+      "collect_source_sha256": "f8b74be65882b480df450f5e032c454baefdc8c390d3cfaa6b5e40d689d601b5",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/nm0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/nm0-collect.json",
+        "data/experiment-records/main-collect-1/nm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|serial|k1|r1",
+      "extract_source_sha256": "4697d8cac326e1aca35e4e9488dc566827c4ea3261f6f086270232c7b6a1dce0",
+      "collect_source_sha256": "0a61804b539e13b16b2da89fd76c99973fcdd8bc260c1beb6c56d90170509e65",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm1-collect.json",
+        "data/experiment-records/main-collect-2/nm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|serial|k1|r2",
+      "extract_source_sha256": "c613bbe69ea52046f13d791bcb916ccf3acc36d72f390f13abddef3690017f8c",
+      "collect_source_sha256": "db2d59491b77c552d3043c5118013f602544459ab54142cb5fc654e755594d5e",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm2-collect.json",
+        "data/experiment-records/main-collect-2/nm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|serial|k8|r0",
+      "extract_source_sha256": "2a7b7d403f5d12ddeabdbb080ef70e9cd2c8e1025d20db9c082ce7cc41543d81",
+      "collect_source_sha256": "f8b74be65882b480df450f5e032c454baefdc8c390d3cfaa6b5e40d689d601b5",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/nm0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/nm0-collect.json",
+        "data/experiment-records/main-collect-1/nm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|serial|k8|r1",
+      "extract_source_sha256": "efb2961d4f1b0221d49d475b6a27cd16f1b13a62ca697b4530763f8bf9add6fb",
+      "collect_source_sha256": "0a61804b539e13b16b2da89fd76c99973fcdd8bc260c1beb6c56d90170509e65",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm1-collect.json",
+        "data/experiment-records/main-collect-2/nm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "nemotron-thinking|serial|k8|r2",
+      "extract_source_sha256": "a287ff4031c5ea73116f3e780c7f73cd581c858d3f39e2aae2d6ca8161f20092",
+      "collect_source_sha256": "db2d59491b77c552d3043c5118013f602544459ab54142cb5fc654e755594d5e",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/nm2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/nm2-collect.json",
+        "data/experiment-records/main-collect-2/nm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|batch16|k1|r0",
+      "extract_source_sha256": "9e272ea6e37f7d21e9dfd8770e9e96dec08b701761d1345fea315858183e18c5",
+      "collect_source_sha256": "fc04a31d8bfc93f3d4ac681c6238c5dc4ec0de072007a51f2625fbf69c8b9a0e",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm0-collect.json",
+        "data/experiment-records/main-collect-1/qm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|batch16|k1|r1",
+      "extract_source_sha256": "2153856ad2c2e23092258992d553d965fde49f64b7e004ae28ebea6fdba6c758",
+      "collect_source_sha256": "dbbc10a61999c8292a582ead33772e13d64c15977db591a1cf2c655d37e3a217",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/qm1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/qm1-collect.json",
+        "data/experiment-records/main-collect-2/qm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|batch16|k1|r2",
+      "extract_source_sha256": "28d07a4607ba9db004235ea4da1f196e51ca1462bdde0ddf50824fe920974250",
+      "collect_source_sha256": "b1563e9bc04de5c5dc3fd16033d3473687ff4a5aab5bd0b27a5749e92940d8a7",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm2-collect.json",
+        "data/experiment-records/main-collect-1/qm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|batch16|k8|r0",
+      "extract_source_sha256": "cf296a036c0726eff974bfd158660b6cc07f961a98664281660be2295d307eed",
+      "collect_source_sha256": "fc04a31d8bfc93f3d4ac681c6238c5dc4ec0de072007a51f2625fbf69c8b9a0e",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm0-collect.json",
+        "data/experiment-records/main-collect-1/qm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|batch16|k8|r1",
+      "extract_source_sha256": "7063de3b9568feaafc6ad75c14b4c0ce8f182a2e2820cbf1da1250816d585f1f",
+      "collect_source_sha256": "dbbc10a61999c8292a582ead33772e13d64c15977db591a1cf2c655d37e3a217",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/qm1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/qm1-collect.json",
+        "data/experiment-records/main-collect-2/qm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|batch16|k8|r2",
+      "extract_source_sha256": "bff3171d36b213020735841c31aea8159b66d949024336456cf468621de9446f",
+      "collect_source_sha256": "b1563e9bc04de5c5dc3fd16033d3473687ff4a5aab5bd0b27a5749e92940d8a7",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm2-collect.json",
+        "data/experiment-records/main-collect-1/qm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|serial|k1|r0",
+      "extract_source_sha256": "adeca2530d0e2e5fffdccff4430d92ef8283cf0e836ad576780a307c1f93090c",
+      "collect_source_sha256": "fc04a31d8bfc93f3d4ac681c6238c5dc4ec0de072007a51f2625fbf69c8b9a0e",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm0-collect.json",
+        "data/experiment-records/main-collect-1/qm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|serial|k1|r1",
+      "extract_source_sha256": "8e5c88ed4629d821d372fd39615074d45e35413ede2dc50471d54b1cce647de3",
+      "collect_source_sha256": "dbbc10a61999c8292a582ead33772e13d64c15977db591a1cf2c655d37e3a217",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/qm1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/qm1-collect.json",
+        "data/experiment-records/main-collect-2/qm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|serial|k1|r2",
+      "extract_source_sha256": "eab511a1a1fa50cdcdee7a95e51d8f597b852517d86f192d6ca200f4c7892ace",
+      "collect_source_sha256": "b1563e9bc04de5c5dc3fd16033d3473687ff4a5aab5bd0b27a5749e92940d8a7",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm2-collect.json",
+        "data/experiment-records/main-collect-1/qm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|serial|k8|r0",
+      "extract_source_sha256": "5691b55e17674fb057747e76b3e3e980b0baf4d7fecd3112b9ca3c91c612af3a",
+      "collect_source_sha256": "fc04a31d8bfc93f3d4ac681c6238c5dc4ec0de072007a51f2625fbf69c8b9a0e",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm0-collect.json",
+        "data/experiment-records/main-collect-1/qm0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|serial|k8|r1",
+      "extract_source_sha256": "a246809a41ea15d3e116eaaaf48c374d506a0b4b10dc2f74f0a617c2239b395d",
+      "collect_source_sha256": "dbbc10a61999c8292a582ead33772e13d64c15977db591a1cf2c655d37e3a217",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/qm1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/qm1-collect.json",
+        "data/experiment-records/main-collect-2/qm1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q35-thinking|serial|k8|r2",
+      "extract_source_sha256": "61f60d6668221d39dc5af94d0b3eaf71f417370e19f717b861ee44f57f5cc16a",
+      "collect_source_sha256": "b1563e9bc04de5c5dc3fd16033d3473687ff4a5aab5bd0b27a5749e92940d8a7",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/qm2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/qm2-collect.json",
+        "data/experiment-records/main-collect-1/qm2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch16|k1|r0",
+      "extract_source_sha256": "5b0a2068275703e6e09bf4a767417fd33a1ff9df8e9d79453ee1a5e4d7297663",
+      "collect_source_sha256": "83a52c41357c2c9762c2e2fda81d92691bd4730b5f1543c30419edce710aa2e2",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB0-collect.json",
+        "data/experiment-records/main-collect-1/ntB0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch16|k1|r1",
+      "extract_source_sha256": "38f17df6896e31edd48cd98eb740781103dbd6ff4c604922222ed6292b4177a3",
+      "collect_source_sha256": "66144888675c43a0880e481e66cb0016db531cd504818ae52ab7a9b8853f3733",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB1-collect.json",
+        "data/experiment-records/main-collect-1/ntB1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch16|k1|r2",
+      "extract_source_sha256": "7ad846dd1ce4c57a873ea792b30203034d0273b5c439ded1c702eb3737dbb999",
+      "collect_source_sha256": "362cf59800a16122f93cd5d513c2d362b4290e6f461f593e5f897b2f6de632c6",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB2-collect.json",
+        "data/experiment-records/main-collect-1/ntB2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch16|k8|r0",
+      "extract_source_sha256": "c6827593e279860980d71b19dd011eca2969113087190a007a12cf2d086dd10d",
+      "collect_source_sha256": "83a52c41357c2c9762c2e2fda81d92691bd4730b5f1543c30419edce710aa2e2",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB0-collect.json",
+        "data/experiment-records/main-collect-1/ntB0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch16|k8|r1",
+      "extract_source_sha256": "5ecc8c668448a145d5b740d81e67414756ea5112c042c07cd9bcb6973bc31532",
+      "collect_source_sha256": "66144888675c43a0880e481e66cb0016db531cd504818ae52ab7a9b8853f3733",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB1-collect.json",
+        "data/experiment-records/main-collect-1/ntB1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch16|k8|r2",
+      "extract_source_sha256": "b1f2a4a48fdfbd8e5cd4287a097444decd80bb28e28d1fa47bec2f79cce9ea4c",
+      "collect_source_sha256": "362cf59800a16122f93cd5d513c2d362b4290e6f461f593e5f897b2f6de632c6",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB2-collect.json",
+        "data/experiment-records/main-collect-1/ntB2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch64|k1|r0",
+      "extract_source_sha256": "51a7e9977c9cf11fd3f752df3608d1a279670395d3e918a16ee6426fd2057475",
+      "collect_source_sha256": "83a52c41357c2c9762c2e2fda81d92691bd4730b5f1543c30419edce710aa2e2",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB0-collect.json",
+        "data/experiment-records/main-collect-1/ntB0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch64|k1|r1",
+      "extract_source_sha256": "6a4abb909ec64a8ac65f8f1e0173fea1892d2f44e5f5cf6da3772a39ad5c399d",
+      "collect_source_sha256": "66144888675c43a0880e481e66cb0016db531cd504818ae52ab7a9b8853f3733",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB1-collect.json",
+        "data/experiment-records/main-collect-1/ntB1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch64|k1|r2",
+      "extract_source_sha256": "162f1208a69096c984ba22275f2c9866a0fb8ba92d04ba9dff1ed8c8535e8c67",
+      "collect_source_sha256": "362cf59800a16122f93cd5d513c2d362b4290e6f461f593e5f897b2f6de632c6",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB2-collect.json",
+        "data/experiment-records/main-collect-1/ntB2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch64|k8|r0",
+      "extract_source_sha256": "8749c2ae2f9cf5289a1f0b72877bcbaeda1e592d138e6538b1ee775a1e76b8de",
+      "collect_source_sha256": "83a52c41357c2c9762c2e2fda81d92691bd4730b5f1543c30419edce710aa2e2",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB0-collect.json",
+        "data/experiment-records/main-collect-1/ntB0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch64|k8|r1",
+      "extract_source_sha256": "4d6b46a7e8902d62bb255436e5a1ad84974353f0710b5d363a2b82f31e05ab82",
+      "collect_source_sha256": "66144888675c43a0880e481e66cb0016db531cd504818ae52ab7a9b8853f3733",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB1-collect.json",
+        "data/experiment-records/main-collect-1/ntB1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|batch64|k8|r2",
+      "extract_source_sha256": "15ae624b17cfdfde2fb085d2c4126338ee599d5d46b87b8d9d3996e64b8d694e",
+      "collect_source_sha256": "362cf59800a16122f93cd5d513c2d362b4290e6f461f593e5f897b2f6de632c6",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntB2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntB2-collect.json",
+        "data/experiment-records/main-collect-1/ntB2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|serial|k1|r0",
+      "extract_source_sha256": "9f61856eba958b7cb9864d29580bff70a96712d6fd0ef54b6cebe594788aadaf",
+      "collect_source_sha256": "c19c01846ab633258ff84752a345d0a0a2d08ce04d09a02c195af6acc0956f69",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntA0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntA0-collect.json",
+        "data/experiment-records/main-collect-1/ntA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|serial|k1|r1",
+      "extract_source_sha256": "df42b94bad3b400dfe9d87da67eae5f84ea1ffb6accdecd3de858d03af706524",
+      "collect_source_sha256": "7df30ee2fb7270356ff3261004c0d9d8af0d76c7d0b675480602125eb99d100f",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/ntA1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/ntA1-collect.json",
+        "data/experiment-records/main-collect-2/ntA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|serial|k1|r2",
+      "extract_source_sha256": "7bf628b991d6ddf1ff1e512e91f9037d4d8095f226bccccfcf531ed4914d6610",
+      "collect_source_sha256": "c9be36b0a6b9e3c5756a152998668bb32f4f4ed426f4c801228bff7339c568b1",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntA2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntA2-collect.json",
+        "data/experiment-records/main-collect-1/ntA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|serial|k8|r0",
+      "extract_source_sha256": "86ca44a6ae389829d00c91da22eed292569bab3c3048e3a5bef9c520648f8bbc",
+      "collect_source_sha256": "c19c01846ab633258ff84752a345d0a0a2d08ce04d09a02c195af6acc0956f69",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntA0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntA0-collect.json",
+        "data/experiment-records/main-collect-1/ntA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|serial|k8|r1",
+      "extract_source_sha256": "3550b76f42db92080edbb6502e9b3d3cc20726fac4bb7880cbf3df41906d1a79",
+      "collect_source_sha256": "7df30ee2fb7270356ff3261004c0d9d8af0d76c7d0b675480602125eb99d100f",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/ntA1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/ntA1-collect.json",
+        "data/experiment-records/main-collect-2/ntA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-nonthinking|serial|k8|r2",
+      "extract_source_sha256": "cf1e124e04fe14b074d9adc7ffdc46f8af6d8abdcec929671a7529389e1db6f4",
+      "collect_source_sha256": "c9be36b0a6b9e3c5756a152998668bb32f4f4ed426f4c801228bff7339c568b1",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/ntA2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/ntA2-collect.json",
+        "data/experiment-records/main-collect-1/ntA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch16|k1|r0",
+      "extract_source_sha256": "e0916ad0d908d223c3e56388ebcfb6e92cde02de20eb9c77c6043230e80071ff",
+      "collect_source_sha256": "1155d9439d3c4b2e5040f995c0674ca977887b0768fec73888679f528e9a597f",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA0-collect.json",
+        "data/experiment-records/main-collect-2/thA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch16|k1|r1",
+      "extract_source_sha256": "6b0d8e02fe6736e0747bff3978ccd48c0c329a3d7e8b41068cba5d8953c3b291",
+      "collect_source_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "extract_exports": [
+        "data/experiment-records/analysis-th1/analysis-th1/thA1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-th1/thA1-collect.json",
+        "data/experiment-records/main-collect-th1/thA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch16|k1|r2",
+      "extract_source_sha256": "525d0e00541ff8f1aff4d3091182e61bf6e7905e10e8e80bb3a0f4243c192cc9",
+      "collect_source_sha256": "0168649be89c284bd6ff3997cb7cf636596a5a98d9de63b03c2cc57a21914df6",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA2-collect.json",
+        "data/experiment-records/main-collect-2/thA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch16|k8|r0",
+      "extract_source_sha256": "8aacfe0c19734c19b63557e0d25d8a6592951a8bc3c1120784f6676a1722b6e7",
+      "collect_source_sha256": "1155d9439d3c4b2e5040f995c0674ca977887b0768fec73888679f528e9a597f",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA0-collect.json",
+        "data/experiment-records/main-collect-2/thA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch16|k8|r1",
+      "extract_source_sha256": "eda5622c3551bf07830d50d2771865969aa4d8bb9eabc694223cdbad86180422",
+      "collect_source_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "extract_exports": [
+        "data/experiment-records/analysis-th1/analysis-th1/thA1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-th1/thA1-collect.json",
+        "data/experiment-records/main-collect-th1/thA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch16|k8|r2",
+      "extract_source_sha256": "13b33e40bdbaace16ddf07f4d917abeee78549a4f6f67107e14cda77feb7314c",
+      "collect_source_sha256": "0168649be89c284bd6ff3997cb7cf636596a5a98d9de63b03c2cc57a21914df6",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA2-collect.json",
+        "data/experiment-records/main-collect-2/thA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch64|k1|r0",
+      "extract_source_sha256": "c127d70938e79e92db84c670d4149bb76b39095070eae6cfb92116da4c048b53",
+      "collect_source_sha256": "1155d9439d3c4b2e5040f995c0674ca977887b0768fec73888679f528e9a597f",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA0-collect.json",
+        "data/experiment-records/main-collect-2/thA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch64|k1|r1",
+      "extract_source_sha256": "e12b9bfddee489062d39b0feefd083fcde07e9048bfc082cba7b06610a6a5545",
+      "collect_source_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "extract_exports": [
+        "data/experiment-records/analysis-th1/analysis-th1/thA1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-th1/thA1-collect.json",
+        "data/experiment-records/main-collect-th1/thA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch64|k1|r2",
+      "extract_source_sha256": "0e6644b3e7f528893d5594e4e07cbb34347192ecd9aa65162a038b0d01f8c8f3",
+      "collect_source_sha256": "0168649be89c284bd6ff3997cb7cf636596a5a98d9de63b03c2cc57a21914df6",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA2-collect.json",
+        "data/experiment-records/main-collect-2/thA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch64|k8|r0",
+      "extract_source_sha256": "38e85aa367b39583375afb6fa833d4b03eefcb1e344c3cf3c153cb29753658b6",
+      "collect_source_sha256": "921a23817a748ed7d791ba9c217edbd99d3fb60cc584fc7f52b474580cd270ac",
+      "extract_exports": [
+        "data/experiment-records/thC-results/analysis-thC/thC0.cell-000.candidates.json",
+        "data/experiment-records/results-n1/analysis-n1/thC0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/thC-results/thC0-collect.json",
+        "data/experiment-records/thC-results/thC0-return/batch.json",
+        "data/experiment-records/results-n1/thC0-collect.json",
+        "data/experiment-records/results-n1/thC0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch64|k8|r1",
+      "extract_source_sha256": "7a9c938bbd104f85b7f233cc55e24506251996662f41737773888e077600edad",
+      "collect_source_sha256": "a4e1c00162b92bf8a5d5392b442f0e70a9ceff965bd9ba017d0a5b6f17295b74",
+      "extract_exports": [
+        "data/experiment-records/thC-results/analysis-thC/thC1.cell-000.candidates.json",
+        "data/experiment-records/results-n1/analysis-n1/thC1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/thC-results/thC1-collect.json",
+        "data/experiment-records/thC-results/thC1-return/batch.json",
+        "data/experiment-records/results-n1/thC1-collect.json",
+        "data/experiment-records/results-n1/thC1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|batch64|k8|r2",
+      "extract_source_sha256": "631cf4bb3574238678ce6bbe1ac5478e70f550ca6e4a457b1a45dce722c5b7e3",
+      "collect_source_sha256": "0168649be89c284bd6ff3997cb7cf636596a5a98d9de63b03c2cc57a21914df6",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA2.cell-004.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA2-collect.json",
+        "data/experiment-records/main-collect-2/thA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|serial|k1|r0",
+      "extract_source_sha256": "42028e5dbc11487f0e124d6ecc65d9f2774b5e3b3532fd752161bc83506c4376",
+      "collect_source_sha256": "1155d9439d3c4b2e5040f995c0674ca977887b0768fec73888679f528e9a597f",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA0-collect.json",
+        "data/experiment-records/main-collect-2/thA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|serial|k1|r1",
+      "extract_source_sha256": "566d16289b505e3abb25f5078c96cc55de36ea9b21301f52c88d630e2301bd67",
+      "collect_source_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "extract_exports": [
+        "data/experiment-records/analysis-th1/analysis-th1/thA1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-th1/thA1-collect.json",
+        "data/experiment-records/main-collect-th1/thA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|serial|k1|r2",
+      "extract_source_sha256": "4e34275266a2ab7fff388072f19d998848956fd1b26d9919327e01a5a347a3e7",
+      "collect_source_sha256": "0168649be89c284bd6ff3997cb7cf636596a5a98d9de63b03c2cc57a21914df6",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thA2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thA2-collect.json",
+        "data/experiment-records/main-collect-2/thA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|serial|k8|r0",
+      "extract_source_sha256": "dfada1f9c5a9db95e9292ca5380abf6292975efecb39d9fe3ea1f74e3f9bb732",
+      "collect_source_sha256": "54cbedba4da4f017922d5766c5febf37760e6d79c8494262b692b93c646f349a",
+      "extract_exports": [
+        "data/experiment-records/analysis-1/analysis-1/thB0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-1/thB0-collect.json",
+        "data/experiment-records/main-collect-1/thB0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|serial|k8|r1",
+      "extract_source_sha256": "df0b21c8597d84aca0c4f2e9b868e6efc5ab717a56af4c4aecccffb77b248e56",
+      "collect_source_sha256": "4c15a89cdd5571688aa0b057fe6915d129cb20aaa460860e1d63eaa817ea3a73",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thB1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thB1-collect.json",
+        "data/experiment-records/main-collect-2/thB1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "pipeline",
+      "cell_id": "q38-thinking|serial|k8|r2",
+      "extract_source_sha256": "4126b71ae1e6516f8e928d4fc6fa6ae95e54749a08419a57b0441c23358e5c68",
+      "collect_source_sha256": "69087b99738a387852a4c1bc5041e6d04750da9a94320cc9e0e2707d0c086e1e",
+      "extract_exports": [
+        "data/experiment-records/analysis-2/analysis-2/thB2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/main-collect-2/thB2-collect.json",
+        "data/experiment-records/main-collect-2/thB2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|batch16|k1|r0",
+      "extract_source_sha256": "9b45e4654cd800d977e385f9ca8d5c3f825a1c793f2ca8e90e54610bf851f4e0",
+      "collect_source_sha256": "b74f57c1e78d424f453b3efd873df324fb085fded3cbdfcf6a90a628f6ef4723",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc0-collect.json",
+        "data/experiment-records/results-n2/svc0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|batch16|k8|r0",
+      "extract_source_sha256": "8c88989ea145dea33542604d2f236b6f8f988ac71b44a667fd416229ca33b1fe",
+      "collect_source_sha256": "b74f57c1e78d424f453b3efd873df324fb085fded3cbdfcf6a90a628f6ef4723",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc0-collect.json",
+        "data/experiment-records/results-n2/svc0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|serial|k1|r0",
+      "extract_source_sha256": "e2463088fec03a44b59ec4d35da7120f6e5ee865f0bd42012d1c545425b4a94e",
+      "collect_source_sha256": "b74f57c1e78d424f453b3efd873df324fb085fded3cbdfcf6a90a628f6ef4723",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc0-collect.json",
+        "data/experiment-records/results-n2/svc0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|serial|k8|r0",
+      "extract_source_sha256": "af250f2fe40502478c0bb51d8feb40f738c46ee5907a5323d85241f1a0c95cf8",
+      "collect_source_sha256": "b74f57c1e78d424f453b3efd873df324fb085fded3cbdfcf6a90a628f6ef4723",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc0-collect.json",
+        "data/experiment-records/results-n2/svc0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|batch16|k1|r1",
+      "extract_source_sha256": "a722a7864d37639bfd0c6b7255bd2833472d72dbe332b96f3ca0db0e24137975",
+      "collect_source_sha256": "0a0ec490578dc0eb70aff30f02b5bc30113aa96361825d05c8d1954ff5a9fa2f",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc1-collect.json",
+        "data/experiment-records/results-n2/svc1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|batch16|k8|r1",
+      "extract_source_sha256": "c0346f3eb1c23109e35c84c093e833f0f3fa8c6dace527f30b9520a5a8173afc",
+      "collect_source_sha256": "0a0ec490578dc0eb70aff30f02b5bc30113aa96361825d05c8d1954ff5a9fa2f",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc1-collect.json",
+        "data/experiment-records/results-n2/svc1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|serial|k1|r1",
+      "extract_source_sha256": "013d0c6a5c8dd1e0ee3c756984c1ec2f063c24e1b095f9045779406ed203b6a4",
+      "collect_source_sha256": "0a0ec490578dc0eb70aff30f02b5bc30113aa96361825d05c8d1954ff5a9fa2f",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc1-collect.json",
+        "data/experiment-records/results-n2/svc1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|serial|k8|r1",
+      "extract_source_sha256": "85dcca3fdb0c9a3d4b4a86fbb802269976cefd113d3c850e58ea2ade8b70067e",
+      "collect_source_sha256": "0a0ec490578dc0eb70aff30f02b5bc30113aa96361825d05c8d1954ff5a9fa2f",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc1-collect.json",
+        "data/experiment-records/results-n2/svc1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|batch16|k1|r2",
+      "extract_source_sha256": "383c68beab72b03bb5c098b3ac123d3bc4e27dea5d93f064761d6f371904cac7",
+      "collect_source_sha256": "ceb965c11519f672d91f4b495d42eacb0ff646f4511b749730e413555e825f36",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc2-collect.json",
+        "data/experiment-records/results-n2/svc2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|batch16|k8|r2",
+      "extract_source_sha256": "3b94d075a1b2daf6801555faa7d4eaa6ca8d2a6c3bfec36610e39abfec6e4ac4",
+      "collect_source_sha256": "ceb965c11519f672d91f4b495d42eacb0ff646f4511b749730e413555e825f36",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc2-collect.json",
+        "data/experiment-records/results-n2/svc2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|serial|k1|r2",
+      "extract_source_sha256": "765d70f5b8bd2ba75ff81a3639f02b1819991c04b24945ec7cf74a41e86d7517",
+      "collect_source_sha256": "ceb965c11519f672d91f4b495d42eacb0ff646f4511b749730e413555e825f36",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc2-collect.json",
+        "data/experiment-records/results-n2/svc2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "coder-nonthinking|serial|k8|r2",
+      "extract_source_sha256": "6759eeafbda1e251cc07a9ec339d7ab23a671371093725af6e36d1933edc575a",
+      "collect_source_sha256": "ceb965c11519f672d91f4b495d42eacb0ff646f4511b749730e413555e825f36",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svc2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svc2-collect.json",
+        "data/experiment-records/results-n2/svc2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|batch16|k1|r0",
+      "extract_source_sha256": "fcbab9f52d25d32fbd9ff5299446ca61d147cbfe85f60cf23dd12435be1251e6",
+      "collect_source_sha256": "731b4cf8c160905d3cf31c23b2437f0fbcff37c8241fc7d52ede7bb70a8aaef5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn0-collect.json",
+        "data/experiment-records/results-n2/svn0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|batch16|k8|r0",
+      "extract_source_sha256": "576530a7b80e215ef5d8e493135b8d1de524c4aa0c32838c6c05d29c3b836813",
+      "collect_source_sha256": "731b4cf8c160905d3cf31c23b2437f0fbcff37c8241fc7d52ede7bb70a8aaef5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn0-collect.json",
+        "data/experiment-records/results-n2/svn0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|serial|k1|r0",
+      "extract_source_sha256": "373ae1dd794897c7dd558edd0260866b5f5b08b0f11266ec394e520981db0733",
+      "collect_source_sha256": "731b4cf8c160905d3cf31c23b2437f0fbcff37c8241fc7d52ede7bb70a8aaef5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn0-collect.json",
+        "data/experiment-records/results-n2/svn0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|serial|k8|r0",
+      "extract_source_sha256": "9e6dcb1738d18d4ec07d59fd05cdd0d5fe9670673d3ab1271b1afff80bd227df",
+      "collect_source_sha256": "731b4cf8c160905d3cf31c23b2437f0fbcff37c8241fc7d52ede7bb70a8aaef5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn0-collect.json",
+        "data/experiment-records/results-n2/svn0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|batch16|k1|r1",
+      "extract_source_sha256": "96b20f82b4f1ba8b0106d90a75c4f53f262550196d4c835ae152d76e5212e38e",
+      "collect_source_sha256": "2740917d1a9fc8940dcf189cb87c72d80954e8f32e0b622bbad5380d7ad16fdc",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn1-collect.json",
+        "data/experiment-records/results-n2/svn1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|batch16|k8|r1",
+      "extract_source_sha256": "1e2d2c431c4a8ab9a4eee273495906ba366304ce6dcab64f96cdaee92478374f",
+      "collect_source_sha256": "2740917d1a9fc8940dcf189cb87c72d80954e8f32e0b622bbad5380d7ad16fdc",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn1-collect.json",
+        "data/experiment-records/results-n2/svn1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|serial|k1|r1",
+      "extract_source_sha256": "5ab3c8de403a6ad068e1f51fe10622e981ad3c477990f7231d173827b9c44aab",
+      "collect_source_sha256": "2740917d1a9fc8940dcf189cb87c72d80954e8f32e0b622bbad5380d7ad16fdc",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn1-collect.json",
+        "data/experiment-records/results-n2/svn1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|serial|k8|r1",
+      "extract_source_sha256": "e64524db82e92ef289ed278c50501fb8faa7cb42f73783b07182581804218fea",
+      "collect_source_sha256": "2740917d1a9fc8940dcf189cb87c72d80954e8f32e0b622bbad5380d7ad16fdc",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn1-collect.json",
+        "data/experiment-records/results-n2/svn1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|batch16|k1|r2",
+      "extract_source_sha256": "d8c4f2d343eff4705ff90a539bc23c7afa361f73c4b5c20012e8a01c3360ea1e",
+      "collect_source_sha256": "8f32ce9c32f83854aa8d9e25db3626812923561c515ab7eed27e9d35066145d3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn2-collect.json",
+        "data/experiment-records/results-n2/svn2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|batch16|k8|r2",
+      "extract_source_sha256": "53fbbca44df0928de9c68f4effe41d3b0a95631be26bc837217ae8f5b368ad12",
+      "collect_source_sha256": "8f32ce9c32f83854aa8d9e25db3626812923561c515ab7eed27e9d35066145d3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn2-collect.json",
+        "data/experiment-records/results-n2/svn2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|serial|k1|r2",
+      "extract_source_sha256": "ebe742bd4a70f3770dd923cd41a840188c225e5df155794599de98237a345e94",
+      "collect_source_sha256": "8f32ce9c32f83854aa8d9e25db3626812923561c515ab7eed27e9d35066145d3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn2-collect.json",
+        "data/experiment-records/results-n2/svn2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "nemotron-thinking|serial|k8|r2",
+      "extract_source_sha256": "484d05c083bdfa2402eb61aaf3287fc33aa6b75da2f9406826e0e75b9e83c5f1",
+      "collect_source_sha256": "8f32ce9c32f83854aa8d9e25db3626812923561c515ab7eed27e9d35066145d3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svn2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svn2-collect.json",
+        "data/experiment-records/results-n2/svn2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|batch16|k1|r0",
+      "extract_source_sha256": "3709299e57d8c7b327d0f50de2976516365aad8bee3504ea20a4330b87cb9458",
+      "collect_source_sha256": "62039d3e140ee4fa5130142a628848e84dcd846b1ac0bd873395fc7474bff3a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq0-collect.json",
+        "data/experiment-records/results-n1/svq0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|batch16|k8|r0",
+      "extract_source_sha256": "88333da620e74d39c56b9c0c9b501bd57c7c0a477364c14bd0ede0e088b07c71",
+      "collect_source_sha256": "62039d3e140ee4fa5130142a628848e84dcd846b1ac0bd873395fc7474bff3a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq0-collect.json",
+        "data/experiment-records/results-n1/svq0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|serial|k1|r0",
+      "extract_source_sha256": "82e2fc8adc50e8443aa619acca483aa6a1adedc151c62b83fa2e6fef46982b23",
+      "collect_source_sha256": "62039d3e140ee4fa5130142a628848e84dcd846b1ac0bd873395fc7474bff3a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq0-collect.json",
+        "data/experiment-records/results-n1/svq0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|serial|k8|r0",
+      "extract_source_sha256": "f3825de8cb6c5c6eea906f2f8899763f94948ba2c0e203c088e1867f6299e381",
+      "collect_source_sha256": "62039d3e140ee4fa5130142a628848e84dcd846b1ac0bd873395fc7474bff3a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq0-collect.json",
+        "data/experiment-records/results-n1/svq0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|batch16|k1|r1",
+      "extract_source_sha256": "af3b2597a2e04a727e5db4d16fdab36e43bfded3a210b44c1bdb4d3b15f36366",
+      "collect_source_sha256": "a62ab1f813e529ea3c654077d70d9192cd0ac4e4767866eb1734c5d40c774884",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq1-collect.json",
+        "data/experiment-records/results-n1/svq1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|batch16|k8|r1",
+      "extract_source_sha256": "1baca57148e43e53c371368405597af45ce8da7b7a8bc61a4afa4111e91ae6c7",
+      "collect_source_sha256": "a62ab1f813e529ea3c654077d70d9192cd0ac4e4767866eb1734c5d40c774884",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq1-collect.json",
+        "data/experiment-records/results-n1/svq1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|serial|k1|r1",
+      "extract_source_sha256": "e9f4060089b849f308efd22adeb723134045b9ca62203bb928853b0864309884",
+      "collect_source_sha256": "a62ab1f813e529ea3c654077d70d9192cd0ac4e4767866eb1734c5d40c774884",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq1-collect.json",
+        "data/experiment-records/results-n1/svq1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|serial|k8|r1",
+      "extract_source_sha256": "245e709b6b814c67152d17e350f17ba9a10f960c4fa31571f9255c24a58d1c8f",
+      "collect_source_sha256": "a62ab1f813e529ea3c654077d70d9192cd0ac4e4767866eb1734c5d40c774884",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq1-collect.json",
+        "data/experiment-records/results-n1/svq1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|batch16|k1|r2",
+      "extract_source_sha256": "38a26177e4a9fff2c31d7175a2b918a8f830ea401287565913ff8c912713823f",
+      "collect_source_sha256": "0d7dfc2a1c5dee3052dcb4779cc07005c155453687fd9e4b427d049f3593e790",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq2-collect.json",
+        "data/experiment-records/results-n1/svq2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|batch16|k8|r2",
+      "extract_source_sha256": "f2beef3499c5de32b5e9905895bb68df949c4d71400a622838678766a8d6665e",
+      "collect_source_sha256": "0d7dfc2a1c5dee3052dcb4779cc07005c155453687fd9e4b427d049f3593e790",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq2-collect.json",
+        "data/experiment-records/results-n1/svq2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|serial|k1|r2",
+      "extract_source_sha256": "fb248955c59ff4a1d5ce35f34d0ea07e66bb267257ac5d9ec4638e713e204479",
+      "collect_source_sha256": "0d7dfc2a1c5dee3052dcb4779cc07005c155453687fd9e4b427d049f3593e790",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq2-collect.json",
+        "data/experiment-records/results-n1/svq2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q35-thinking|serial|k8|r2",
+      "extract_source_sha256": "37b9dc6c33e0b9b736c7ad518ade56ceeb76947cdd31d40142a0aec2f775c5f6",
+      "collect_source_sha256": "0d7dfc2a1c5dee3052dcb4779cc07005c155453687fd9e4b427d049f3593e790",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/svq2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/svq2-collect.json",
+        "data/experiment-records/results-n1/svq2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch16|k1|r0",
+      "extract_source_sha256": "106c3f8cefcf252c35d02e1d92566909a28e829c10ce8a7b97ce6bdcc10f8a8b",
+      "collect_source_sha256": "7580227ac886f425b965f0c27469ee8bc8f58bd151ff978d7b674b25a8ec6a40",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo0-collect.json",
+        "data/experiment-records/results-n2/svo0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch16|k8|r0",
+      "extract_source_sha256": "ef2e02f3b799236a9b8f265f48e8e335805c1068a9eeff35559a8c9708813a79",
+      "collect_source_sha256": "7580227ac886f425b965f0c27469ee8bc8f58bd151ff978d7b674b25a8ec6a40",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo0-collect.json",
+        "data/experiment-records/results-n2/svo0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch64|k1|r0",
+      "extract_source_sha256": "ec23ff366c8c5ac32a0c1f979b4d9e3b0acaf222b8c3bf109dbd8ef25d4cbe18",
+      "collect_source_sha256": "7580227ac886f425b965f0c27469ee8bc8f58bd151ff978d7b674b25a8ec6a40",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo0.cell-004.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo0-collect.json",
+        "data/experiment-records/results-n2/svo0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch64|k8|r0",
+      "extract_source_sha256": "64aaab4605acdda0c4cb8a196f409fd3fc68d80e840444e1764e175bec51af55",
+      "collect_source_sha256": "7580227ac886f425b965f0c27469ee8bc8f58bd151ff978d7b674b25a8ec6a40",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo0.cell-005.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo0-collect.json",
+        "data/experiment-records/results-n2/svo0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|serial|k1|r0",
+      "extract_source_sha256": "806b3e484fb997db4c45c1a18f17f9c3fc056a6678508a81b33b342142e18112",
+      "collect_source_sha256": "7580227ac886f425b965f0c27469ee8bc8f58bd151ff978d7b674b25a8ec6a40",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo0-collect.json",
+        "data/experiment-records/results-n2/svo0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|serial|k8|r0",
+      "extract_source_sha256": "ae594cdf9c221465abedfe7e89909c446078b77e50d3d1106768e1c1b8e015a1",
+      "collect_source_sha256": "7580227ac886f425b965f0c27469ee8bc8f58bd151ff978d7b674b25a8ec6a40",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo0-collect.json",
+        "data/experiment-records/results-n2/svo0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch16|k1|r1",
+      "extract_source_sha256": "31237898f101cb08da98d7564d25e9abb5e8d44844044260ae15beff26275e09",
+      "collect_source_sha256": "3dc1f8bf8fd2da2f5da739d10546e6e2255a91ef9ea0268855fb2984dbf73084",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo1-collect.json",
+        "data/experiment-records/results-n2/svo1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch16|k8|r1",
+      "extract_source_sha256": "a32742681fc3e4586d5526a4793aae26e985dafb1c91657ab7c806f832afef43",
+      "collect_source_sha256": "3dc1f8bf8fd2da2f5da739d10546e6e2255a91ef9ea0268855fb2984dbf73084",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo1-collect.json",
+        "data/experiment-records/results-n2/svo1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch64|k1|r1",
+      "extract_source_sha256": "35727b76efb3cc5a89fc4305bbe55e7ce192fffb410100b28e6cea921e667e04",
+      "collect_source_sha256": "3dc1f8bf8fd2da2f5da739d10546e6e2255a91ef9ea0268855fb2984dbf73084",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo1-collect.json",
+        "data/experiment-records/results-n2/svo1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch64|k8|r1",
+      "extract_source_sha256": "0f069498375f0400ee2f8bcde0a06e30ef2be82e6c39c00dd893d54278c01091",
+      "collect_source_sha256": "3dc1f8bf8fd2da2f5da739d10546e6e2255a91ef9ea0268855fb2984dbf73084",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo1-collect.json",
+        "data/experiment-records/results-n2/svo1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|serial|k1|r1",
+      "extract_source_sha256": "b58193515fc7c649e81335b2b287987f782c468ff41ae8244ecb95dcac4b40f1",
+      "collect_source_sha256": "3dc1f8bf8fd2da2f5da739d10546e6e2255a91ef9ea0268855fb2984dbf73084",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo1.cell-004.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo1-collect.json",
+        "data/experiment-records/results-n2/svo1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|serial|k8|r1",
+      "extract_source_sha256": "cb93e98e9ac4d13eb6c53c5622d659c8ac27790a1dd17b58fe44caff234c532b",
+      "collect_source_sha256": "3dc1f8bf8fd2da2f5da739d10546e6e2255a91ef9ea0268855fb2984dbf73084",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo1.cell-005.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo1-collect.json",
+        "data/experiment-records/results-n2/svo1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch16|k1|r2",
+      "extract_source_sha256": "0e4cec6f52876bfe965b2aa1c82ef688e5322a837f520c1492e4daba954a1ade",
+      "collect_source_sha256": "bcf45ea1d955c6e6454f54ad373104497aba5f18e87152c6381fcbd67c643e77",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo2.cell-005.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo2-collect.json",
+        "data/experiment-records/results-n2/svo2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch16|k8|r2",
+      "extract_source_sha256": "fae7ed9b61e6f236f1ff532cbe174dd7dd2cd0da8af50453536ffd43d24b367b",
+      "collect_source_sha256": "bcf45ea1d955c6e6454f54ad373104497aba5f18e87152c6381fcbd67c643e77",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo2.cell-004.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo2-collect.json",
+        "data/experiment-records/results-n2/svo2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch64|k1|r2",
+      "extract_source_sha256": "549e84567e5ef66627895b24d160d2a422a68157accf7ff378790e4b3f3ea58f",
+      "collect_source_sha256": "bcf45ea1d955c6e6454f54ad373104497aba5f18e87152c6381fcbd67c643e77",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo2-collect.json",
+        "data/experiment-records/results-n2/svo2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|batch64|k8|r2",
+      "extract_source_sha256": "7c69604cba1575073cb09eb1af141ff0486704553264c6adc9495856a994228b",
+      "collect_source_sha256": "bcf45ea1d955c6e6454f54ad373104497aba5f18e87152c6381fcbd67c643e77",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo2-collect.json",
+        "data/experiment-records/results-n2/svo2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|serial|k1|r2",
+      "extract_source_sha256": "1014fb8046cbbce8c9c7767c9fbc78fb353475efdf1a7f3be36c60709f54d95e",
+      "collect_source_sha256": "bcf45ea1d955c6e6454f54ad373104497aba5f18e87152c6381fcbd67c643e77",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo2-collect.json",
+        "data/experiment-records/results-n2/svo2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-nonthinking|serial|k8|r2",
+      "extract_source_sha256": "1788b2f0117dc17a47e0346f6c4e03e660c04c3353410523d48e458366c53cda",
+      "collect_source_sha256": "bcf45ea1d955c6e6454f54ad373104497aba5f18e87152c6381fcbd67c643e77",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svo2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svo2-collect.json",
+        "data/experiment-records/results-n2/svo2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|batch16|k1|r0",
+      "extract_source_sha256": "f13e6ed0bed1ef8dd6f74b675f665dd7b93131135a435f9562912a3eec2485b5",
+      "collect_source_sha256": "03cca710a698eeef8e697b32993276489758568b14d96a1969cc344078feefe5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt0-collect.json",
+        "data/experiment-records/results-n2/svt0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|batch16|k8|r0",
+      "extract_source_sha256": "c35418b5d1369d394a1e57dcf1fa6490d90579ede31d4f1c7c7c7ea1302d54f1",
+      "collect_source_sha256": "03cca710a698eeef8e697b32993276489758568b14d96a1969cc344078feefe5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt0.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt0-collect.json",
+        "data/experiment-records/results-n2/svt0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|serial|k1|r0",
+      "extract_source_sha256": "4132721cd2f2baebe388e43be17f4346eb8a75649c98ff2cc73ed0d88c25f23b",
+      "collect_source_sha256": "03cca710a698eeef8e697b32993276489758568b14d96a1969cc344078feefe5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt0-collect.json",
+        "data/experiment-records/results-n2/svt0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|serial|k8|r0",
+      "extract_source_sha256": "a36a8871bc2a057bcc371ee297e6abd551d6bdc3ffbd70f99eb8b4b48923a6cc",
+      "collect_source_sha256": "03cca710a698eeef8e697b32993276489758568b14d96a1969cc344078feefe5",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt0-collect.json",
+        "data/experiment-records/results-n2/svt0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|batch16|k1|r1",
+      "extract_source_sha256": "1055c14fec8c840e43accbb45381cf8fd67e6b95458989620c946b99ee45ce2d",
+      "collect_source_sha256": "65ab6cded5c512dc2c98a3d3c9492bf3e409b7503e7f3af9b4c331ca03115dc3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt1-collect.json",
+        "data/experiment-records/results-n2/svt1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|batch16|k8|r1",
+      "extract_source_sha256": "606cfaff03ffca2a2eb8500c43a4ce0352fc21598da5d996f57ac63a01f9e90d",
+      "collect_source_sha256": "65ab6cded5c512dc2c98a3d3c9492bf3e409b7503e7f3af9b4c331ca03115dc3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt1-collect.json",
+        "data/experiment-records/results-n2/svt1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|serial|k1|r1",
+      "extract_source_sha256": "00ab156909be942160382bd707c7191761f4d1d314d276167b4e282e4260a229",
+      "collect_source_sha256": "65ab6cded5c512dc2c98a3d3c9492bf3e409b7503e7f3af9b4c331ca03115dc3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt1-collect.json",
+        "data/experiment-records/results-n2/svt1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|serial|k8|r1",
+      "extract_source_sha256": "b66173868de9d5de505438f6aa08412fc0141c86dfd5e7c84ab8be2a185ac3fa",
+      "collect_source_sha256": "65ab6cded5c512dc2c98a3d3c9492bf3e409b7503e7f3af9b4c331ca03115dc3",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt1.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt1-collect.json",
+        "data/experiment-records/results-n2/svt1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|batch16|k1|r2",
+      "extract_source_sha256": "913796b3c8aa0c0d308de4ac2afc36039555878660396adc73b9a8033618fc7e",
+      "collect_source_sha256": "7c8b9065d63ca4873610916dd58fa9f4be933a857fa41ea66ba8bd5c7ee9d6d1",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt2.cell-003.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt2-collect.json",
+        "data/experiment-records/results-n2/svt2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|batch16|k8|r2",
+      "extract_source_sha256": "51b813805566ad5c19fd818dfe1aef06afb7bd764661fbf526c8e6198a7f0590",
+      "collect_source_sha256": "7c8b9065d63ca4873610916dd58fa9f4be933a857fa41ea66ba8bd5c7ee9d6d1",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt2-collect.json",
+        "data/experiment-records/results-n2/svt2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|serial|k1|r2",
+      "extract_source_sha256": "a0b8ee7315ce822b43ae46a455f84114468507442012241056ba384d43aa5276",
+      "collect_source_sha256": "7c8b9065d63ca4873610916dd58fa9f4be933a857fa41ea66ba8bd5c7ee9d6d1",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt2-collect.json",
+        "data/experiment-records/results-n2/svt2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "service",
+      "cell_id": "q38-thinking|serial|k8|r2",
+      "extract_source_sha256": "51fe6221404e66de3f464683c5520148f266e22714d21b2b19b7e478d719dd3e",
+      "collect_source_sha256": "7c8b9065d63ca4873610916dd58fa9f4be933a857fa41ea66ba8bd5c7ee9d6d1",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/svt2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/svt2-collect.json",
+        "data/experiment-records/results-n2/svt2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|serial|k1|r0",
+      "extract_source_sha256": "088cfd49fd5a350de3fb15558571f749b7d90f6c97f14dbd5af625284e34a630",
+      "collect_source_sha256": "f4074dae5c054bb7948bc5dc27df225f1aaded2a9743d6935396f1bc49010e88",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA0-collect.json",
+        "data/experiment-records/results-n1/aA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch16|k1|r0",
+      "extract_source_sha256": "648e95908169d5b21d403836bf3c1bd9f72390f539939ba402fdef0749959664",
+      "collect_source_sha256": "f4074dae5c054bb7948bc5dc27df225f1aaded2a9743d6935396f1bc49010e88",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA0.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA0-collect.json",
+        "data/experiment-records/results-n1/aA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch64|k1|r0",
+      "extract_source_sha256": "e870488927ff0cb44b36447c77ecd8e9ab91bbf31a95e821d81eedfd4b4f0425",
+      "collect_source_sha256": "f4074dae5c054bb7948bc5dc27df225f1aaded2a9743d6935396f1bc49010e88",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA0.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA0-collect.json",
+        "data/experiment-records/results-n1/aA0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|serial|k1|r1",
+      "extract_source_sha256": "d5ba5cd409285e5079ac278bcdf5901a952d9b295e014f6d04eb4c0aa9500b17",
+      "collect_source_sha256": "a408d8b152c5181bc8874cd9522519d5f5ac69783844c5f05259106a4183c4a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA1-collect.json",
+        "data/experiment-records/results-n1/aA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch16|k1|r1",
+      "extract_source_sha256": "0af7248a15e64a7f4750dba91bbe15a58cf8198c2560f83fde0d5222fbce4b84",
+      "collect_source_sha256": "a408d8b152c5181bc8874cd9522519d5f5ac69783844c5f05259106a4183c4a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA1.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA1-collect.json",
+        "data/experiment-records/results-n1/aA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch64|k1|r1",
+      "extract_source_sha256": "293c86770a2f7f6299e354c1787acc7253347c6da05afa9b96cc071ac48cfa1a",
+      "collect_source_sha256": "a408d8b152c5181bc8874cd9522519d5f5ac69783844c5f05259106a4183c4a4",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA1.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA1-collect.json",
+        "data/experiment-records/results-n1/aA1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|serial|k1|r2",
+      "extract_source_sha256": "fc848afc102d9cdddb0fe80a1678f112edf64fd9897cbc1e5ac4cd933f2e36e5",
+      "collect_source_sha256": "88613e6bceb4b8def1df07e10903e85e1db89f354a53fdbdd74ae715cc095917",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA2-collect.json",
+        "data/experiment-records/results-n1/aA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch16|k1|r2",
+      "extract_source_sha256": "168a2b202b5ab247eeda737189c8cebb2e315b19b08e23857b6a3dfe68e8d9e9",
+      "collect_source_sha256": "88613e6bceb4b8def1df07e10903e85e1db89f354a53fdbdd74ae715cc095917",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA2.cell-001.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA2-collect.json",
+        "data/experiment-records/results-n1/aA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch64|k1|r2",
+      "extract_source_sha256": "761bead7076871a6e9fd4416da3ecde4fb4b0dd636a09dec0169559100a982ca",
+      "collect_source_sha256": "88613e6bceb4b8def1df07e10903e85e1db89f354a53fdbdd74ae715cc095917",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aA2.cell-002.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aA2-collect.json",
+        "data/experiment-records/results-n1/aA2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|serial|k8|r0",
+      "extract_source_sha256": "e09b46e38780c25cf91b0198f8807288f022cc1d5d44a8b60c2c6e14ee82a750",
+      "collect_source_sha256": "055e16a2e2dd0ad185f5707c86550f2b5062938b8de434bfeaddeab62d9ea3f6",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aC0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aC0-collect.json",
+        "data/experiment-records/results-n1/aC0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|serial|k8|r1",
+      "extract_source_sha256": "75d321b6a98be26399539b4e7b270bfe0f0432c60da3869d4fcf1ae17162a7df",
+      "collect_source_sha256": "2cdffd489115ee301f41aa14eee30b59671510e1c4f253719ec12027b87ddca1",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aC1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aC1-collect.json",
+        "data/experiment-records/results-n1/aC1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|serial|k8|r2",
+      "extract_source_sha256": "793018153645e158e6b980abcabf4dc9862addb7cbf2e98e428745a152290746",
+      "collect_source_sha256": "8f0561119d2a71a4ea975aaf5999a85a3cc5f449fa69bcefd18c514bbd19161a",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aC2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aC2-collect.json",
+        "data/experiment-records/results-n1/aC2-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch16|k8|r0",
+      "extract_source_sha256": "a30450e7c9a601d8395c598670c791ff19ec03b3f424d05922aff44e5ace961a",
+      "collect_source_sha256": "45c780426929be1a1f85f4d014102d94446d8367bc0b242b909176dbba86672d",
+      "extract_exports": [
+        "data/experiment-records/results-n1/analysis-n1/aD0.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n1/aD0-collect.json",
+        "data/experiment-records/results-n1/aD0-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch16|k8|r1",
+      "extract_source_sha256": "66ebe789120a5ce1021fbb630880893dd8b3ea9204b20daffac6298a232b1869",
+      "collect_source_sha256": "db08580a60e2d37507ed93c0fa4086f5a197b3e771f77c8195a23b31ba3a4920",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/aD1.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/aD1-collect.json",
+        "data/experiment-records/results-n2/aD1-return/batch.json"
+      ]
+    },
+    {
+      "cohort": "a100",
+      "cell_id": "q38-thinking|batch16|k8|r2",
+      "extract_source_sha256": "21c6da60951028f001b2cff228ce081c143629e1d6393f8ae9ed081006e67111",
+      "collect_source_sha256": "9cf3b1a77c47eaec956795092cdc080d85adde141d246e61e0b7ad1c17793020",
+      "extract_exports": [
+        "data/experiment-records/results-n2/analysis-n2/aD2.cell-000.candidates.json"
+      ],
+      "collect_exports": [
+        "data/experiment-records/results-n2/aD2-collect.json",
+        "data/experiment-records/results-n2/aD2-return/batch.json"
+      ]
+    }
+  ],
+  "counts": {
+    "pipeline": 72,
+    "service": 66,
+    "a100": 15
+  },
+  "all_extract_and_collect_hashes_found": true
+}

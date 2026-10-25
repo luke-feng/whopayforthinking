@@ -1,0 +1,362 @@
+[
+  {
+    "path": "data/pilot-records/q35-thinking/backend.json",
+    "source_member_sha256": "a5e98bd04241dca92771608f4c467c052ff63f51d681026a7b41e3fe6daa9fd3",
+    "export_sha256": "a5e98bd04241dca92771608f4c467c052ff63f51d681026a7b41e3fe6daa9fd3",
+    "bytes": 1221,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/backend.log",
+    "source_member_sha256": "69ae314416f3a740f9b719aba771e19cc0f5adcd8b7a1a203e91d5afa6de1e34",
+    "export_sha256": "69ae314416f3a740f9b719aba771e19cc0f5adcd8b7a1a203e91d5afa6de1e34",
+    "bytes": 35388,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/completion.json",
+    "source_member_sha256": "ada26bda17ba6bd21b4cd7ca1249050de47a4e97053e0f68a5f32bdda3d4c867",
+    "export_sha256": "9b8e12bcc661d9b527ebf32046edf041a7fad87b69b8be8450b22c1425c6606f",
+    "bytes": 28071,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/episodes.jsonl",
+    "source_member_sha256": "8f61260fe6afd0fe6cd1dbdc362de17d61fa4a326dc3f61d746711de5b7a4312",
+    "export_sha256": "8f61260fe6afd0fe6cd1dbdc362de17d61fa4a326dc3f61d746711de5b7a4312",
+    "bytes": 29940611,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/gpu.jsonl",
+    "source_member_sha256": "267c6aa2136d175a7f8d1c66c160e33323692a5a79dc1a8df8ea2105edbcefdc",
+    "export_sha256": "13d739ac3e65b2484958abf26b07c1b99d5648614e46527eba5196b12fcb943e",
+    "bytes": 1333116,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/run.json",
+    "source_member_sha256": "e29bbbf0f9db5b1339e82b1b78f007069d6e83e1532d6d7ceb7bc76e2e75d187",
+    "export_sha256": "70ab5a98f1966e6d973485a8f2763a82adbe9ecb68d587b3d962ecf4d406ac9d",
+    "bytes": 11049,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/samples.jsonl",
+    "source_member_sha256": "f0d3ed865f1593a1e6d174307d96a2a4dcd2ed762fcc248ab7e79b3875e338a3",
+    "export_sha256": "f0d3ed865f1593a1e6d174307d96a2a4dcd2ed762fcc248ab7e79b3875e338a3",
+    "bytes": 29921190,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/schedule.jsonl",
+    "source_member_sha256": "6bebceaf0049f1edefc7a2de00a28e3a6e3ca044b020426d79f12df589dbdfec",
+    "export_sha256": "6bebceaf0049f1edefc7a2de00a28e3a6e3ca044b020426d79f12df589dbdfec",
+    "bytes": 4234,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q35-thinking/tokenization.json",
+    "source_member_sha256": "5714af163c54b75192d8339f1bfe9ec7a340602770c4960cb2fa1c2e4821b39e",
+    "export_sha256": "5714af163c54b75192d8339f1bfe9ec7a340602770c4960cb2fa1c2e4821b39e",
+    "bytes": 63692,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/backend.json",
+    "source_member_sha256": "4c7ba21d2e8f2a3ab63b7c48ef82e7b613bbaeb0978a1f9ac3d0aeb73bedb719",
+    "export_sha256": "4c7ba21d2e8f2a3ab63b7c48ef82e7b613bbaeb0978a1f9ac3d0aeb73bedb719",
+    "bytes": 1218,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/backend.log",
+    "source_member_sha256": "eb722d818372599649d33cd8503f4af28cbc915fc46f5df6073f76230492d610",
+    "export_sha256": "eb722d818372599649d33cd8503f4af28cbc915fc46f5df6073f76230492d610",
+    "bytes": 16575,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/completion.json",
+    "source_member_sha256": "6f1d638989e4cfb5d531818655f326ad7a6a001ebb8d1e95369b76ffdfcbdd07",
+    "export_sha256": "0a2f99dd7a63de9affe75158fa8f52f39d0a4a585ccefd13d4dfafb71a39dc38",
+    "bytes": 16606,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/episodes.jsonl",
+    "source_member_sha256": "ea7686777f0bd170fd35d1e1f4798da5008a2ae2b4fad1b46afe789e0a477e87",
+    "export_sha256": "ea7686777f0bd170fd35d1e1f4798da5008a2ae2b4fad1b46afe789e0a477e87",
+    "bytes": 1583730,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/gpu.jsonl",
+    "source_member_sha256": "851958c08a591cf92e2c15edbfb0dbc480e0d6af9d10a3718d5bcb6f9e3b5af1",
+    "export_sha256": "45400cd5e032e9930be86950884c7f4966f427c9b129f24a66195ee396ec157f",
+    "bytes": 301822,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/run.json",
+    "source_member_sha256": "b5048569ca1374b58848fc9ae60043150bfbf3870160d1e4b731c9138f7497b9",
+    "export_sha256": "946d9c64b6f598aacf5afb7537609ffa393820d495ed598573c512a22f26141c",
+    "bytes": 10706,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/samples.jsonl",
+    "source_member_sha256": "b09ff64fc7a02a3e84c0d258b739c82aa6ca49d82a217350230735ba3dfc476e",
+    "export_sha256": "b09ff64fc7a02a3e84c0d258b739c82aa6ca49d82a217350230735ba3dfc476e",
+    "bytes": 1563920,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/schedule.jsonl",
+    "source_member_sha256": "57d2034d3a4bd5c84045e81034a85ef7eaa8ae77556b9e90f0501f3c2e6ae9a9",
+    "export_sha256": "57d2034d3a4bd5c84045e81034a85ef7eaa8ae77556b9e90f0501f3c2e6ae9a9",
+    "bytes": 4237,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/coder-nonthinking/tokenization.json",
+    "source_member_sha256": "94f70a46ab7daed39c7ad8be10348d067048785540ad05f2920d9fcc94e6a9cc",
+    "export_sha256": "94f70a46ab7daed39c7ad8be10348d067048785540ad05f2920d9fcc94e6a9cc",
+    "bytes": 63671,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/backend.json",
+    "source_member_sha256": "1b41480bb59b092a86a3a1b1313ae57cc37ee5b0445cc187bc940384272155b2",
+    "export_sha256": "1b41480bb59b092a86a3a1b1313ae57cc37ee5b0445cc187bc940384272155b2",
+    "bytes": 1317,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/backend.log",
+    "source_member_sha256": "fa60257837d3fa2b5c963a9ccc73feb522c7703e96a27ee571a99aaeab5d83a7",
+    "export_sha256": "fa60257837d3fa2b5c963a9ccc73feb522c7703e96a27ee571a99aaeab5d83a7",
+    "bytes": 40700,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/completion.json",
+    "source_member_sha256": "0b79036fa939c70b699c7d65146dbcec771aafed5045614420de868b9c3ba88e",
+    "export_sha256": "006cb3e0b21ff165e47fdb6bba130e516a0cbcd36336e2fd94d61d0f66bad6ff",
+    "bytes": 27300,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/episodes.jsonl",
+    "source_member_sha256": "79684635914c893bf8e966bfb61be851f10fec26b258a9ef7a32e93d8bc15c6d",
+    "export_sha256": "79684635914c893bf8e966bfb61be851f10fec26b258a9ef7a32e93d8bc15c6d",
+    "bytes": 11187547,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/gpu.jsonl",
+    "source_member_sha256": "2fd6af953788fe2c29480cb5b0ceb050b76aafcc7a1802f772fba72416147a19",
+    "export_sha256": "fae6f9c1a00b90ec8b4b9ad42da4006aab26277ce0b6e8c4d6287c9ab8f21e23",
+    "bytes": 1581076,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/run.json",
+    "source_member_sha256": "fd4601a013d2fefac56656e00bee27e63ad023b9da785d3194263f43340923df",
+    "export_sha256": "23f8e7def44da01d5c12446da938805e02ef26cf632ca334ae2c8c2ba604d173",
+    "bytes": 11401,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/samples.jsonl",
+    "source_member_sha256": "7329f8f0a72ca65c3604e82aa72bdb8e055041ca9bbffee20bba1b28d0aa7aed",
+    "export_sha256": "7329f8f0a72ca65c3604e82aa72bdb8e055041ca9bbffee20bba1b28d0aa7aed",
+    "bytes": 11183740,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/schedule.jsonl",
+    "source_member_sha256": "83e5fc427b78fd9756d978f017007c0501ffd40a5a7b3f719cc857c23edd14f2",
+    "export_sha256": "83e5fc427b78fd9756d978f017007c0501ffd40a5a7b3f719cc857c23edd14f2",
+    "bytes": 4232,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-nonthinking/tokenization.json",
+    "source_member_sha256": "8a4bd54c1260821381e37cfe56c99b5bb1023aa51b2f1224de8f898dca0aed63",
+    "export_sha256": "8a4bd54c1260821381e37cfe56c99b5bb1023aa51b2f1224de8f898dca0aed63",
+    "bytes": 63780,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/backend.json",
+    "source_member_sha256": "755652153212c707693f3df845c1c41893a0860ec6b99d17b8dcfa9cf5848117",
+    "export_sha256": "755652153212c707693f3df845c1c41893a0860ec6b99d17b8dcfa9cf5848117",
+    "bytes": 1349,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/backend.log",
+    "source_member_sha256": "cc96c8e317a505f5562a9f9edaa5962ceaef6c8b65dfd6f2d726c8cba2dec0f5",
+    "export_sha256": "cc96c8e317a505f5562a9f9edaa5962ceaef6c8b65dfd6f2d726c8cba2dec0f5",
+    "bytes": 51923,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/completion.json",
+    "source_member_sha256": "3f702f8cfcf610f480faf5e8873d6fe5e02af4d9c2345c24d8b2805a4736a6ab",
+    "export_sha256": "89e3a6030942fd66f11483c5c019551db2ec9839e524a1afda0bde2ac17d8625",
+    "bytes": 35807,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/episodes.jsonl",
+    "source_member_sha256": "1186bd545e19d91df8578139e6a530d72cabf503827c90395f8fd5c70d617d7b",
+    "export_sha256": "1186bd545e19d91df8578139e6a530d72cabf503827c90395f8fd5c70d617d7b",
+    "bytes": 13728174,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/gpu.jsonl",
+    "source_member_sha256": "ca2ada787d7746939409823279c4b0b5c2b9e59052fb19503e51d47a644e5f37",
+    "export_sha256": "ed8c548580a3605e3c22c69a9684f264718e094d512614f49b3462407bb44eeb",
+    "bytes": 2248355,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/run.json",
+    "source_member_sha256": "e80665ab7e59a97461ba8e66f8962b47056e98bad0e0ae5ad111eac6ab2f92a5",
+    "export_sha256": "409b58b488a3c45e5e2f232a97fe2d04a5c69098444bfa58d9bf587e21e39f58",
+    "bytes": 11289,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/samples.jsonl",
+    "source_member_sha256": "653c66b2400c508a1d1216f7152d3e13109d6e749a416b080cdec7e3cec8a47a",
+    "export_sha256": "653c66b2400c508a1d1216f7152d3e13109d6e749a416b080cdec7e3cec8a47a",
+    "bytes": 13726073,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/schedule.jsonl",
+    "source_member_sha256": "4791c7fbaf17fadb12dcbd12839f4e402b91aa734f9eb1c8e7b1b66f2fc4cb1f",
+    "export_sha256": "4791c7fbaf17fadb12dcbd12839f4e402b91aa734f9eb1c8e7b1b66f2fc4cb1f",
+    "bytes": 4248,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/q38-thinking/tokenization.json",
+    "source_member_sha256": "82a6e149f1b7954366d6ad99c51987818bc98c4632a609e1bb824be354e0320b",
+    "export_sha256": "82a6e149f1b7954366d6ad99c51987818bc98c4632a609e1bb824be354e0320b",
+    "bytes": 63819,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/backend.json",
+    "source_member_sha256": "9b06d9a1af610cb918029ffb0d8b598e7d09f7fba31ca3f07c6eb162dbbacd24",
+    "export_sha256": "9b06d9a1af610cb918029ffb0d8b598e7d09f7fba31ca3f07c6eb162dbbacd24",
+    "bytes": 1271,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/backend.log",
+    "source_member_sha256": "167014306517ed4c2fc7741ef44767ed4f857e2ca7bf6268ed2ed9614e2cdda7",
+    "export_sha256": "167014306517ed4c2fc7741ef44767ed4f857e2ca7bf6268ed2ed9614e2cdda7",
+    "bytes": 41647,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/completion.json",
+    "source_member_sha256": "a714ea0018302c9de9a689677eb923fbfbcfc186e6776393a34c0ac6f36f5286",
+    "export_sha256": "99742e598feb9843baac87b6bfe7fe041822f24cac6cd2ddabd6651566192095",
+    "bytes": 29074,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/episodes.jsonl",
+    "source_member_sha256": "dc70e4f839631c78171c9825d264f31c11a20e30d8344a3a3f495df91710d6b7",
+    "export_sha256": "dc70e4f839631c78171c9825d264f31c11a20e30d8344a3a3f495df91710d6b7",
+    "bytes": 29673329,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/gpu.jsonl",
+    "source_member_sha256": "5a2ed5a14459b7909916d0525217d29021f80a481222c391a694aa746a7fafa0",
+    "export_sha256": "d45da7dd642cbccf50a4a9038048a23e2d364fa77a13e6053101dce82b1a1ddf",
+    "bytes": 1531179,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/run.json",
+    "source_member_sha256": "6e800238bd2a65b214ed710afff0867309f859b21a3da0219418f3e59b155675",
+    "export_sha256": "bd88a02737571b0635a02cbe6a3cc50d8f9732976d0b1db4110d38d5007018cd",
+    "bytes": 11300,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/samples.jsonl",
+    "source_member_sha256": "df815deafd5e7e536fb8b8a6436c12442cefa2525b45e3f894eecb78f8a6cf33",
+    "export_sha256": "df815deafd5e7e536fb8b8a6436c12442cefa2525b45e3f894eecb78f8a6cf33",
+    "bytes": 29669453,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/schedule.jsonl",
+    "source_member_sha256": "e178a34ff5150e52df8379ee74f6ff9bcaef0076cafb7c53b52100e571a9d4de",
+    "export_sha256": "e178a34ff5150e52df8379ee74f6ff9bcaef0076cafb7c53b52100e571a9d4de",
+    "bytes": 4229,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "data/pilot-records/nemotron-thinking/tokenization.json",
+    "source_member_sha256": "1c87a7522ef127495ff81c11f90ae7753c604d48312cada3c591b0fe2bec8e2a",
+    "export_sha256": "1c87a7522ef127495ff81c11f90ae7753c604d48312cada3c591b0fe2bec8e2a",
+    "bytes": 63797,
+    "category": "final-admission-pilot",
+    "site_identifier_substitutions": false
+  }
+]

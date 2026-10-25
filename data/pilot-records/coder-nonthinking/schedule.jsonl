@@ -1,0 +1,21 @@
+{"event": "cohort_start", "pool_id": 1, "concurrency": 16, "k": 8, "arrivals": {"leetcode/3773": 0, "leetcode/3759": 0, "atcoder/arc195_e": 0, "leetcode/3777": 0, "leetcode/3789": 0, "atcoder/abc400_b": 0, "atcoder/abc396_e": 0, "leetcode/3794": 0, "leetcode/3743": 0, "atcoder/abc398_c": 0, "leetcode/3748": 0, "atcoder/abc392_a": 0, "atcoder/abc393_b": 0, "atcoder/abc399_f": 0, "atcoder/abc394_e": 0, "atcoder/abc392_d": 0}, "scheduler": "exclusive_synchronous_submission", "internal_gpu_batch_observed": false, "selection_mode": "deferred", "cohort_start_monotonic_s": 613626.448895743, "wall_ns": 1791992571297741736}
+{"event": "dispatch", "batch_id": 0, "since_start_s": 9.281199891120195e-05, "episodes": ["leetcode/3773", "leetcode/3759", "atcoder/arc195_e", "leetcode/3777", "leetcode/3789", "atcoder/abc400_b", "atcoder/abc396_e", "leetcode/3794", "leetcode/3743", "atcoder/abc398_c", "leetcode/3748", "atcoder/abc392_a", "atcoder/abc393_b", "atcoder/abc399_f", "atcoder/abc394_e", "atcoder/abc392_d"], "candidate_count": 128, "submitted_batch_only": true, "wall_ns": 1791992571297827807}
+{"event": "generation_barrier", "batch_id": 0, "since_start_s": 35.217268993961625, "wall_ns": 1791992606515001944}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3773", "selection_status": "deferred", "since_start_s": 35.21789033804089, "wall_ns": 1791992606515620493}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3759", "selection_status": "deferred", "since_start_s": 35.217933070030995, "wall_ns": 1791992606515662989}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/arc195_e", "selection_status": "deferred", "since_start_s": 35.21796559903305, "wall_ns": 1791992606515695318}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3777", "selection_status": "deferred", "since_start_s": 35.21798832900822, "wall_ns": 1791992606515717911}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3789", "selection_status": "deferred", "since_start_s": 35.21801054198295, "wall_ns": 1791992606515740098}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc400_b", "selection_status": "deferred", "since_start_s": 35.21803346602246, "wall_ns": 1791992606515763008}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc396_e", "selection_status": "deferred", "since_start_s": 35.218053424032405, "wall_ns": 1791992606515782973}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3794", "selection_status": "deferred", "since_start_s": 35.2180740890326, "wall_ns": 1791992606515803667}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3743", "selection_status": "deferred", "since_start_s": 35.21809497603681, "wall_ns": 1791992606515824553}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc398_c", "selection_status": "deferred", "since_start_s": 35.21812716103159, "wall_ns": 1791992606515856715}
+{"event": "episode_collected", "batch_id": 0, "task_id": "leetcode/3748", "selection_status": "deferred", "since_start_s": 35.21814849204384, "wall_ns": 1791992606515878042}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc392_a", "selection_status": "deferred", "since_start_s": 35.21816992596723, "wall_ns": 1791992606515899473}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc393_b", "selection_status": "deferred", "since_start_s": 35.218191978987306, "wall_ns": 1791992606515921527}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc399_f", "selection_status": "deferred", "since_start_s": 35.21821269497741, "wall_ns": 1791992606515942244}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc394_e", "selection_status": "deferred", "since_start_s": 35.21823100198526, "wall_ns": 1791992606515960542}
+{"event": "episode_collected", "batch_id": 0, "task_id": "atcoder/abc392_d", "selection_status": "deferred", "since_start_s": 35.218246910953894, "wall_ns": 1791992606515976460}
+{"event": "release", "batch_id": 0, "since_start_s": 35.21825595095288, "wall_ns": 1791992606515985986}
+{"event": "cohort_end", "elapsed_s": 35.21827014500741, "episodes": 16, "wall_ns": 1791992606516000290}

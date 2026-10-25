@@ -1,0 +1,17 @@
+{
+  "paper_source_head": "aadd134a0e788068446e2293a42ed40902c5202f",
+  "experiment_source_head": "6c6b8096a4c01c3774eae5f5ad7dd49eb99cda32",
+  "python_offline": "Python 3.12.14",
+  "runtime": "Linux compute jobs used Python 3.12 and an Apptainer/vLLM inference environment; offline analysis uses the standard library, with NumPy for bootstrap recomputation.",
+  "models_and_container_weights_included": false,
+  "prepared_prompts_and_private_tests_included": false,
+  "complete_service_event_logs_included": false,
+  "main_service_generated_text_included": false,
+  "pilot_generated_text_included": true,
+  "pilot_observed_versions": {
+    "vllm": "0.30.0",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0"
+  },
+  "main_service_full_backend_versions_verified": false
+}

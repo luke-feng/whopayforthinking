@@ -1,0 +1,47 @@
+{
+  "schema":"www-public-rate-evidence-v1",
+  "observed_date":"2026-10-08",
+  "currency":"USD",
+  "scope":"Public rate evidence, not transactions, resource costs, private revenue shares, or replication of a provider's service.",
+  "sources": {
+    "deepinfra_catalog":{"url":"https://api.deepinfra.com/models/list","response_sha256":"a24ff29890fb6ace9f6b15d40a016c423f4520ad24ec21439a45097db5bf6c8d","raw_unit":"cents_per_token; multiply by 10000 to obtain USD per million tokens"},
+    "together":{"url":"https://www.together.ai/pricing","capture":"Official rendered serverless and GPU tables; raw HTML not archived"},
+    "siliconflow_announcement":{"url":"https://www.siliconflow.com/blog/qwen3.5-series-now-on-siliconflow-multimodal-ai-excellence","published_date":"2026-05-12","capture":"Provider announcement, not an independently refreshed October direct quote"},
+    "partition":{"url":"https://partitionlabs.ai/pricing","capture":"Official rendered Standard pay-as-you-go table; raw HTML not archived"},
+    "lambda":{"url":"https://lambda.ai/instances","capture":"Official rendered 1x and 8x tables; raw HTML not archived"}
+  },
+  "rates": [
+    {"id":"di-q35-9b","model_id":"Qwen/Qwen3.5-9B","provider":"DeepInfra","source_id":"deepinfra_catalog","input_per_million":"0.10","output_per_million":"0.15","cache_read_per_million":null,"backend_precision":"bfloat16","state":"listed_no_deprecation_flag","match":"advertised_model_and_precision_only","raw_input_cents_per_token":"1e-05","raw_output_cents_per_token":"1.5e-05"},
+    {"id":"together-q35-9b","model_id":"Qwen/Qwen3.5-9B","provider":"Together AI","source_id":"together","input_per_million":"0.17","output_per_million":"0.25","cache_read_per_million":null,"backend_precision":"unverified","state":"listed_serverless","match":"advertised_model_only"},
+    {"id":"di-q35-27b","model_id":"Qwen/Qwen3.5-27B","provider":"DeepInfra","source_id":"deepinfra_catalog","input_per_million":"0.26","output_per_million":"2.60","cache_read_per_million":null,"backend_precision":"fp8","state":"listed_no_deprecation_flag","match":"advertised_model_precision_differs_from_local_BF16","raw_input_cents_per_token":"2.6e-05","raw_output_cents_per_token":"0.00026"},
+    {"id":"sf-q35-27b-announcement","model_id":"Qwen/Qwen3.5-27B","provider":"SiliconFlow","source_id":"siliconflow_announcement","input_per_million":"0.25","output_per_million":"2.00","cache_read_per_million":null,"backend_precision":"unverified_on_direct_page","state":"historical_provider_announcement","match":"advertised_model_only"},
+    {"id":"di-q38-27b-list","model_id":"Qwen/Qwen3.8-27B","provider":"DeepInfra","source_id":"deepinfra_catalog","input_per_million":"0.20","output_per_million":"2.50","cache_read_per_million":"0.05","backend_precision":"unverified_in_direct_catalog","state":"list_rate_before_25_percent_promotion","match":"advertised_model_only","raw_input_cents_per_token":"2e-05","raw_output_cents_per_token":"0.00025"},
+    {"id":"di-q38-27b-promo","model_id":"Qwen/Qwen3.8-27B","provider":"DeepInfra","source_id":"deepinfra_catalog","source_url":"https://deepinfra.com/Qwen/Qwen3.8-27B","input_per_million":"0.15","output_per_million":"1.875","cache_read_per_million":"0.0375","backend_precision":"unverified_in_direct_catalog","state":"25_percent_promotion_end_not_published","match":"advertised_model_only","discount_fraction":"0.25","same_provider_as":"di-q38-27b-list"},
+    {"id":"partition-q38-27b-standard","model_id":"Qwen/Qwen3.8-27B","provider":"Partition Labs","source_id":"partition","input_per_million":"0.40","output_per_million":"3.00","cache_read_per_million":"0.05","backend_precision":"fp8_weights_and_fp8_KV","state":"standard_pay_as_you_go_list","match":"advertised_model_precision_differs_from_local_BF16","note":"Prepaid credits, minimum purchase 5 USD, best-effort admission; no account purchase or availability verification."},
+    {"id":"di-q35-4b-deprecated","model_id":"Qwen/Qwen3.5-4B","provider":"DeepInfra","source_id":"deepinfra_catalog","input_per_million":"0.03","output_per_million":"0.15","cache_read_per_million":null,"backend_precision":"bfloat16","state":"deprecated","deprecated_epoch":1781216918,"replaced_by":"Qwen/Qwen3.5-9B","match":"historical_only_excluded_from_current_anchor","raw_input_cents_per_token":"3e-06","raw_output_cents_per_token":"1.5e-05"},
+    {"id":"di-nemotron3-nano-deprecation","model_id":"nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16","provider":"DeepInfra","source_id":"deepinfra_catalog","source_url":"https://deepinfra.com/nvidia/Nemotron-3-Nano-30B-A3B","input_per_million":"0.05","output_per_million":"0.20","cache_read_per_million":"0.025","backend_precision":"fp4","state":"deprecation_notice_for_2026-10-08_excluded_from_durable_current_anchor","deprecated_epoch":1791500955,"replaced_by":"nvidia/NVIDIA-Nemotron-3.5-Lightning","match":"model_name_correspondence_but_precision_differs","raw_input_cents_per_token":"5e-06","raw_output_cents_per_token":"2e-05"}
+  ],
+  "gpu_rates": [
+    {"id":"lambda-h100-sxm-1","provider":"Lambda","source_id":"lambda","gpu_model":"H100 SXM","memory_gb":80,"gpu_count":1,"usd_per_instance_hour":"4.29","single_gpu_package_verified":true,"note":"Sales tax/VAT/GST extra; region and stock not verified; actual owner form factor still needs confirmation."},
+    {"id":"lambda-h100-pcie-1","provider":"Lambda","source_id":"lambda","gpu_model":"H100 PCIe","memory_gb":80,"gpu_count":1,"usd_per_instance_hour":"3.29","single_gpu_package_verified":true,"note":"Different accelerator variant, not interchangeable with SXM measurements."},
+    {"id":"lambda-a100-sxm80-8","provider":"Lambda","source_id":"lambda","gpu_model":"A100 SXM","memory_gb":80,"gpu_count":8,"usd_per_gpu_hour":"2.79","usd_per_instance_hour":"22.32","single_gpu_package_verified":false,"note":"Whole 8-GPU package. Do not treat 2.79 as a purchasable single-card price."},
+    {"id":"together-h100-dedicated","provider":"Together AI","source_id":"together","gpu_model":"HGX H100","memory_gb":null,"gpu_count":null,"usd_per_gpu_hour":"5.49","usd_per_instance_hour":null,"single_gpu_package_verified":false,"note":"Dedicated inference rate; minimum rentable unit not established. Not the 3.99/GPU-hour cluster table."}
+  ],
+  "aggregator_cross_checks": [
+    {"url":"https://openrouter.ai/api/v1/models/qwen/qwen3.5-9b/endpoints","response_sha256":"53e8a23d1874e7e2903784376b5caf7ed0895dbbbe185e392c5c164d9dc435d4","finding":"DeepInfra marked bf16 at 0.10/0.15; Together unknown at 0.17/0.25; other backends include fp4/fp8. Aggregator and its backend are not two suppliers."},
+    {"url":"https://openrouter.ai/api/v1/models/qwen/qwen3.5-27b/endpoints","response_sha256":"b4bb312204322e7fea85773408394d5042e64c711837f2275b333d1dbcc62c95","finding":"DeepInfra fp8 at 0.26/2.60; SiliconFlow fp8 at 0.25/2.00. Neither is a verified local BF16 replica."},
+    {"url":"https://openrouter.ai/api/v1/models/qwen/qwen3.8-27b/endpoints","response_sha256":"26d32550a8133789e85fdfc9d7be0f6eadf5dddcc15a397e654e3c09c486bf54","finding":"DeepInfra marked bf16 at promotional 0.15/1.875; its own catalog leaves precision null. Preserve this distinction rather than upgrading direct precision evidence."},
+    {"url":"https://openrouter.ai/api/v1/models/nvidia/nemotron-3-nano-30b-a3b/endpoints","response_sha256":"5e15ef41c06a45d11a616153bc464eee3eef9b021aafe419278ec09fe3d7ee5a","finding":"Novita fp4 0.05/0.20 and Nebius fp8 0.06/0.24 listed. Two backend names, not two independently verified direct BF16 tariffs."}
+  ],
+  "unresolved": [
+    "No exact local-weight revision match is verified for any hosted quote.",
+    "Separate internal-reasoning billing policy is not established for these rows; hidden-price equality is a scenario assumption.",
+    "Qwen3.5-4B and historical Coder-7B lack two durable current direct quotes in the sources inspected. Absence here is not a claim of global unavailability.",
+    "Nemotron BF16 lacks two verified direct comparable active tariffs; do not replace it based on whether its welfare result is favorable.",
+    "Single-A100-80GB rental tariff remains unresolved in these inspected tables.",
+    "Owner probe 7096046 reports H100 NVL, not the Lambda H100 SXM/PCIe variants quoted here. No matched H100 NVL rental quote has been verified; retain those prices only as distinct deployment counterfactuals.",
+    "Full raw HTML archives and refresh before final calibration remain outstanding. Rate evidence is not a frozen production billing contract."
+  ],
+  "inference_calls":0,
+  "purchases":0
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "archive_alias": "analysis-1",
+    "sha256": "b696b2cf3ec92a68e4d0fa789785a2361a159d23877b717283ac646530dd13ec",
+    "bytes": 664236,
+    "members_exported": 41,
+    "private_original": "analysis-1.tar.gz"
+  },
+  {
+    "archive_alias": "analysis-2",
+    "sha256": "3ba75ff1bd003fadb915e8f6c48402fbd25ad9ee82301346839d45678dfba979",
+    "bytes": 409722,
+    "members_exported": 26,
+    "private_original": "analysis-2.tar.gz"
+  },
+  {
+    "archive_alias": "analysis-th1",
+    "sha256": "275bb733365a2d10406e5ded9db01f98bdd4763bdb707671a8e6c80ed273ec16",
+    "bytes": 45953,
+    "members_exported": 5,
+    "private_original": "analysis-th1.tar.gz"
+  },
+  {
+    "archive_alias": "main-collect-1",
+    "sha256": "9bbd7b8dbc9852936e80ace9de7b88e47b36648cdf349374d97a373526a459ae",
+    "bytes": 720174,
+    "members_exported": 178,
+    "private_original": "main-collect-1.tar.gz"
+  },
+  {
+    "archive_alias": "main-collect-2",
+    "sha256": "f6d6f899857e9d53d5e37eb1cbd08a89ec6db3fd7d666140ec897d59585f4fdf",
+    "bytes": 432599,
+    "members_exported": 116,
+    "private_original": "main-collect-2.tar.gz"
+  },
+  {
+    "archive_alias": "main-collect-th1",
+    "sha256": "29245027c550d526e7afd0df5d7128128d76a968918e2ec0c84b567fd5ef5551",
+    "bytes": 57800,
+    "members_exported": 18,
+    "private_original": "main-collect-th1.tar.gz"
+  },
+  {
+    "archive_alias": "thC-results",
+    "sha256": "2b502227185255420fb0aa7f0d2083a47ee9949ff5bc4684584244779cae4c94",
+    "bytes": 108113,
+    "members_exported": 22,
+    "private_original": "thC-results.tar.gz"
+  },
+  {
+    "archive_alias": "results-n1",
+    "sha256": "9b194e5613277bcc22233e2eeab4f8caf202ce76875da8e3862e72388d3fdc6f",
+    "bytes": 925608,
+    "members_exported": 220,
+    "private_original": "results-n1.tar.gz"
+  },
+  {
+    "archive_alias": "results-n2",
+    "sha256": "275927992b44620ee07c3442021a3f66b91633958627c3f81bc14f48f562c489",
+    "bytes": 2223320,
+    "members_exported": 281,
+    "private_original": "results-n2.tar.gz"
+  }
+]

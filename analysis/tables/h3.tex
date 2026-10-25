@@ -1,0 +1,18 @@
+% Pass-through and admission inputs. Made by paper/www27/make_result_tables.py from: lean-main-resources-4-2026-10-23.tsv=f3f03c78d9c2 lean-main-theory-5-2026-10-24.tsv=b82f5c7ed9ac lean-service-resources-1-2026-10-24.tsv=b2aa64c2b890 lean-service-theory-2-2026-10-24.tsv=1358a7b525f3 lean-a100-resources-1-2026-10-24.tsv=331c2056bdce lean-a100-theory-2-2026-10-24.tsv=b81ace06fd57
+
+\begin{table*}[t]
+\caption{Pipeline indifference shares and participation conditions.}
+\label{tab:h3}
+\centering\small\setlength{\tabcolsep}{6pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{Indifference share} & \multicolumn{2}{c}{Cost/bill} & \multicolumn{2}{c}{Serial growth} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Stratum & $\alpha_{C,0}$ & $\alpha_{C,1}$ & $\frac{C_0(k_L)}{B_0(k_L)}$ & $\frac{C_1(k_H)}{B_1(k_H)}$ & $\frac{B_0(k_H)}{B_0(k_L)}$ & $\frac{C_0(k_H)}{C_0(k_L)}$ \\
+\midrule
+Qwen3.8 non-thinking & 0.87 & 0.43 & 5.8 & 0.60 & 7.5 & 1.99 \\
+Qwen3.8 thinking & 0.50 & 0.42 & 5.6 & 0.54 & 7.7 & 1.60 \\
+Qwen3.5 thinking & 1.78 & 1.34 & 25.4 & 1.65 & 8.1 & 1.50 \\
+\bottomrule
+\end{tabular}
+\end{table*}

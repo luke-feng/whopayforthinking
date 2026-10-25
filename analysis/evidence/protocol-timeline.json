@@ -1,0 +1,49 @@
+{
+  "schema": "anonymous-protocol-timeline-v1",
+  "events": [
+    {
+      "date": "2026-10-09",
+      "scope": "Frozen 122-task cohort, 16 calibration and 106 main tasks",
+      "commit": "2d64f2f66ebf9c8307d1f3643942988344cbae09"
+    },
+    {
+      "date": "2026-10-10",
+      "scope": "H1-H3, paired prompt bootstrap, retail tariff anchors, three-replicate mean costs, one-tenth spread pause rule, minimum-cost menu with fixed-configuration sensitivities, reasoning-only and all-non-delivered token accounting. early hardware matching requirement",
+      "commit": "43db14772555005af3ccb02f84b2cf8278dd337e",
+      "source_sha256": "c08e03679d2ac228f40cf825402202b7f06cce6ff5134bc9dcaf9b0cfd63a848",
+      "supporting_sources": [
+        {
+          "file": "experiments/calibration/theory-alignment-rules-v1.json",
+          "commit": "43db14772555005af3ccb02f84b2cf8278dd337e",
+          "sha256": "8ca95ed2d9f24982e741988f3b092f2e9cb69d74e52573a598883f66c09f3f44"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "scope": "Native generation settings, caps, and per-call timeouts frozen after admission pilots, including 3600 seconds for thinking deployments and 1800 seconds for Coder",
+      "commit": "3233d806d7faae762082efe450f5163168aa7b6b"
+    },
+    {
+      "date": "2026-10-21",
+      "scope": "Owner amendment admitting Hopper variants and recording exact GPU models as covariates",
+      "source_sha256": "099bd63b3cd3ef8d4d6abc464a5f6cc06456fb64bc751e93a1ca8fb2dbdbbc39"
+    },
+    {
+      "date": "2026-10-23",
+      "scope": "Two completed primary cells recorded under an extended 7200-second per-call bound after failed 3600-second attempts",
+      "source_sha256": "59bb9b8e577bab91b3f5827d71a85d3a453a8a8558967f8502112923c43f96b5"
+    },
+    {
+      "date": "2026-10-24",
+      "scope": "Capacity grid expanded to include 2.4 and 3 USD per GPU hour. descriptive scenario update, not preregistered",
+      "commit": "e9bcc6522f0184f2e581a52d77712e3edbcc6d87"
+    },
+    {
+      "date": "2026-10-25",
+      "scope": "Follow-up online service measurement covers all five deployments. Service costs become the main economic display, with original pipeline results retained as a separate comparison. A100 adds two extended-bound reruns. This later collection and presentation choice is not relabeled preregistered primary inference.",
+      "source_sha256": "44d8059444b01f42ea6c7600e76dab30ea6f9a7ab5b31d6d81f0928671ad802b"
+    }
+  ],
+  "current_inference": "As of 2026-10-24, all 42 audited financial scenarios trigger the cost-spread pause, under which the registered implementation withholds its entire primary bootstrap. The reported 10000-draw intervals are conditional diagnostics computed by a separate implementation outside that gate using the registered index stream and percentile rule. Each cost is fixed on its window or generation-span basis. Hardware composites and resource comparisons remain descriptive. No welfare interval or registered primary inference is reported. The 2026-10-25 service and A100 follow-up is descriptive. The saved bootstrap remains restricted to the earlier 72 pipeline cells."
+}

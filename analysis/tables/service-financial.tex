@@ -1,0 +1,22 @@
+% Follow-up inputs: lean-service-resources-2-2026-10-25.tsv=e6284f2cfd9d lean-service-theory-3-2026-10-25.tsv=2e565c482232 lean-a100-resources-2-2026-10-25.tsv=47cc1774e65a lean-a100-theory-3-2026-10-25.tsv=20b4e519bb26 service-followup-provenance.json=44d8059444b0
+
+\begin{table*}[t]
+\caption{Batch16 versus serial financial conditions.}
+\label{tab:service-financial}
+\centering\small
+\begin{tabular}{llcrrrrrr}
+\toprule
+Stratum & Seed & GPU & $\alpha_{C,0}$ & $\alpha_{C,1}$ & $C_0(L)/B_0(L)$ & $C_1(H)/B_1(H)$ & $B_0(H)/B_0(L)$ & $C_0(H)/C_0(L)$ \\
+\midrule
+Qwen3.5 thinking & r0 & H100 & 1.39 & 1.13 & 30.83 & 1.46 & 7.95 & 1.31 \\
+Qwen3.5 thinking & r1 & NVL & 1.59 & 1.40 & 29.66 & 1.69 & 8.04 & 1.38 \\
+Qwen3.5 thinking & r2 & H100 & 1.45 & 1.13 & 30.89 & 1.46 & 7.99 & 1.33 \\
+Qwen3.8 non-thinking & r0 & H100 & 0.60 & 0.21 & 5.43 & 0.36 & 7.69 & 1.74 \\
+Qwen3.8 non-thinking & r1 & NVL & 0.65 & 0.16 & 5.25 & 0.34 & 7.99 & 1.86 \\
+Qwen3.8 non-thinking & r2 & H100 & 0.74 & 0.20 & 5.52 & 0.36 & 8.71 & 2.04 \\
+Qwen3.8 thinking & r0 & H100 & 0.39 & 0.29 & 5.53 & 0.40 & 7.88 & 1.49 \\
+Qwen3.8 thinking & r1 & NVL & 0.44 & 0.23 & 5.23 & 0.34 & 8.42 & 1.62 \\
+Qwen3.8 thinking & r2 & H200 & 0.33 & 0.10 & 4.18 & 0.21 & 8.22 & 1.57 \\
+\bottomrule
+\end{tabular}
+\end{table*}

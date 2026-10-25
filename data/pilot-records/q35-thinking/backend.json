@@ -1,0 +1,37 @@
+{
+  "event": "ready",
+  "vllm_version": "0.30.0",
+  "torch_version": "2.13.0+cu130",
+  "gpu_name": "NVIDIA H100 80GB HBM3",
+  "gpu_memory_bytes": 85017493504,
+  "native_generation": {
+    "generation_policy": "vendor-native-generation-v1",
+    "native_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "native_metadata_sha256": {
+      "tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "generation_config.json": null,
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    },
+    "sampling_parameters_scope": "explicit submitted object before engine EOS augmentation",
+    "tokenizer_eos_token_id": 248046
+  },
+  "cuda_version": "13.0",
+  "reasoning_open_ids": [
+    248068
+  ],
+  "reasoning_close_ids": [
+    248069
+  ],
+  "cache_environment": {
+    "VLLM_CACHE_ROOT": "/compile-cache/vllm",
+    "XDG_CACHE_HOME": "/compile-cache"
+  },
+  "clock_identity": {
+    "boot_id": "2c542f08-ebd8-483d-b8d6-43506c976d34",
+    "time_namespace": "time:[4026531834]"
+  },
+  "engine_metrics_schema": "request_state_stats_mixed_v1"
+}

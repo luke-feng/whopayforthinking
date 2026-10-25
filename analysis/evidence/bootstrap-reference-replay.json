@@ -1,0 +1,79 @@
+{
+  "schema": "bootstrap-reference-replay-v1",
+  "reference_commit": "43db14772555005af3ccb02f84b2cf8278dd337e",
+  "reference_source_sha256": "4900995d62276a4ec1bfdfc2b7d7272ce05a1f50184e050a6fa7141fe5e7a8cd",
+  "kernels": [
+    "percentile",
+    "paired_percentiles"
+  ],
+  "numeric_input_adapter": "fractions.Fraction on validated rational inputs",
+  "draws": 10000,
+  "seed": 20261010,
+  "resample_indices_sha256": "17c40c6a2d54ce2437b4c54fba1780814a6205d10c1fe46916b9100eed108ef5",
+  "result_sha256": "07a5504c58a34bc8d4b9502d907476c927d214d0a054b2a2aef70369fedb4c47",
+  "checks": [
+    {
+      "metric": "quality",
+      "point_exact": "7/53",
+      "percentile_95_exact": [
+        "7/106",
+        "21/106"
+      ],
+      "undefined_draws": 0,
+      "matches": true
+    },
+    {
+      "metric": "bill_increment",
+      "point_exact": "77262561/530000000",
+      "percentile_95_exact": [
+        "312963333/2650000000",
+        "139906891/800000000"
+      ],
+      "undefined_draws": 0,
+      "matches": true
+    },
+    {
+      "metric": "alpha_ratio",
+      "point_exact": "4861307565898541296717780/8327678268273822770908543",
+      "percentile_95_exact": [
+        "12336991124306432233647468260996319/23619233253249214991953093062268160",
+        "225191543423280673047348633653727/346484554899793401736897545016360"
+      ],
+      "undefined_draws": 0,
+      "matches": true
+    },
+    {
+      "metric": "admission_lower",
+      "point_exact": "1695935545563054827/3720164198400000000",
+      "percentile_95_exact": [
+        "133912171339827879562502723/359090553178828800000000000",
+        "13509970102347758737651949/23398322749731072000000000"
+      ],
+      "undefined_draws": 0,
+      "matches": true
+    },
+    {
+      "metric": "admission_upper",
+      "point_exact": "51905586563583997/489406072320000000",
+      "percentile_95_exact": [
+        "159074274062879432189880913/1803254079325839360000000000",
+        "1485593374521810465432793/11325516646678528000000000"
+      ],
+      "undefined_draws": 0,
+      "matches": true
+    },
+    {
+      "metric": "admission_gap",
+      "point_exact": "-27643396242669001517027521/79022176593942067200000000",
+      "percentile_95_exact": [
+        "-142643549306449953281384265602561014601/318065843580347219464448409600000000000",
+        "-1444333908607593590522384866185505743901/5129634256007906718480309320908800000000"
+      ],
+      "undefined_draws": 0,
+      "matches": true
+    }
+  ],
+  "exact_point_or_endpoint_checks": 18,
+  "registered_primary_pipeline_executed": false,
+  "scope": "Numerical-kernel replay only. The registered pipeline remains paused and the paper intervals are outside-gate conditional diagnostics."
+}

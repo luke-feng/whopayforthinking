@@ -1,0 +1,182 @@
+{
+  "schema": "anonymous-paper-results-manifest-v1",
+  "upstream_commit": "f1835edb1343e52f326a23a48bb6f6051d9fbe74",
+  "scope": "Original descriptive exports over 106 fixed tasks, with a separate paired prompt bootstrap conditional on generation seed, observed schedule and fixed window costs. Scenario rows are not independent observations.",
+  "files": [
+    {
+      "file": "results/lean-main-resources-4-2026-10-23.tsv",
+      "sha256": "f3f03c78d9c228eaa6ff18b39c094d22d8d12bfb974469846837516626eea32e",
+      "bytes": 13474,
+      "rows": 74
+    },
+    {
+      "file": "results/lean-main-theory-5-2026-10-24.tsv",
+      "sha256": "b82f5c7ed9acbb719b0b4870152cf8ff7b546430c71430f8d17e9d0bf3a4d830",
+      "bytes": 1716901,
+      "rows": 5740
+    },
+    {
+      "file": "results/lean-service-resources-1-2026-10-24.tsv",
+      "sha256": "b2aa64c2b890a19fb9ef7d4d03f312f373f1f5102e480461bc28d381f78186cd",
+      "bytes": 3470,
+      "rows": 12
+    },
+    {
+      "file": "results/lean-service-theory-2-2026-10-24.tsv",
+      "sha256": "1358a7b525f32655508e6c37678c7deb19ff7d9a440da932cb258479e9629d9a",
+      "bytes": 169106,
+      "rows": 560
+    },
+    {
+      "file": "results/lean-a100-resources-1-2026-10-24.tsv",
+      "sha256": "331c2056bdce6ed0cc4904ca891ab2c9ad8b68fbfa35ccdbfdce7266e039e545",
+      "bytes": 3607,
+      "rows": 19
+    },
+    {
+      "file": "results/lean-a100-theory-2-2026-10-24.tsv",
+      "sha256": "b81ace06fd57277125f0152e021d0b392fa62959d992de01d510865e4c477064",
+      "bytes": 101956,
+      "rows": 336
+    },
+    {
+      "file": "results/lean-service-resources-2-2026-10-25.tsv",
+      "sha256": "e6284f2cfd9d9d72e4f3d49649a96afe376157d050bbf7934d50d39937010edc",
+      "bytes": 16283,
+      "rows": 66,
+      "source": "reviewed-followup-2026-10-25"
+    },
+    {
+      "file": "results/lean-service-theory-3-2026-10-25.tsv",
+      "sha256": "2e565c48223265f758f5152fc750afe29571c90888670d4c4f046b229c05132d",
+      "bytes": 1119589,
+      "rows": 3724,
+      "source": "reviewed-followup-2026-10-25"
+    },
+    {
+      "file": "results/lean-a100-resources-2-2026-10-25.tsv",
+      "sha256": "47cc1774e65afae1d8963f262a1b8a77b1c5b016d6f13e3f26b677df1573658a",
+      "bytes": 4044,
+      "rows": 21,
+      "source": "reviewed-followup-2026-10-25"
+    },
+    {
+      "file": "results/lean-a100-theory-3-2026-10-25.tsv",
+      "sha256": "20b4e519bb26651fc3cfbc95b1c9fa5be90ac9c6a148158bd31c91677e71a36b",
+      "bytes": 200829,
+      "rows": 672,
+      "source": "reviewed-followup-2026-10-25"
+    }
+  ],
+  "cost_scenario": {
+    "capacity_usd_per_gpu_hour": [
+      0.25,
+      0.5,
+      1,
+      2,
+      2.4,
+      3,
+      4
+    ],
+    "electricity_usd_per_kwh": 0.15,
+    "cpu_usd_per_core_hour": 0.03,
+    "central_capacity_usd_per_gpu_hour": {
+      "H100-class": 2.4,
+      "A100-80GB": 1.1
+    }
+  },
+  "scenario_source_sha256": "f11ec8b04a49cfd3d8482706db24fd74292f865e95306cbf992fb933404478a0",
+  "energy_assumption": {
+    "gpu_tdp_w": {
+      "NVIDIA A100-SXM4-80GB": 400,
+      "NVIDIA A100 80GB PCIe": 300,
+      "NVIDIA H100 80GB HBM3": 700,
+      "NVIDIA H100 NVL": 400,
+      "NVIDIA H200": 700
+    },
+    "busy_fraction_of_tdp": [
+      0.35,
+      0.9
+    ],
+    "idle_fraction_of_tdp": [
+      0.1,
+      0.15
+    ]
+  },
+  "energy_source_sha256": "775e4c2e5d7ebd84851ff5aa805dbc6b7f1d08499dfe81641f7b0e269a39dc02",
+  "excluded_from_anonymous_package": [
+    "Private source archives and their filesystem locations",
+    "Institutional or cluster cost-anchor records",
+    "Any unpublished account, node, job or process identity"
+  ],
+  "derived_receipts": [
+    {
+      "file": "pilot-format-counts.json",
+      "sha256": "800156176cf220d5c7426fa34dbe2d93e1d60817758740afcc75b56922e8870a",
+      "bytes": 56523
+    },
+    {
+      "file": "restricted-menu-counts.json",
+      "sha256": "943b12ff7c7957d9447a562667c08e2a4e44ef3de8e006fcf359d979c858daee",
+      "bytes": 2379
+    },
+    {
+      "file": "registered-abstract.json",
+      "sha256": "d1202be8edfedab7e8ce8c508cbddbd209d99b16ccb0cbfde1a32f0a762bec6c",
+      "bytes": 1796
+    },
+    {
+      "file": "protocol-timeline.json",
+      "sha256": "167681905da71fe6ee22833afd838646aee86283644c569f4131af7d779f1e0a",
+      "bytes": 3154
+    },
+    {
+      "file": "menu-window-counts.json",
+      "sha256": "596729d1bb72d5ae390ea0b34265915f822bd9ed563a2cdd5577a0b24b9b9a30",
+      "bytes": 7322
+    },
+    {
+      "file": "bootstrap-inputs.json",
+      "sha256": "e0a96d1791ae920527daf83ac5e4c7a7de10b7ab0110dfcaf95ed92b4708baa1",
+      "bytes": 386115
+    },
+    {
+      "file": "bootstrap-results.json",
+      "sha256": "07a5504c58a34bc8d4b9502d907476c927d214d0a054b2a2aef70369fedb4c47",
+      "bytes": 3494006
+    },
+    {
+      "file": "bootstrap-receipt.json",
+      "sha256": "6e0cbfb860a772980b06c16164db9dbb82a810421d9789a8611280418414a5fc",
+      "bytes": 18583
+    },
+    {
+      "file": "bootstrap-reference-replay.json",
+      "bytes": 2699,
+      "sha256": "ba59298d15ed8d8d2c555a27fa4d66af37cd5d9d69b4de22ee09a4fcc8d9b10e"
+    },
+    {
+      "file": "current-abstract.json",
+      "sha256": "dd981cfcd506d69f0947eeae1cc8acbf087110040f1b9e58b1848f6bcc95364b",
+      "bytes": 2145
+    },
+    {
+      "file": "service-followup-provenance.json",
+      "sha256": "44d8059444b01f42ea6c7600e76dab30ea6f9a7ab5b31d6d81f0928671ad802b",
+      "bytes": 76889
+    },
+    {
+      "file": "retail-pricing-inputs.json",
+      "bytes": 34041,
+      "sha256": "4b3c18d03acd18c7a68f3cafdd08c1fb26636a753096030b303e39c947e50fcf",
+      "role": "Anonymous fixed-cohort contract-analysis inputs and archived exact reference calculations"
+    },
+    {
+      "file": "retail-pricing-reference.json",
+      "bytes": 469127,
+      "sha256": "69552ff88b59acbdf4ffd577fa0bc617225ae380b20b0342a1e44035cd6dc992",
+      "role": "Anonymous fixed-cohort contract-analysis inputs and archived exact reference calculations"
+    }
+  ],
+  "followup_note": "The four 2026-10-25 exports came from the locally reviewed snapshot identified in service-followup-provenance.json, not the original upstream_commit."
+}

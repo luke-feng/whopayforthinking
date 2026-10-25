@@ -1,0 +1,18 @@
+{
+ "schema": "lean-theory-scenario-v1",
+ "status": "scan_grid_not_frozen_pending_owner_review",
+ "scope": "Declared grid for the descriptive H1-H3 estimands of lcb_ngpu_lean_theory.py. Every parameter is a scenario assumption, none is measured. The capacity rate is the energy-exclusive capital and hosting cost of one GPU hour; public rental prices are payment L only and never enter it.",
+ "capacity_usd_per_gpu_hour": [0.25, 0.5, 1.0, 2.0, 4.0],
+ "electricity_usd_per_kwh": 0.15,
+ "cpu_usd_per_core_hour": 0.03,
+ "bases": ["window", "generation_span"],
+ "hidden_billing": ["all_non_delivered", "reasoning_only"],
+ "response_fee_usd": [0.0, 0.04],
+ "response_fee_reading": "0 is the archived per-token tariff as listed (the preregistered reading). 0.04 is an exploratory counterfactual fixed fee per response, not an archived price.",
+ "anchors": {
+  "q35-thinking": ["di-q35-9b", "together-q35-9b"],
+  "q38-nonthinking": ["di-q38-27b-list", "di-q38-27b-promo", "partition-q38-27b-standard"],
+  "q38-thinking": ["di-q38-27b-list", "di-q38-27b-promo", "partition-q38-27b-standard"]
+ },
+ "anchor_note": "Anchor ids refer to data/calibration/public-prices-2026-10-08.json. Coder and Nemotron have no durable archived tariff, so they get no bill, alpha_C or admission interval. The hidden-token rate equals the output rate (scenario assumption)."
+}

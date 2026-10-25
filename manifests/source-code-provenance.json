@@ -1,0 +1,1166 @@
+[
+  {
+    "path": "analysis/bootstrap_pairs.py",
+    "original_path": "paper/bootstrap_pairs.py",
+    "category": "paper-analysis",
+    "source_sha256": "25b158a1620c884fd5aa8c179f961d54b7cd643a5fe26ef8d47058b21c6ae767",
+    "export_sha256": "25b158a1620c884fd5aa8c179f961d54b7cd643a5fe26ef8d47058b21c6ae767",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/bootstrap_tables.py",
+    "original_path": "paper/bootstrap_tables.py",
+    "category": "paper-analysis",
+    "source_sha256": "5f596e78052db8232a075461cc83843be07affd21b8f0bb9e5e99bbc2fbcd962",
+    "export_sha256": "5f596e78052db8232a075461cc83843be07affd21b8f0bb9e5e99bbc2fbcd962",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/check_generalizations.py",
+    "original_path": "paper/check_generalizations.py",
+    "category": "paper-analysis",
+    "source_sha256": "8d184acbea381cfae024505a4c5ed62451db7dda0ee1019fd3f91695e5baa9ef",
+    "export_sha256": "8d184acbea381cfae024505a4c5ed62451db7dda0ee1019fd3f91695e5baa9ef",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/check_retail_theory.py",
+    "original_path": "paper/check_retail_theory.py",
+    "category": "paper-analysis",
+    "source_sha256": "f2e886441b33b21b74bf5868d66c7711e725dc89f5104b82774bcab15a4bc931",
+    "export_sha256": "f2e886441b33b21b74bf5868d66c7711e725dc89f5104b82774bcab15a4bc931",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/SHA256SUMS",
+    "original_path": "paper/evidence/SHA256SUMS",
+    "category": "paper-analysis",
+    "source_sha256": "137d54367f164cf352dd8ef9803dcbc2d85b5cdfb591b3a57e8f7469e4b56b5e",
+    "export_sha256": "137d54367f164cf352dd8ef9803dcbc2d85b5cdfb591b3a57e8f7469e4b56b5e",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/bootstrap-inputs.json",
+    "original_path": "paper/evidence/bootstrap-inputs.json",
+    "category": "paper-analysis",
+    "source_sha256": "e0a96d1791ae920527daf83ac5e4c7a7de10b7ab0110dfcaf95ed92b4708baa1",
+    "export_sha256": "e0a96d1791ae920527daf83ac5e4c7a7de10b7ab0110dfcaf95ed92b4708baa1",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/bootstrap-receipt.json",
+    "original_path": "paper/evidence/bootstrap-receipt.json",
+    "category": "paper-analysis",
+    "source_sha256": "6e0cbfb860a772980b06c16164db9dbb82a810421d9789a8611280418414a5fc",
+    "export_sha256": "6e0cbfb860a772980b06c16164db9dbb82a810421d9789a8611280418414a5fc",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/bootstrap-reference-replay.json",
+    "original_path": "paper/evidence/bootstrap-reference-replay.json",
+    "category": "paper-analysis",
+    "source_sha256": "ba59298d15ed8d8d2c555a27fa4d66af37cd5d9d69b4de22ee09a4fcc8d9b10e",
+    "export_sha256": "ba59298d15ed8d8d2c555a27fa4d66af37cd5d9d69b4de22ee09a4fcc8d9b10e",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/bootstrap-results.json",
+    "original_path": "paper/evidence/bootstrap-results.json",
+    "category": "paper-analysis",
+    "source_sha256": "07a5504c58a34bc8d4b9502d907476c927d214d0a054b2a2aef70369fedb4c47",
+    "export_sha256": "07a5504c58a34bc8d4b9502d907476c927d214d0a054b2a2aef70369fedb4c47",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/current-abstract.json",
+    "original_path": "paper/evidence/current-abstract.json",
+    "category": "paper-analysis",
+    "source_sha256": "dd981cfcd506d69f0947eeae1cc8acbf087110040f1b9e58b1848f6bcc95364b",
+    "export_sha256": "dd981cfcd506d69f0947eeae1cc8acbf087110040f1b9e58b1848f6bcc95364b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/menu-window-counts.json",
+    "original_path": "paper/evidence/menu-window-counts.json",
+    "category": "paper-analysis",
+    "source_sha256": "596729d1bb72d5ae390ea0b34265915f822bd9ed563a2cdd5577a0b24b9b9a30",
+    "export_sha256": "596729d1bb72d5ae390ea0b34265915f822bd9ed563a2cdd5577a0b24b9b9a30",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/pilot-format-counts.json",
+    "original_path": "paper/evidence/pilot-format-counts.json",
+    "category": "paper-analysis",
+    "source_sha256": "800156176cf220d5c7426fa34dbe2d93e1d60817758740afcc75b56922e8870a",
+    "export_sha256": "800156176cf220d5c7426fa34dbe2d93e1d60817758740afcc75b56922e8870a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/protocol-timeline.json",
+    "original_path": "paper/evidence/protocol-timeline.json",
+    "category": "paper-analysis",
+    "source_sha256": "167681905da71fe6ee22833afd838646aee86283644c569f4131af7d779f1e0a",
+    "export_sha256": "167681905da71fe6ee22833afd838646aee86283644c569f4131af7d779f1e0a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/registered-abstract.json",
+    "original_path": "paper/evidence/registered-abstract.json",
+    "category": "paper-analysis",
+    "source_sha256": "d1202be8edfedab7e8ce8c508cbddbd209d99b16ccb0cbfde1a32f0a762bec6c",
+    "export_sha256": "d1202be8edfedab7e8ce8c508cbddbd209d99b16ccb0cbfde1a32f0a762bec6c",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/restricted-menu-counts.json",
+    "original_path": "paper/evidence/restricted-menu-counts.json",
+    "category": "paper-analysis",
+    "source_sha256": "943b12ff7c7957d9447a562667c08e2a4e44ef3de8e006fcf359d979c858daee",
+    "export_sha256": "943b12ff7c7957d9447a562667c08e2a4e44ef3de8e006fcf359d979c858daee",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-a100-resources-1-2026-10-24.tsv",
+    "original_path": "paper/evidence/results/lean-a100-resources-1-2026-10-24.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "331c2056bdce6ed0cc4904ca891ab2c9ad8b68fbfa35ccdbfdce7266e039e545",
+    "export_sha256": "331c2056bdce6ed0cc4904ca891ab2c9ad8b68fbfa35ccdbfdce7266e039e545",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-a100-resources-2-2026-10-25.tsv",
+    "original_path": "paper/evidence/results/lean-a100-resources-2-2026-10-25.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "47cc1774e65afae1d8963f262a1b8a77b1c5b016d6f13e3f26b677df1573658a",
+    "export_sha256": "47cc1774e65afae1d8963f262a1b8a77b1c5b016d6f13e3f26b677df1573658a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-a100-theory-2-2026-10-24.tsv",
+    "original_path": "paper/evidence/results/lean-a100-theory-2-2026-10-24.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "b81ace06fd57277125f0152e021d0b392fa62959d992de01d510865e4c477064",
+    "export_sha256": "b81ace06fd57277125f0152e021d0b392fa62959d992de01d510865e4c477064",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-a100-theory-3-2026-10-25.tsv",
+    "original_path": "paper/evidence/results/lean-a100-theory-3-2026-10-25.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "20b4e519bb26651fc3cfbc95b1c9fa5be90ac9c6a148158bd31c91677e71a36b",
+    "export_sha256": "20b4e519bb26651fc3cfbc95b1c9fa5be90ac9c6a148158bd31c91677e71a36b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-main-resources-4-2026-10-23.tsv",
+    "original_path": "paper/evidence/results/lean-main-resources-4-2026-10-23.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "f3f03c78d9c228eaa6ff18b39c094d22d8d12bfb974469846837516626eea32e",
+    "export_sha256": "f3f03c78d9c228eaa6ff18b39c094d22d8d12bfb974469846837516626eea32e",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-main-theory-5-2026-10-24.tsv",
+    "original_path": "paper/evidence/results/lean-main-theory-5-2026-10-24.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "b82f5c7ed9acbb719b0b4870152cf8ff7b546430c71430f8d17e9d0bf3a4d830",
+    "export_sha256": "b82f5c7ed9acbb719b0b4870152cf8ff7b546430c71430f8d17e9d0bf3a4d830",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-service-resources-1-2026-10-24.tsv",
+    "original_path": "paper/evidence/results/lean-service-resources-1-2026-10-24.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "b2aa64c2b890a19fb9ef7d4d03f312f373f1f5102e480461bc28d381f78186cd",
+    "export_sha256": "b2aa64c2b890a19fb9ef7d4d03f312f373f1f5102e480461bc28d381f78186cd",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-service-resources-2-2026-10-25.tsv",
+    "original_path": "paper/evidence/results/lean-service-resources-2-2026-10-25.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "e6284f2cfd9d9d72e4f3d49649a96afe376157d050bbf7934d50d39937010edc",
+    "export_sha256": "e6284f2cfd9d9d72e4f3d49649a96afe376157d050bbf7934d50d39937010edc",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-service-theory-2-2026-10-24.tsv",
+    "original_path": "paper/evidence/results/lean-service-theory-2-2026-10-24.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "1358a7b525f32655508e6c37678c7deb19ff7d9a440da932cb258479e9629d9a",
+    "export_sha256": "1358a7b525f32655508e6c37678c7deb19ff7d9a440da932cb258479e9629d9a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results/lean-service-theory-3-2026-10-25.tsv",
+    "original_path": "paper/evidence/results/lean-service-theory-3-2026-10-25.tsv",
+    "category": "paper-analysis",
+    "source_sha256": "2e565c48223265f758f5152fc750afe29571c90888670d4c4f046b229c05132d",
+    "export_sha256": "2e565c48223265f758f5152fc750afe29571c90888670d4c4f046b229c05132d",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/results-manifest.json",
+    "original_path": "paper/evidence/results-manifest.json",
+    "category": "paper-analysis",
+    "source_sha256": "9974b99bb5deb7da437302869ca993de1103dceb4a52dff59b238ed98a11d0a3",
+    "export_sha256": "9974b99bb5deb7da437302869ca993de1103dceb4a52dff59b238ed98a11d0a3",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/retail-pricing-inputs.json",
+    "original_path": "paper/evidence/retail-pricing-inputs.json",
+    "category": "paper-analysis",
+    "source_sha256": "4b3c18d03acd18c7a68f3cafdd08c1fb26636a753096030b303e39c947e50fcf",
+    "export_sha256": "4b3c18d03acd18c7a68f3cafdd08c1fb26636a753096030b303e39c947e50fcf",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/retail-pricing-reference.json",
+    "original_path": "paper/evidence/retail-pricing-reference.json",
+    "category": "paper-analysis",
+    "source_sha256": "69552ff88b59acbdf4ffd577fa0bc617225ae380b20b0342a1e44035cd6dc992",
+    "export_sha256": "69552ff88b59acbdf4ffd577fa0bc617225ae380b20b0342a1e44035cd6dc992",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/evidence/service-followup-provenance.json",
+    "original_path": "paper/evidence/service-followup-provenance.json",
+    "category": "paper-analysis",
+    "source_sha256": "44d8059444b01f42ea6c7600e76dab30ea6f9a7ab5b31d6d81f0928671ad802b",
+    "export_sha256": "44d8059444b01f42ea6c7600e76dab30ea6f9a7ab5b31d6d81f0928671ad802b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/figures/src/delivery-composition.tex",
+    "original_path": "paper/figures/src/delivery-composition.tex",
+    "category": "paper-analysis",
+    "source_sha256": "ca74b26668bcebd823c1e950f37d79f8d3a74601a2da3d5511e523363a2b38a2",
+    "export_sha256": "ca74b26668bcebd823c1e950f37d79f8d3a74601a2da3d5511e523363a2b38a2",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/figures/src/pricing-phase-template.tex",
+    "original_path": "paper/figures/src/pricing-phase-template.tex",
+    "category": "paper-analysis",
+    "source_sha256": "6403324bbb04e191578daadc0103a8837bbaecf9eed3f8579a6eb473478986bf",
+    "export_sha256": "6403324bbb04e191578daadc0103a8837bbaecf9eed3f8579a6eb473478986bf",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/figures/src/pricing-phase.tex",
+    "original_path": "paper/figures/src/pricing-phase.tex",
+    "category": "paper-analysis",
+    "source_sha256": "0e7389dc978268b310679bc659dfe406dd22e0d569e48c683d18669a86779c95",
+    "export_sha256": "0e7389dc978268b310679bc659dfe406dd22e0d569e48c683d18669a86779c95",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/figures/src/supplier-profits.tex",
+    "original_path": "paper/figures/src/supplier-profits.tex",
+    "category": "paper-analysis",
+    "source_sha256": "2d5ed4e1273f495cd652bd146a7b65f21de3a5cfabe680d268e4de930d4791d9",
+    "export_sha256": "2d5ed4e1273f495cd652bd146a7b65f21de3a5cfabe680d268e4de930d4791d9",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/figures/src/threshold-coefficients.tex",
+    "original_path": "paper/figures/src/threshold-coefficients.tex",
+    "category": "paper-analysis",
+    "source_sha256": "f4abefab81ab6efb39aeec1c4952260cb91575fa731efd4572edfcc4b4459308",
+    "export_sha256": "f4abefab81ab6efb39aeec1c4952260cb91575fa731efd4572edfcc4b4459308",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/make_result_tables.py",
+    "original_path": "paper/make_result_tables.py",
+    "category": "paper-analysis",
+    "source_sha256": "b1336e17ea97ba286978e9a1bae38217397e6095cdedc083388fabf8dd179bfa",
+    "export_sha256": "b1336e17ea97ba286978e9a1bae38217397e6095cdedc083388fabf8dd179bfa",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/result_evidence.py",
+    "original_path": "paper/result_evidence.py",
+    "category": "paper-analysis",
+    "source_sha256": "09e2dd44e43d1755025d525290dcc43212a0147eb20105dd493418fefa2258ef",
+    "export_sha256": "09e2dd44e43d1755025d525290dcc43212a0147eb20105dd493418fefa2258ef",
+    "site_identifier_substitutions": false,
+    "public_release_sha256": "e4498203f3e74e19ecbcdb4d634ce9d76312849feb7e520acf139b90f815c6e5",
+    "public_release_edit": "Removed the comparison of the stored owner-approved abstract with the manuscript's main.tex, which is not part of this repository."
+  },
+  {
+    "path": "analysis/retail_result_figures.py",
+    "original_path": "paper/retail_result_figures.py",
+    "category": "paper-analysis",
+    "source_sha256": "b3bc6b7e77737aea5fde5276ded73258cc7e360f8dc2439d4c30465094bbba1a",
+    "export_sha256": "b3bc6b7e77737aea5fde5276ded73258cc7e360f8dc2439d4c30465094bbba1a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/retail_result_tables.py",
+    "original_path": "paper/retail_result_tables.py",
+    "category": "paper-analysis",
+    "source_sha256": "46db67ad20e688116d5449f41352f5dc9467fbf6ee9bf5cd65331ac92104daca",
+    "export_sha256": "46db67ad20e688116d5449f41352f5dc9467fbf6ee9bf5cd65331ac92104daca",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/service_result_tables.py",
+    "original_path": "paper/service_result_tables.py",
+    "category": "paper-analysis",
+    "source_sha256": "5e66a310e3f401e42805117af98fb30968e5598751f5afac86891d0464920a12",
+    "export_sha256": "5e66a310e3f401e42805117af98fb30968e5598751f5afac86891d0464920a12",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/a100-followup.tex",
+    "original_path": "paper/tables/a100-followup.tex",
+    "category": "paper-analysis",
+    "source_sha256": "95763e29f8f08c0d48ab15c7e62683510a9c228d9a4b67c415a4f88f33a5cb74",
+    "export_sha256": "95763e29f8f08c0d48ab15c7e62683510a9c228d9a4b67c415a4f88f33a5cb74",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/bootstrap-budget.tex",
+    "original_path": "paper/tables/bootstrap-budget.tex",
+    "category": "paper-analysis",
+    "source_sha256": "99e79e9b434d075a5af4e8e40edfffc92ed9c261a60cc387118d6a2384fe3b4b",
+    "export_sha256": "99e79e9b434d075a5af4e8e40edfffc92ed9c261a60cc387118d6a2384fe3b4b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/bootstrap-h2.tex",
+    "original_path": "paper/tables/bootstrap-h2.tex",
+    "category": "paper-analysis",
+    "source_sha256": "da8b7a0d2e663fda7bec50eb3bf4c3a122eddf47a2283deb48acef50200b1141",
+    "export_sha256": "da8b7a0d2e663fda7bec50eb3bf4c3a122eddf47a2283deb48acef50200b1141",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/energy.tex",
+    "original_path": "paper/tables/energy.tex",
+    "category": "paper-analysis",
+    "source_sha256": "aad61edd327c241d665bf66cfda3f175075cbdaf870919591ecb9e43ecd78a31",
+    "export_sha256": "aad61edd327c241d665bf66cfda3f175075cbdaf870919591ecb9e43ecd78a31",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/h1.tex",
+    "original_path": "paper/tables/h1.tex",
+    "category": "paper-analysis",
+    "source_sha256": "612195f048074642bf11b7ed956f5265d6dd7f4614130386461750772a2fd0c2",
+    "export_sha256": "612195f048074642bf11b7ed956f5265d6dd7f4614130386461750772a2fd0c2",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/h3.tex",
+    "original_path": "paper/tables/h3.tex",
+    "category": "paper-analysis",
+    "source_sha256": "79238eb3c638719cd1c2b115fc2f975553eba701c6cc3b3168431a4e63d6d5ea",
+    "export_sha256": "79238eb3c638719cd1c2b115fc2f975553eba701c6cc3b3168431a4e63d6d5ea",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/margin.tex",
+    "original_path": "paper/tables/margin.tex",
+    "category": "paper-analysis",
+    "source_sha256": "bc0998bcaf8e277afdac14d1ad142d18fc9b317b634d07b257aade508c338a22",
+    "export_sha256": "bc0998bcaf8e277afdac14d1ad142d18fc9b317b634d07b257aade508c338a22",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/numbers.tex",
+    "original_path": "paper/tables/numbers.tex",
+    "category": "paper-analysis",
+    "source_sha256": "c3af64a84c3e761cda70976bda69f8956f7e18c64894fa301d1ea3a5390b313b",
+    "export_sha256": "c3af64a84c3e761cda70976bda69f8956f7e18c64894fa301d1ea3a5390b313b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/quality.tex",
+    "original_path": "paper/tables/quality.tex",
+    "category": "paper-analysis",
+    "source_sha256": "6b4b5ed201b8a99f179fbdeecced3ff82b746faae8fcd3e49ce06f6ef29f6568",
+    "export_sha256": "6b4b5ed201b8a99f179fbdeecced3ff82b746faae8fcd3e49ce06f6ef29f6568",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/replicates.tex",
+    "original_path": "paper/tables/replicates.tex",
+    "category": "paper-analysis",
+    "source_sha256": "15f1e05e98e1d69008bbe5f8c62e0973342dde91b5e290a3c21d298cc6f95946",
+    "export_sha256": "15f1e05e98e1d69008bbe5f8c62e0973342dde91b5e290a3c21d298cc6f95946",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/retail-decisions.tex",
+    "original_path": "paper/tables/retail-decisions.tex",
+    "category": "paper-analysis",
+    "source_sha256": "8626842a733c28dd2975ece1fccfc18d32e8e0642520d28fc17e5662b0f2e6a9",
+    "export_sha256": "8626842a733c28dd2975ece1fccfc18d32e8e0642520d28fc17e5662b0f2e6a9",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/retail-payoffs.tex",
+    "original_path": "paper/tables/retail-payoffs.tex",
+    "category": "paper-analysis",
+    "source_sha256": "b23d311e6548a748ae3e27c2caed448f8ccf60addec795eb4ee843a69d9cfe03",
+    "export_sha256": "b23d311e6548a748ae3e27c2caed448f8ccf60addec795eb4ee843a69d9cfe03",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/retail-profiles.tex",
+    "original_path": "paper/tables/retail-profiles.tex",
+    "category": "paper-analysis",
+    "source_sha256": "1729b5ecba24a916cebd160d2984eb12efddd132fa68cf148f5bede8b55ead6e",
+    "export_sha256": "1729b5ecba24a916cebd160d2984eb12efddd132fa68cf148f5bede8b55ead6e",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/retail-sensitivity.tex",
+    "original_path": "paper/tables/retail-sensitivity.tex",
+    "category": "paper-analysis",
+    "source_sha256": "387a966925183723c33e26edb46dfd72e0815f71f468e410c6d3bc2c3916d5bb",
+    "export_sha256": "387a966925183723c33e26edb46dfd72e0815f71f468e410c6d3bc2c3916d5bb",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/retail-thresholds.tex",
+    "original_path": "paper/tables/retail-thresholds.tex",
+    "category": "paper-analysis",
+    "source_sha256": "89a40ebe547aa2e2a147627131f42c8d05f4536e5461567bfeebd1f90d1cdc10",
+    "export_sha256": "89a40ebe547aa2e2a147627131f42c8d05f4536e5461567bfeebd1f90d1cdc10",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/retail-unquoted.tex",
+    "original_path": "paper/tables/retail-unquoted.tex",
+    "category": "paper-analysis",
+    "source_sha256": "7975d6f2867320b549c42700b677efd83896bb046ce37e0f447811a783707287",
+    "export_sha256": "7975d6f2867320b549c42700b677efd83896bb046ce37e0f447811a783707287",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/service-energy.tex",
+    "original_path": "paper/tables/service-energy.tex",
+    "category": "paper-analysis",
+    "source_sha256": "6841be3128efb2e0791a67bdbc424ebff3bc29c4fe731ef435a2fc487d46e49a",
+    "export_sha256": "6841be3128efb2e0791a67bdbc424ebff3bc29c4fe731ef435a2fc487d46e49a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/service-financial.tex",
+    "original_path": "paper/tables/service-financial.tex",
+    "category": "paper-analysis",
+    "source_sha256": "4deb75afaa69c226eef373093140f7fd0182d5dd3e231477ec9619c035999bc5",
+    "export_sha256": "4deb75afaa69c226eef373093140f7fd0182d5dd3e231477ec9619c035999bc5",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/service-h1.tex",
+    "original_path": "paper/tables/service-h1.tex",
+    "category": "paper-analysis",
+    "source_sha256": "5cb8db6bdb5a70e232815f1ba6acf7dfca1e8cd7c025fb99dcc2265e777bb5d2",
+    "export_sha256": "5cb8db6bdb5a70e232815f1ba6acf7dfca1e8cd7c025fb99dcc2265e777bb5d2",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/service-h2.tex",
+    "original_path": "paper/tables/service-h2.tex",
+    "category": "paper-analysis",
+    "source_sha256": "db877208bd382563936bad37893184add9c77c03345e6f270ba28e1ddfe97362",
+    "export_sha256": "db877208bd382563936bad37893184add9c77c03345e6f270ba28e1ddfe97362",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/service-quality.tex",
+    "original_path": "paper/tables/service-quality.tex",
+    "category": "paper-analysis",
+    "source_sha256": "a2003bd05e3c251354c8c932cf7e5289aa37b970adefe34975563158266fd04b",
+    "export_sha256": "a2003bd05e3c251354c8c932cf7e5289aa37b970adefe34975563158266fd04b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/tables/service.tex",
+    "original_path": "paper/tables/service.tex",
+    "category": "paper-analysis",
+    "source_sha256": "0c5e66b851eca4b64827076bfcf7a0c31cb9df2ef284105732953ce390052060",
+    "export_sha256": "0c5e66b851eca4b64827076bfcf7a0c31cb9df2ef284105732953ce390052060",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/test_bootstrap_pairs.py",
+    "original_path": "paper/test_bootstrap_pairs.py",
+    "category": "paper-analysis",
+    "source_sha256": "5dce635fbada4973b67265d8b9046ee9198dfaa838a6995a1998bffbd4fb0d8d",
+    "export_sha256": "5dce635fbada4973b67265d8b9046ee9198dfaa838a6995a1998bffbd4fb0d8d",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/test_result_evidence.py",
+    "original_path": "paper/test_result_evidence.py",
+    "category": "paper-analysis",
+    "source_sha256": "afbff3a8d87c2a882290eb7958ab649d1aa5caa414cf4971259ca5acb3afa046",
+    "export_sha256": "afbff3a8d87c2a882290eb7958ab649d1aa5caa414cf4971259ca5acb3afa046",
+    "site_identifier_substitutions": false,
+    "public_release_sha256": "a3282a615efa1f16ab4fe4a51964e1c3dc6f58d8bca9af10b7a6900e1793ad1b",
+    "public_release_edit": "Removed the main.tex copy and the test of that abstract comparison."
+  },
+  {
+    "path": "analysis/test_retail_result_tables.py",
+    "original_path": "paper/test_retail_result_tables.py",
+    "category": "paper-analysis",
+    "source_sha256": "122991af81890a8fe13e47636f7cb5a409fb8f86dd71d281da052e8c6bdbbed5",
+    "export_sha256": "122991af81890a8fe13e47636f7cb5a409fb8f86dd71d281da052e8c6bdbbed5",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/test_service_result_tables.py",
+    "original_path": "paper/test_service_result_tables.py",
+    "category": "paper-analysis",
+    "source_sha256": "be74e76cafd472b9fee45676f8ed4fee797f13298a5ddbcbdcd06a14331aff99",
+    "export_sha256": "be74e76cafd472b9fee45676f8ed4fee797f13298a5ddbcbdcd06a14331aff99",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "analysis/verify_bootstrap_reference.py",
+    "original_path": "paper/verify_bootstrap_reference.py",
+    "category": "paper-analysis",
+    "source_sha256": "3bba0e28b448e43a33ace532540aa725c8cccefde0e9677e0efdd6ff8d0b3172",
+    "export_sha256": "3bba0e28b448e43a33ace532540aa725c8cccefde0e9677e0efdd6ff8d0b3172",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/box_certification.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "9ebdcb6af5506fd6ffc860c32905449748006017348ea4db11bd18794b70c20f",
+    "export_sha256": "9ebdcb6af5506fd6ffc860c32905449748006017348ea4db11bd18794b70c20f",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_admission.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "667011e318f58a04b8fb8b0e34320688355070eb7ebd8b154225a8d39ef74e78",
+    "export_sha256": "1d8e5f75bb05c076f2dad3146acba842dc4c289dc188963e1dcf3b46029cddb8",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_admission_report.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "3f637545bc983f781b88dae5c92862200f0187d54e5f351fd33c9c8e46be0329",
+    "export_sha256": "3f637545bc983f781b88dae5c92862200f0187d54e5f351fd33c9c8e46be0329",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_admission_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "6f05b1c320e9de9c684d0bdff58c10042b3c8eb91d74637be70c1463a8bb11ac",
+    "export_sha256": "6f05b1c320e9de9c684d0bdff58c10042b3c8eb91d74637be70c1463a8bb11ac",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_admission_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "bcd239b5583aab6db3a63ca1294c62c0625deeb7e88887a7b1e6c841d32faaf3",
+    "export_sha256": "bcd239b5583aab6db3a63ca1294c62c0625deeb7e88887a7b1e6c841d32faaf3",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_cache_observation.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "c3dd944e7f24bfdca4a38d9a91a404523922062e422d8db26923336b377dd9e9",
+    "export_sha256": "c3dd944e7f24bfdca4a38d9a91a404523922062e422d8db26923336b377dd9e9",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_cap_policy.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "9b86d52d6ca1351d8d0dadf8ad404c841977c3edb74218c93fcba8623ad9fba2",
+    "export_sha256": "9b86d52d6ca1351d8d0dadf8ad404c841977c3edb74218c93fcba8623ad9fba2",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_cap_policy_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "1005d088e4476808c9f42b7b157c8091a6619eea7c9dfd6b8c9d9160cacf01a1",
+    "export_sha256": "1005d088e4476808c9f42b7b157c8091a6619eea7c9dfd6b8c9d9160cacf01a1",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_collector.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "15c04255c9be6a7d94adb0fef50e57f11868e0124ab4fb3d1f8b713e6f2b7422",
+    "export_sha256": "15c04255c9be6a7d94adb0fef50e57f11868e0124ab4fb3d1f8b713e6f2b7422",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_cpu.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "87bb2311bdfc1ac83132e1cf093961fd9b7bfe84e0dc4fd27d654e165b17e652",
+    "export_sha256": "87bb2311bdfc1ac83132e1cf093961fd9b7bfe84e0dc4fd27d654e165b17e652",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_delivery.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "c0504cc25ee71ab76f03430e5385e6c08f476b34da30f85fe01c0aefb536e7f7",
+    "export_sha256": "c0504cc25ee71ab76f03430e5385e6c08f476b34da30f85fe01c0aefb536e7f7",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_feasibility.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "64930d2a6ebf00efe46dd4d7cb61e873472ddba9ebc28d56379d3904c59ede59",
+    "export_sha256": "64930d2a6ebf00efe46dd4d7cb61e873472ddba9ebc28d56379d3904c59ede59",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_generation_report.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "e248f30a1aca33e494028b89de823a510b13660d40f38fb6bc03cdd5954fc3b8",
+    "export_sha256": "e248f30a1aca33e494028b89de823a510b13660d40f38fb6bc03cdd5954fc3b8",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_assets_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "e9d1e71c84762bcfc7a8c921fae7888218bd421c43a3ebbfcb14b544c5db603b",
+    "export_sha256": "e9d1e71c84762bcfc7a8c921fae7888218bd421c43a3ebbfcb14b544c5db603b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_backend_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "3feed4103bc4f797ed3454a958a6e2747c7aae332c2a49e74eeefb75a0dca465",
+    "export_sha256": "3feed4103bc4f797ed3454a958a6e2747c7aae332c2a49e74eeefb75a0dca465",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_backend_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "aace9fb3c800e4b153b0acd6eb7b0f52f1b58e1c9716c74f736348e55df1b0a3",
+    "export_sha256": "aace9fb3c800e4b153b0acd6eb7b0f52f1b58e1c9716c74f736348e55df1b0a3",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_batch_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "9dc294672aa72c92a8e0dc3b63fa0a7caa5c93f8b06240f5f5d09bb0d7576c99",
+    "export_sha256": "9dc294672aa72c92a8e0dc3b63fa0a7caa5c93f8b06240f5f5d09bb0d7576c99",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_batch_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "74f393515a2945f4724a803a6c107fa360667e59bef9ec925856ee5f1a523172",
+    "export_sha256": "c6cde33f6e4ec8da4bb49ffa907c69d9a35d3cc215495b669882f7e346eb2ef6",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_control_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "b8b706d3ad00fc5f7bc93832c38783db0a38db427ad5d6e9e2e16b428a153a17",
+    "export_sha256": "b8b706d3ad00fc5f7bc93832c38783db0a38db427ad5d6e9e2e16b428a153a17",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_control_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "394cd6b65ee0c5b060cc6c917168e04f4a55c5261cccaa9dee035f5145e95ae9",
+    "export_sha256": "394cd6b65ee0c5b060cc6c917168e04f4a55c5261cccaa9dee035f5145e95ae9",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_meter_export_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "bb008dce114d0800126a957b6d7b389b8855b3d1b574343c8d0c38ca27e5d11e",
+    "export_sha256": "bb008dce114d0800126a957b6d7b389b8855b3d1b574343c8d0c38ca27e5d11e",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_meter_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "25c49aa533c97cdec8bae9523c862503813846a859775dc09f1184f408a68bb7",
+    "export_sha256": "25c49aa533c97cdec8bae9523c862503813846a859775dc09f1184f408a68bb7",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_meter_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "d850248372b5a71deb9331111228aac0a748e69c836758b38150db7c0bfac9fc",
+    "export_sha256": "d850248372b5a71deb9331111228aac0a748e69c836758b38150db7c0bfac9fc",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_native_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "f0182f4644194f103e3564307ae190e76c77c35daf289cecef8458050eb7b66f",
+    "export_sha256": "02a0fcbc1022031049c8adb2fda34d8e538ffdd3d9c4a868cd5ad82ef3ffccd0",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_owner_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "4e7df6c466e7b116bbc4f55821081f24d632cb72c7adef67090f146e1b9baeb6",
+    "export_sha256": "4e7df6c466e7b116bbc4f55821081f24d632cb72c7adef67090f146e1b9baeb6",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_owner_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "463829382aa0fc9c51d0d228318760d3f21e255e1e432e3f3f1629dfc7aa3bda",
+    "export_sha256": "463829382aa0fc9c51d0d228318760d3f21e255e1e432e3f3f1629dfc7aa3bda",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_release_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "36d674d976deb74c17081dfcda9064fcca7195756dead6e9010e84960f0f20bd",
+    "export_sha256": "36d674d976deb74c17081dfcda9064fcca7195756dead6e9010e84960f0f20bd",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_release_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "66f7dce1b3ac7dffefdaef88287630b8cc84f4b5d5367cb3da1355851397fdd9",
+    "export_sha256": "66f7dce1b3ac7dffefdaef88287630b8cc84f4b5d5367cb3da1355851397fdd9",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_return_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "cd530ea0057f6ee6a1de57283803458ccabe110a4e7a952621f40c21ae84dc09",
+    "export_sha256": "cd530ea0057f6ee6a1de57283803458ccabe110a4e7a952621f40c21ae84dc09",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_roles_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "56b9f7a36a9d709e6cba250111ef7edb404411570e1c03be7265493f4d7c8f34",
+    "export_sha256": "56b9f7a36a9d709e6cba250111ef7edb404411570e1c03be7265493f4d7c8f34",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_runtime_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "c66a5c604797ebbf2e2195768e957c2903eb9f840989c9f72b0a94cc0eb4d237",
+    "export_sha256": "c66a5c604797ebbf2e2195768e957c2903eb9f840989c9f72b0a94cc0eb4d237",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_isolation_schedule_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "ff3e842a8de2280d79a89bd6de015c24ef7cd891c7044f6c774f9845f7a748c8",
+    "export_sha256": "ff3e842a8de2280d79a89bd6de015c24ef7cd891c7044f6c774f9845f7a748c8",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_lifecycle.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "a66b1f515df926de18847d4a355e2b632e9a8bc4ae7e17cac09884ab0a659f63",
+    "export_sha256": "a66b1f515df926de18847d4a355e2b632e9a8bc4ae7e17cac09884ab0a659f63",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_live_metering.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "653192f5b500de0d005fec214bc288ceb166d2252bae7fe5610b440b004cb068",
+    "export_sha256": "653192f5b500de0d005fec214bc288ceb166d2252bae7fe5610b440b004cb068",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_manifest.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "ed1ae2f1798bff923222f4d764dd7dceaf4c5ff299028ee16be8218ddd3ffd7e",
+    "export_sha256": "ed1ae2f1798bff923222f4d764dd7dceaf4c5ff299028ee16be8218ddd3ffd7e",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_metering.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "494411a351a2be28642ef3a167bc6668074ffdcb0bc3bbb8dc0253aef7472291",
+    "export_sha256": "494411a351a2be28642ef3a167bc6668074ffdcb0bc3bbb8dc0253aef7472291",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_native_generation.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "eafa974c200aa68cd76d91ea820118b42f044c643305cfb99783f79dac720f77",
+    "export_sha256": "eafa974c200aa68cd76d91ea820118b42f044c643305cfb99783f79dac720f77",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_analysis.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "3c3d8b024a2a19df5701aaec88db4f052bc421534b6204da1e2b1c500fa49642",
+    "export_sha256": "3c3d8b024a2a19df5701aaec88db4f052bc421534b6204da1e2b1c500fa49642",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_config.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "0136f39aa05eaf8177aa5579bcf26a2d6f4da2b4a66afb3918198c7b27a44098",
+    "export_sha256": "0136f39aa05eaf8177aa5579bcf26a2d6f4da2b4a66afb3918198c7b27a44098",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_extract.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "7af8d06fd1ef5522b906092c64e5c2a1f88e5adc915ac25a5c07426bd9de16ee",
+    "export_sha256": "7af8d06fd1ef5522b906092c64e5c2a1f88e5adc915ac25a5c07426bd9de16ee",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_gather.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "e2b3e76c8e3bb96e64b6f4219461553c4a3f8f7f758d56c2431f178c377b501d",
+    "export_sha256": "61597ef7b46df4893e21969b06a0d033624008b006aac4588c711c710243aa7f",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_progress.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "6e0e1dfe87b370f1f96db2767e344eaabcf77671a9fa0d6e90de88aaa2bb94e5",
+    "export_sha256": "dff0356e8c3297436731da9f5944c007fbe9e963c451906130603c819df7e555",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_request.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "e9a6974553ed155bc82163d9972413979ebbf8b4cf4bd4e53530c6e186f24b35",
+    "export_sha256": "6a773c1d2e187795b3c7afae79a164d1f430e4bd0e0c54cc026fef52f5927cea",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_saturation.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "b83186ec82c42eb59559df473d2d15c3071aa9678005d5a017e1c692a04e52c5",
+    "export_sha256": "b83186ec82c42eb59559df473d2d15c3071aa9678005d5a017e1c692a04e52c5",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_service_check.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "b5f8284e85e6db80c439c30ce6fdd57c883e8cee530ef7350aa24eb92a132611",
+    "export_sha256": "b5f8284e85e6db80c439c30ce6fdd57c883e8cee530ef7350aa24eb92a132611",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_summary.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "f0550555e2029e271fbc42c373e5eafbb821efbca4557018485905494281b467",
+    "export_sha256": "f0550555e2029e271fbc42c373e5eafbb821efbca4557018485905494281b467",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_theory.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "87393cc5cf7808e4d76c2390b3280678659835c7bfb9e706f81a85f01d791099",
+    "export_sha256": "87393cc5cf7808e4d76c2390b3280678659835c7bfb9e706f81a85f01d791099",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_lean_workload.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "46e801bf310109fdd36f469713396a71931defbe92f16f6cef11dd3e8deff67c",
+    "export_sha256": "5a027ad07728b97a2f86f455987dc5ea0a544d5461b757a6f17c7dc225ca2b34",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_ngpu_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "aadebd57859f7e580d22f57e4c6e2b4d6f9a35fdbfa50d08ecd448712d8989b4",
+    "export_sha256": "aadebd57859f7e580d22f57e4c6e2b4d6f9a35fdbfa50d08ecd448712d8989b4",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_output_compare.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "c58e06b84ecf2f6f4a24a1febcb32fc89da0ec55ed9238533304b84665d2362b",
+    "export_sha256": "c58e06b84ecf2f6f4a24a1febcb32fc89da0ec55ed9238533304b84665d2362b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_permission_assets_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "20043553653b241c262c9060c9311110cd4616a8414d337663c64df86c4c6d64",
+    "export_sha256": "57401a527feebcb9788ebc71b2a91c525e00cb7e2ce9fd7530aa2b46103b79a5",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_pilot_quality_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "a5a692869b8cbba57dc2963caae7d1011352184f54be59f84fd071427c6fdb50",
+    "export_sha256": "a5a692869b8cbba57dc2963caae7d1011352184f54be59f84fd071427c6fdb50",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_resources.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "455626407f29fcf4372a4aead3c8cfc3d512bee3301ef2adc3e6d1db7b9fd047",
+    "export_sha256": "455626407f29fcf4372a4aead3c8cfc3d512bee3301ef2adc3e6d1db7b9fd047",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_sandbox.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "f455d6a151733ad5d82b4366265a7b89012f6d67b51eac1b7dfb413b03a6fd9c",
+    "export_sha256": "f455d6a151733ad5d82b4366265a7b89012f6d67b51eac1b7dfb413b03a6fd9c",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_sandbox_runner.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "ae5da8105a965a5e655082929481b82ee5eb74f40221545dc60ff1cf5898d6e0",
+    "export_sha256": "ae5da8105a965a5e655082929481b82ee5eb74f40221545dc60ff1cf5898d6e0",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_seeds.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "5dc2a08b772ace9f71f1d0275f49d3d767abfeb9a234be45b78b6d3c1801e2d1",
+    "export_sha256": "5dc2a08b772ace9f71f1d0275f49d3d767abfeb9a234be45b78b6d3c1801e2d1",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_slurm_readonly_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "c5b5a4f9c5416ff9431984b3c8fca1f1749d2c5448a613c69e0091f1044f73ab",
+    "export_sha256": "c5b5a4f9c5416ff9431984b3c8fca1f1749d2c5448a613c69e0091f1044f73ab",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_supervision_release_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "2074f1391ba79b3ebbcee7c210f47ec2e2548b7af4ba86dc8b7039c65c6a0f50",
+    "export_sha256": "f797e1c73cee5774c34cc667eee1290627c57335ddf4442119f546d820909057",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_supervision_site_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "388e74e57da1ef97d80fd7e04d3fa9eae2e911f9b1ef8c02c65542940e0d9e1c",
+    "export_sha256": "388e74e57da1ef97d80fd7e04d3fa9eae2e911f9b1ef8c02c65542940e0d9e1c",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_supervisor_v3.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "683b74d4c01d055ff24b1a2727ba1e0d42868d644b913b891d9fe96182569e0d",
+    "export_sha256": "683b74d4c01d055ff24b1a2727ba1e0d42868d644b913b891d9fe96182569e0d",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_task_epilog_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "185c4526b1ee719796eab5c9c6b1adc33f44b09d4edfac1ddb0b8ae3c8383403",
+    "export_sha256": "185c4526b1ee719796eab5c9c6b1adc33f44b09d4edfac1ddb0b8ae3c8383403",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_timeout_revision.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "25dc3d54edfbd5440c7bd20f141fa0068a0bb53a7961a3c1418b4323e4e47c7c",
+    "export_sha256": "25dc3d54edfbd5440c7bd20f141fa0068a0bb53a7961a3c1418b4323e4e47c7c",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_timing.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "2399d2313040e47f4394bffe39d79a53e765d9e8ea0e655abd0fddde5fc51fa2",
+    "export_sha256": "2399d2313040e47f4394bffe39d79a53e765d9e8ea0e655abd0fddde5fc51fa2",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_worker_metering_v1.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "16fbeac33a8ebb2cebeaa1bab6fe6c69ba81a308c79b30e38d1b474f782c3f8f",
+    "export_sha256": "16fbeac33a8ebb2cebeaa1bab6fe6c69ba81a308c79b30e38d1b474f782c3f8f",
+    "site_identifier_substitutions": false,
+    "public_release_sha256": "a44369b96864ed363f3bc66c4fce03494fa7a1a517b740c9cb92f91c0aa5e80d",
+    "public_release_edit": "Removed a site name from the module docstring; code unchanged."
+  },
+  {
+    "path": "code/measurement/scripts/calibration/lcb_worker_metering_v2.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "093fda15cde85cbeb765f4fffa021bddd40268ae32356e64183cfe0514f09438",
+    "export_sha256": "093fda15cde85cbeb765f4fffa021bddd40268ae32356e64183cfe0514f09438",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/pilot.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "c2d23837dee41c4f7608730d99ef40b9f57dd7e4fc127927cbb6fda3a9b20ad8",
+    "export_sha256": "c2d23837dee41c4f7608730d99ef40b9f57dd7e4fc127927cbb6fda3a9b20ad8",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/pool_scheduler.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "b2198b261f2dd86fd7cbb8ec3d2644866d8f5ee6a9e590e0599d7c62bf0cb525",
+    "export_sha256": "b2198b261f2dd86fd7cbb8ec3d2644866d8f5ee6a9e590e0599d7c62bf0cb525",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/test_lean_analysis.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "7a4e00a793133ff5c744d3e9acead07b0e857ce79c10abb63bf738ae91891eb1",
+    "export_sha256": "7a4e00a793133ff5c744d3e9acead07b0e857ce79c10abb63bf738ae91891eb1",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/test_lean_theory.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "203663ce9b5cb7bc4b12f86cc55632fe269ec850e3ade4c354cf0ea27894aa87",
+    "export_sha256": "203663ce9b5cb7bc4b12f86cc55632fe269ec850e3ade4c354cf0ea27894aa87",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/theory_bootstrap.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "8c64ea46ed45d1aea4ec7751ece781773f445984445376a649b8c51d8aefee07",
+    "export_sha256": "8c64ea46ed45d1aea4ec7751ece781773f445984445376a649b8c51d8aefee07",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/theory_effects.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "e989c6b2b92accf9292546ddf09db162df9746c348243ac5357a678eabe4eae1",
+    "export_sha256": "e989c6b2b92accf9292546ddf09db162df9746c348243ac5357a678eabe4eae1",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/theory_estimands.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "2557003d9ddcd93cac52792bf363b945af63b9c8d4c96131c944ed6a4a4c8411",
+    "export_sha256": "2557003d9ddcd93cac52792bf363b945af63b9c8d4c96131c944ed6a4a4c8411",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/theory_panel.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "1b4f20484fe85971df63916249585f8420253fd134d2cc5f362a46b720603d98",
+    "export_sha256": "1b4f20484fe85971df63916249585f8420253fd134d2cc5f362a46b720603d98",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/thinking_market.py",
+    "category": "measurement-code-or-config",
+    "source_sha256": "ec93f3df885597267a5d48be65c340201c52c450adc0f83a5617dea72e1af81a",
+    "export_sha256": "ec93f3df885597267a5d48be65c340201c52c450adc0f83a5617dea72e1af81a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/native/fault_fixture_v1.c",
+    "category": "measurement-code-or-config",
+    "source_sha256": "f7eb8d51ed4303f1a6c7c03ce6ec3091482c621d3484add726404a5ce38e5c4b",
+    "export_sha256": "f7eb8d51ed4303f1a6c7c03ce6ec3091482c621d3484add726404a5ce38e5c4b",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/native/isolation_worker_v1.c",
+    "category": "measurement-code-or-config",
+    "source_sha256": "330ae3feeee2f60a38fe91542f5c52a464e6e5195d4317a4a01bea7bc3186bc5",
+    "export_sha256": "330ae3feeee2f60a38fe91542f5c52a464e6e5195d4317a4a01bea7bc3186bc5",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/native/rootless_permission.c",
+    "category": "measurement-code-or-config",
+    "source_sha256": "e9c1d2e4cb671de5f216553011a22df42197645647b6e2656509c88d65844e7a",
+    "export_sha256": "e9c1d2e4cb671de5f216553011a22df42197645647b6e2656509c88d65844e7a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/native/supervision_fixture.c",
+    "category": "measurement-code-or-config",
+    "source_sha256": "758f85dc08ac5fd816cef4648af61aa0347789bff1aeebfacea01b41504d8755",
+    "export_sha256": "758f85dc08ac5fd816cef4648af61aa0347789bff1aeebfacea01b41504d8755",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/native/isolation_worker_abi_v1.h",
+    "category": "measurement-code-or-config",
+    "source_sha256": "a7b069228e4f70390fc8a14467cd8eedb7bb4bb977949e94049812d9ab73e211",
+    "export_sha256": "a7b069228e4f70390fc8a14467cd8eedb7bb4bb977949e94049812d9ab73e211",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/scripts/calibration/native/rootless_permission_abi.h",
+    "category": "measurement-code-or-config",
+    "source_sha256": "d74be03fc55716cd4c4fbbd3d32c6f9672e03af309e74eb919522beec9ddd53a",
+    "export_sha256": "d74be03fc55716cd4c4fbbd3d32c6f9672e03af309e74eb919522beec9ddd53a",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/experiments/calibration/energy-scenario-v1.json",
+    "category": "measurement-code-or-config",
+    "source_sha256": "775e4c2e5d7ebd84851ff5aa805dbc6b7f1d08499dfe81641f7b0e269a39dc02",
+    "export_sha256": "775e4c2e5d7ebd84851ff5aa805dbc6b7f1d08499dfe81641f7b0e269a39dc02",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/experiments/calibration/lean-theory-scenario-v1.json",
+    "category": "measurement-code-or-config",
+    "source_sha256": "ebe1a563f8ed0df36182202ebaa51d7b466bce307159b074083888148f80f290",
+    "export_sha256": "ebe1a563f8ed0df36182202ebaa51d7b466bce307159b074083888148f80f290",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/experiments/calibration/lean-theory-scenario-v2.json",
+    "category": "measurement-code-or-config",
+    "source_sha256": "f11ec8b04a49cfd3d8482706db24fd74292f865e95306cbf992fb933404478a0",
+    "export_sha256": "f11ec8b04a49cfd3d8482706db24fd74292f865e95306cbf992fb933404478a0",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/experiments/calibration/ngpu-lean-run.md",
+    "category": "measurement-code-or-config",
+    "source_sha256": "42bba0b52f1126450512ffb175cf9d031c70ef392bde42f686c23c9c282a76a9",
+    "export_sha256": "d5aa3140063726df95e0aa6ad5fa251cb6a890d08d8396e5ffaeca1e2b221475",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "code/measurement/experiments/calibration/native-generation-v1.md",
+    "category": "measurement-code-or-config",
+    "source_sha256": "2c4601d84b642d185fa90fa884dcf3b58924542e5364f9f666bec7b5afbb6881",
+    "export_sha256": "2c4601d84b642d185fa90fa884dcf3b58924542e5364f9f666bec7b5afbb6881",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/data/calibration/public-prices-2026-10-08.json",
+    "category": "measurement-code-or-config",
+    "source_sha256": "9df22634bb42e9c94a76aca1315e7114dbc66e2eada9013555af9bfcd1c17daf",
+    "export_sha256": "9df22634bb42e9c94a76aca1315e7114dbc66e2eada9013555af9bfcd1c17daf",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/data/calibration/owner-lcb-manifest-semantic-v2-2026-10-09.json",
+    "category": "measurement-code-or-config",
+    "source_sha256": "0a434a6d9d4284430d400bebbb3e3011e2b2fae2112a3c0401d0ea5d2387fa2f",
+    "export_sha256": "0a434a6d9d4284430d400bebbb3e3011e2b2fae2112a3c0401d0ea5d2387fa2f",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/data/calibration/lean-main-workload-2026-10-22.json",
+    "category": "measurement-code-or-config",
+    "source_sha256": "998021b4a1ed2f378a6024b6708001e694e6715c56b93e4202edd2e2c7e67671",
+    "export_sha256": "f43cc3f998dc294d4fc8896ce41e0c4d3374cecaa3db09af8638ad55e6169316",
+    "site_identifier_substitutions": true
+  },
+  {
+    "path": "licenses/LiveCodeBench-MIT.txt",
+    "category": "third-party-license",
+    "source_sha256": "104099948b78ebc36f2e951b3a7973b956adfa7d39aaec0d1512f97a2686d15d",
+    "export_sha256": "104099948b78ebc36f2e951b3a7973b956adfa7d39aaec0d1512f97a2686d15d",
+    "site_identifier_substitutions": false
+  },
+  {
+    "path": "code/measurement/data/calibration/model-panel-theory-aligned-v2.json",
+    "category": "scientific-panel-config",
+    "source_sha256": "5c3f709b0450add648971b6269e8b354f989809af6e9c34a5b148e65d2697a5d",
+    "export_sha256": "5c3f709b0450add648971b6269e8b354f989809af6e9c34a5b148e65d2697a5d",
+    "site_identifier_substitutions": false
+  }
+]

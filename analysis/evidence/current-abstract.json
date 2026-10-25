@@ -1,0 +1,10 @@
+{
+  "schema": "owner-approved-current-abstract-v1",
+  "approved_date": "2026-10-25",
+  "approval": "Owner approved the revised intermediate-computation versus fixed-service-price abstract and its final conclusion in this conversation, then requested insertion.",
+  "registered_record": "registered-abstract.json",
+  "registered_abstract_sha256": "7cf79cd68ceaa3bf7daa7e3d7db1cde144e7338a83395c6e677d5c45731e6972",
+  "registration_record_updated": false,
+  "sha256": "302b1742e6700b86b0defd041b72a96c62f5dfd96ed6970ebca191be8d2e9764",
+  "abstract_block": "\\begin{abstract}\nIn token-priced language model services, users can see the prompts they submit and the answers they receive, but may also pay for internal reasoning and candidate answers that are not shown in the final response. This paper develops a three-party service model to study how charging for this intermediate computation shapes providers' decisions and social welfare. Users purchase answers from a model firm that pays an execution cloud, with either supplier controlling the computation budget. The model separates user billing from upstream payments and identifies when metered pricing encourages excessive generation, when fixed service prices restrict valuable computation, and how responsibility for execution costs changes these choices. A LiveCodeBench study measures answer quality, latency, token use, and resource consumption across five model deployments, with numerical billing comparisons for the three covered by archived tariffs. Under equal average charges on a common reference workload and unchanged upstream terms, the predicted budget for one Qwen3.8 deployment is eight candidates under metered pricing and one under a fixed price across all three repetitions. Whether the larger budget improves welfare depends on whether its gains in correct answers justify the additional errors, waiting time, and resource use. Metered pricing yields higher welfare when the additional inference it induces creates net social value, whereas fixed service pricing is preferable when the costs of that additional computation outweigh its benefits.\n\\end{abstract}"
+}

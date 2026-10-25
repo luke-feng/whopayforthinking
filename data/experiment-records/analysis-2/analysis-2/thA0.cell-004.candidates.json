@@ -1,0 +1,1 @@
+{"attempt":"thA0","cell_id":"q38-thinking|H100-primary|batch64|k8|r0","config_id":"batch64","hardware_label":"H100-primary","index":4,"k":8,"missing":["generated-samples.json","W1.done.json","W2.done.json","inference-summary.json"],"replicate_id":0,"schema":"lean-cell-candidates-v1","stratum_id":"q38-thinking","subset":"main"}

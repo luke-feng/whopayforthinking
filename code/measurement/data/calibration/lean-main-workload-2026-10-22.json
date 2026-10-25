@@ -1,0 +1,29 @@
+{
+ "builder": "scripts/calibration/lcb_ngpu_lean_workload.py --subset main (run from /data/experiment-src2, source head d9b15b6)",
+ "builder_output_transcribed_from_owner_paste": {
+  "bytes": 148194566,
+  "jobs": 106,
+  "output": "/data/experiment-inputs/main/main-workload.json",
+  "sha256": "e632efd2f9d95b749056c0caa984ab8c515e0c1f4592d3ce5716be5cfabced5b",
+  "subset": "main",
+  "tasks": 106,
+  "tests": 3966
+ },
+ "consistency": "tasks 106 = frozen main_count; tests 3966 equal the owner measurement; the file is the task rows plus prompts and one k=1 job per task, so it is slightly larger than the task rows alone.",
+ "earlier_size_measurement_by_owner": {
+  "largest_task_bytes": 32054308,
+  "main_task_rows_bytes": 147902522,
+  "pilot_task_rows_bytes": 39158335,
+  "pilot_tests": 612,
+  "tests": 3966
+ },
+ "frozen_inputs_checked_by_the_builder": {
+  "main_count": 106,
+  "manifest": "data/calibration/owner-lcb-manifest-semantic-v2-2026-10-09.json",
+  "private_tests_sha256": "74200b850c97aa674b64d35a8e0d709db21122c53e409d1715498a5bec4ff219",
+  "prompts_sha256": "ce810c06ae9111d8ea83c9a856ef4ce96f2ff18973b9f9130dec37ec00a05f14"
+ },
+ "received": "2026-10-22",
+ "schema": "lean-main-workload-record-v1",
+ "use": "--workload of lcb_ngpu_lean_request.py with --main-matrix; every main cell derives its own workload from it."
+}

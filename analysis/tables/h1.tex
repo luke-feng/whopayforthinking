@@ -1,0 +1,22 @@
+% Pooling contrast. Made by paper/www27/make_result_tables.py from: lean-main-resources-4-2026-10-23.tsv=f3f03c78d9c2 lean-main-theory-5-2026-10-24.tsv=b82f5c7ed9ac lean-service-resources-1-2026-10-24.tsv=b2aa64c2b890 lean-service-theory-2-2026-10-24.tsv=1358a7b525f3 lean-a100-resources-1-2026-10-24.tsv=331c2056bdce lean-a100-theory-2-2026-10-24.tsv=b81ace06fd57
+
+\begin{table*}[t]
+\caption{Hardware-stratified pipeline cost contrasts.}
+\label{tab:h1}
+\centering\small
+\begin{tabular}{llcrrrrrrrr}
+\toprule
+ & & & \multicolumn{3}{c}{GPU s per request, window} & \multicolumn{2}{c}{H1/$d_0$} & \multicolumn{3}{c}{USD per 1,000 requests, window} \\
+\cmidrule(lr){4-6}\cmidrule(lr){7-8}\cmidrule(lr){9-11}
+Stratum, pooled & GPU & $n$ & $d_0$ & $d_1$ & H1 & window & span & $d_0$ & $d_1$ & H1, common low \\
+\midrule
+Qwen2.5-Coder-7B, batch16 & H100 & 2 & 56.4 & 52.2 & 4.2 & 7\% & 61\% & 38.7 & 35.8 & 2.9 \\
+Nemotron-3-Nano-30B, batch16 & H100 & 2 & 117.2 & 60.3 & 56.8 & 49\% & 63\% & 80.7 & 41.5 & 38.7 \\
+Qwen3.5-9B thinking, batch16 & H200 & 2 & 51.9 & 39.0 & 12.9 & 25\% & 28\% & 35.8 & 26.9 & 8.8 \\
+Qwen3.8-27B non-thinking, batch16 & H100 & 1 & 110.9 & 55.1 & 55.8 & 50\% & 67\% & 76.3 & 37.9 & 38.0 \\
+Qwen3.8-27B non-thinking, batch64 & H100 & 1 & 110.9 & 64.9 & 46.1 & 42\% & 56\% & 76.3 & 44.6 & 31.3 \\
+Qwen3.8-27B thinking, batch16 & H100 & 2 & 106.8 & 87.2 & 19.6 & 18\% & 23\% & 73.5 & 60.0 & 13.4 \\
+Qwen3.8-27B thinking, batch64$^\dagger$ & H100 & 2 & 106.8 & 103.9 & 3.0 & 3\% & 5\% & 73.5 & 71.4 & 2.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

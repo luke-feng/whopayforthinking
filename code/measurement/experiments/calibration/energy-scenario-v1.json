@@ -1,0 +1,17 @@
+{
+ "schema": "gpu-energy-envelope-v1",
+ "status": "declared_assumption_not_measured",
+ "scope": "GPU energy of the inference step only. The lean runs measured no power; the host CPU is priced separately as CPU seconds, not as electricity.",
+ "gpu_tdp_w": {
+  "NVIDIA A100-SXM4-80GB": 400,
+  "NVIDIA A100 80GB PCIe": 300,
+  "NVIDIA H100 80GB HBM3": 700,
+  "NVIDIA H100 NVL": 400,
+  "NVIDIA H200": 700
+ },
+ "busy_fraction_of_tdp": [0.35, 0.9],
+ "idle_fraction_of_tdp": [0.1, 0.15],
+ "busy_interval": "generation span of the cell: first scheduler dispatch to the last generation barrier",
+ "idle_interval": "the rest of the inference service wall: model loading, compilation and waiting for candidate judging",
+ "reading": "A declared envelope, not a statistical interval. The busy range spans small-batch decoding (low end) to large pooled batches (high end); the idle range is the usual draw of a loaded but idle data-centre GPU. A GPU model that is not listed gets no estimate."
+}

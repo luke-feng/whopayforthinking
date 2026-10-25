@@ -1,0 +1,51 @@
+{
+  "schema": "anonymous-restricted-menu-v1",
+  "stratum": "q38-thinking",
+  "replicate": "r1",
+  "basis": "allocated GPU-step window",
+  "menu": "batch64 for k=1; batch16 for k=8, excluding extended-bound k=8 cells",
+  "formula": "(serial_k8 - serial_k1 - pooled_k8 + pooled_k1) / tasks",
+  "source_precision": "Original integer nanoseconds. Do not reconstruct this near-zero contrast from the four-significant-digit resource TSV.",
+  "h1_numerator": -35,
+  "h1_denominator": 106,
+  "h1_gpu_seconds_per_request": -0.330188679245283,
+  "rounded_one_decimal": "-0.3",
+  "rows": [
+    {
+      "cell_alias": "serial_k8",
+      "source_archive_sha256": "f6d6f899857e9d53d5e37eb1cbd08a89ec6db3fd7d666140ec897d59585f4fdf",
+      "source_member_sha256": "4c15a89cdd5571688aa0b057fe6915d129cb20aaa460860e1d63eaa817ea3a73",
+      "source_cell_sha256": "db01c439d015b931dab6d508d0afe7233b55e6099ac856c2e06068aac12939e4",
+      "gpu_step_occupancy_ns": 30354000000000,
+      "tasks": 106,
+      "gpu_model": "NVIDIA H100 80GB HBM3"
+    },
+    {
+      "cell_alias": "serial_k1",
+      "source_archive_sha256": "29245027c550d526e7afd0df5d7128128d76a968918e2ec0c84b567fd5ef5551",
+      "source_member_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "source_cell_sha256": "61b35e8c1bd4001aa839973b0cb597592b97adb66c8a92c8ac88da81969bf18d",
+      "gpu_step_occupancy_ns": 18881000000000,
+      "tasks": 106,
+      "gpu_model": "NVIDIA H100 80GB HBM3"
+    },
+    {
+      "cell_alias": "pooled_k1",
+      "source_archive_sha256": "29245027c550d526e7afd0df5d7128128d76a968918e2ec0c84b567fd5ef5551",
+      "source_member_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "source_cell_sha256": "d6332bfd30298396e4b926e51ff7980f35907ba7f4af67dd65498b2c14d7f8f2",
+      "gpu_step_occupancy_ns": 2248000000000,
+      "tasks": 106,
+      "gpu_model": "NVIDIA H100 80GB HBM3"
+    },
+    {
+      "cell_alias": "pooled_k8",
+      "source_archive_sha256": "29245027c550d526e7afd0df5d7128128d76a968918e2ec0c84b567fd5ef5551",
+      "source_member_sha256": "4870bb97c6f897d3a84d6f1c90f1ec8c73caab1d49d7ca746cd83423f59ba4b6",
+      "source_cell_sha256": "f428a95482a04358add87c9d5e0acf011f0a03d55a2d6ac41ed144576d2f89d1",
+      "gpu_step_occupancy_ns": 13756000000000,
+      "tasks": 106,
+      "gpu_model": "NVIDIA H100 80GB HBM3"
+    }
+  ]
+}

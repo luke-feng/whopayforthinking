@@ -1,0 +1,89 @@
+{
+  "complete_published_cells": 153,
+  "compact_candidate_files": 163,
+  "incomplete_original_extracts": [
+    {
+      "path": "data/experiment-records/results-n1/analysis-n1/aB1.cell-000.candidates.json",
+      "cell_id": "q38-thinking|A100-80GB-conditional|batch16|k8|r1",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/results-n1/analysis-n1/aB0.cell-001.candidates.json",
+      "cell_id": "q38-thinking|A100-80GB-conditional|batch64|k8|r0",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json",
+        "inference-summary.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/results-n1/analysis-n1/aB1.cell-001.candidates.json",
+      "cell_id": "q38-thinking|A100-80GB-conditional|batch64|k8|r1",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json",
+        "inference-summary.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/results-n1/analysis-n1/aB0.cell-000.candidates.json",
+      "cell_id": "q38-thinking|A100-80GB-conditional|batch16|k8|r0",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/results-n1/analysis-n1/aB2.cell-000.candidates.json",
+      "cell_id": "q38-thinking|A100-80GB-conditional|batch16|k8|r2",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/results-n1/analysis-n1/aB2.cell-001.candidates.json",
+      "cell_id": "q38-thinking|A100-80GB-conditional|batch64|k8|r2",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json",
+        "inference-summary.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/analysis-2/analysis-2/thA0.cell-004.candidates.json",
+      "cell_id": "q38-thinking|H100-primary|batch64|k8|r0",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json",
+        "inference-summary.json"
+      ]
+    },
+    {
+      "path": "data/experiment-records/analysis-th1/analysis-th1/thA1.cell-004.candidates.json",
+      "cell_id": "q38-thinking|H100-primary|batch64|k8|r1",
+      "missing": [
+        "generated-samples.json",
+        "W1.done.json",
+        "W2.done.json",
+        "inference-summary.json"
+      ]
+    }
+  ],
+  "not_returned_from_cluster": [
+    "complete main/service generated-samples.json with all generated text",
+    "complete per-request/cohort service-window event originals",
+    "prepared main-workload.json, prompts.jsonl and tests.private.jsonl"
+  ],
+  "existing_records_do_not_fill_these_gaps": true
+}

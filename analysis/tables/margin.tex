@@ -1,0 +1,19 @@
+% Cost and bill terms of the cloud margin. Made by paper/www27/make_result_tables.py from: lean-main-resources-4-2026-10-23.tsv=f3f03c78d9c2 lean-main-theory-5-2026-10-24.tsv=b82f5c7ed9ac lean-service-resources-1-2026-10-24.tsv=b2aa64c2b890 lean-service-theory-2-2026-10-24.tsv=1358a7b525f3 lean-a100-resources-1-2026-10-24.tsv=331c2056bdce lean-a100-theory-2-2026-10-24.tsv=b81ace06fd57
+
+\begin{table}[t]
+\caption{Cost and bill contributions (USD/1,000 requests).}
+\label{tab:margin}
+\centering\small\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}
+\toprule
+ & Cost term & Bill term & Relative bill \\
+Stratum, pooled & $s_H-s_L$ & $\Delta B_1-\Delta B_0$ & change \\
+\midrule
+Qwen3.5, batch16 & 8.91 & $-$0.04 & $-$0.2\% \\
+Qwen3.8 off, batch16 & 38.40 & 1.68 & 1.9\% \\
+Qwen3.8 off, batch64 & 31.69 & 2.65 & 3.0\% \\
+Qwen3.8 on, batch16 & 13.51 & $-$1.91 & $-$1.3\% \\
+Qwen3.8 on, batch64$^\dagger$ & 2.01 & 0.76 & 0.5\% \\
+\bottomrule
+\end{tabular}
+\end{table}

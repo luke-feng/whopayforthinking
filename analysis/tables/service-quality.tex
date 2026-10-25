@@ -1,0 +1,20 @@
+% Follow-up inputs: lean-service-resources-2-2026-10-25.tsv=e6284f2cfd9d lean-service-theory-3-2026-10-25.tsv=2e565c482232 lean-a100-resources-2-2026-10-25.tsv=47cc1774e65a lean-a100-theory-3-2026-10-25.tsv=20b4e519bb26 service-followup-provenance.json=44d8059444b0
+
+\begin{table*}[t]
+\caption{Serial online-service quality and token use.}
+\label{tab:service-quality}
+\centering\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+ & \multicolumn{5}{c}{$k=1$, serial} & \multicolumn{5}{c}{$k=8$, serial} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-11}
+Stratum & $q^+$ & $q^-$ & Hidden & Share & Bill & $q^+$ & $q^-$ & Hidden & Share & Bill \\
+\midrule
+Coder & 0.185 & 0.079 & 230 & 79.6\% & -- & 0.248 & 0.157 & 2,266 & 95.7\% & -- \\
+Nemotron & 0.509 & 0.041 & 13,707 & 95.6\% & -- & 0.660 & 0.107 & 114,323 & 99.2\% & -- \\
+Qwen3.5 thinking & 0.403 & 0.013 & 18,619 & 98.7\% & 2.9 & 0.500 & 0.044 & 150,366 & 99.8\% & 23.0 \\
+Qwen3.8 non-thinking & 0.447 & 0.060 & 3,355 & 66.7\% & 12.7 & 0.657 & 0.138 & 37,117 & 91.0\% & 102.9 \\
+Qwen3.8 thinking & 0.594 & 0.047 & 8,009 & 96.0\% & 21.0 & 0.767 & 0.060 & 67,664 & 99.3\% & 171.3 \\
+\bottomrule
+\end{tabular}
+\end{table*}

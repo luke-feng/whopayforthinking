@@ -1,0 +1,1141 @@
+{
+  "schema": "retail-pricing-inputs-v1",
+  "date": "2026-10-25",
+  "tasks": 106,
+  "scope": "Subsequent contract comparison on the fixed online-service cohort. User values remain parameters.",
+  "reference": {
+    "budgets": [
+      1,
+      8
+    ],
+    "repetitions": [
+      0,
+      1,
+      2
+    ],
+    "weight": "1/2",
+    "alpha": "1/2",
+    "capacity_rate": "12/5",
+    "own_cost": "0"
+  },
+  "energy_assumption": {
+    "gpu_tdp_w": {
+      "NVIDIA A100-SXM4-80GB": 400,
+      "NVIDIA A100 80GB PCIe": 300,
+      "NVIDIA H100 80GB HBM3": 700,
+      "NVIDIA H100 NVL": 400,
+      "NVIDIA H200": 700
+    },
+    "busy_fraction_of_tdp": [
+      "0.35",
+      "0.9"
+    ],
+    "idle_fraction_of_tdp": [
+      "0.1",
+      "0.15"
+    ]
+  },
+  "electricity_usd_per_kwh": "0.15",
+  "cpu_usd_per_core_hour": "0.03",
+  "headline_anchors": {
+    "q35-thinking": "di-q35-9b",
+    "q38-thinking": "di-q38-27b-list",
+    "q38-nonthinking": "di-q38-27b-list"
+  },
+  "anchors": {
+    "q35-thinking": [
+      "di-q35-9b",
+      "together-q35-9b"
+    ],
+    "q38-thinking": [
+      "di-q38-27b-list",
+      "di-q38-27b-promo",
+      "partition-q38-27b-standard"
+    ],
+    "q38-nonthinking": [
+      "di-q38-27b-list",
+      "di-q38-27b-promo",
+      "partition-q38-27b-standard"
+    ]
+  },
+  "prices": {
+    "di-q35-9b": {
+      "input_per_million": "0.10",
+      "output_per_million": "0.15"
+    },
+    "together-q35-9b": {
+      "input_per_million": "0.17",
+      "output_per_million": "0.25"
+    },
+    "di-q38-27b-list": {
+      "input_per_million": "0.20",
+      "output_per_million": "2.50"
+    },
+    "di-q38-27b-promo": {
+      "input_per_million": "0.15",
+      "output_per_million": "1.875"
+    },
+    "partition-q38-27b-standard": {
+      "input_per_million": "0.40",
+      "output_per_million": "3.00"
+    }
+  },
+  "cells": [
+    {
+      "stratum": "coder-nonthinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 16,
+      "qminus_count": 10,
+      "latency_hours": "3616268509236659147/190800000000000000000",
+      "tokens_per_request": {
+        "input": "27900/53",
+        "delivered": "6305/106",
+        "hidden_all": "12180/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "9b45e4654cd800d977e385f9ca8d5c3f825a1c793f2ca8e90e54610bf851f4e0"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 23,
+      "qminus_count": 5,
+      "latency_hours": "1462502582468744371/76320000000000000000",
+      "tokens_per_request": {
+        "input": "27900/53",
+        "delivered": "5965/106",
+        "hidden_all": "24479/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "a722a7864d37639bfd0c6b7255bd2833472d72dbe332b96f3ca0db0e24137975"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 20,
+      "qminus_count": 10,
+      "latency_hours": "7128689308175817119/381600000000000000000",
+      "tokens_per_request": {
+        "input": "27900/53",
+        "delivered": "6539/106",
+        "hidden_all": "24151/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "383c68beab72b03bb5c098b3ac123d3bc4e27dea5d93f064761d6f371904cac7"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 25,
+      "qminus_count": 18,
+      "latency_hours": "28228942630378878683/381600000000000000000",
+      "tokens_per_request": {
+        "input": "223200/53",
+        "delivered": "5296/53",
+        "hidden_all": "241871/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "8c88989ea145dea33542604d2f236b6f8f988ac71b44a667fd416229ca33b1fe"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 28,
+      "qminus_count": 14,
+      "latency_hours": "25725115018293960091/381600000000000000000",
+      "tokens_per_request": {
+        "input": "223200/53",
+        "delivered": "10355/106",
+        "hidden_all": "238419/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "c0346f3eb1c23109e35c84c093e833f0f3fa8c6dace527f30b9520a5a8173afc"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 30,
+      "qminus_count": 15,
+      "latency_hours": "8911858564108377319/127200000000000000000",
+      "tokens_per_request": {
+        "input": "223200/53",
+        "delivered": "5281/53",
+        "hidden_all": "120500/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "3b94d075a1b2daf6801555faa7d4eaa6ca8d2a6c3bfec36610e39abfec6e4ac4"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 18,
+      "qminus_count": 8,
+      "latency_hours": "4773495654324500351/76320000000000000000",
+      "tokens_per_request": {
+        "input": "27900/53",
+        "delivered": "6063/106",
+        "hidden_all": "12584/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "e2463088fec03a44b59ec4d35da7120f6e5ee865f0bd42012d1c545425b4a94e"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 22,
+      "qminus_count": 6,
+      "latency_hours": "3367486739987274607/95400000000000000000",
+      "tokens_per_request": {
+        "input": "27900/53",
+        "delivered": "5953/106",
+        "hidden_all": "12319/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "013d0c6a5c8dd1e0ee3c756984c1ec2f063c24e1b095f9045779406ed203b6a4"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 19,
+      "qminus_count": 11,
+      "latency_hours": "7496105271654319921/190800000000000000000",
+      "tokens_per_request": {
+        "input": "27900/53",
+        "delivered": "3378/53",
+        "hidden_all": "23281/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "765d70f5b8bd2ba75ff81a3639f02b1819991c04b24945ec7cf74a41e86d7517"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 24,
+      "qminus_count": 17,
+      "latency_hours": "45903158306845463629/381600000000000000000",
+      "tokens_per_request": {
+        "input": "223200/53",
+        "delivered": "10153/106",
+        "hidden_all": "243421/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "af250f2fe40502478c0bb51d8feb40f738c46ee5907a5323d85241f1a0c95cf8"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 28,
+      "qminus_count": 15,
+      "latency_hours": "36029582990760216221/381600000000000000000",
+      "tokens_per_request": {
+        "input": "223200/53",
+        "delivered": "11147/106",
+        "hidden_all": "237289/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "85dcca3fdb0c9a3d4b4a86fbb802269976cefd113d3c850e58ea2ade8b70067e"
+    },
+    {
+      "stratum": "coder-nonthinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 27,
+      "qminus_count": 18,
+      "latency_hours": "18556002702314406653/190800000000000000000",
+      "tokens_per_request": {
+        "input": "223200/53",
+        "delivered": "11409/106",
+        "hidden_all": "119919/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "6759eeafbda1e251cc07a9ec339d7ab23a671371093725af6e36d1933edc575a"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 57,
+      "qminus_count": 2,
+      "latency_hours": "8435902167105884279/38160000000000000000",
+      "tokens_per_request": {
+        "input": "28298/53",
+        "delivered": "73899/106",
+        "hidden_all": "1428847/106",
+        "reasoning": "706816/53"
+      },
+      "source_extract_sha256": "fcbab9f52d25d32fbd9ff5299446ca61d147cbfe85f60cf23dd12435be1251e6"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 54,
+      "qminus_count": 7,
+      "latency_hours": "433925027011417553/1908000000000000000",
+      "tokens_per_request": {
+        "input": "28298/53",
+        "delivered": "76513/106",
+        "hidden_all": "1440465/106",
+        "reasoning": "1420285/106"
+      },
+      "source_extract_sha256": "96b20f82b4f1ba8b0106d90a75c4f53f262550196d4c835ae152d76e5212e38e"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 55,
+      "qminus_count": 6,
+      "latency_hours": "3041775409356085577/9540000000000000000",
+      "tokens_per_request": {
+        "input": "28298/53",
+        "delivered": "34796/53",
+        "hidden_all": "1528405/106",
+        "reasoning": "1508287/106"
+      },
+      "source_extract_sha256": "d8c4f2d343eff4705ff90a539bc23c7afa361f73c4b5c20012e8a01c3360ea1e"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 72,
+      "qminus_count": 7,
+      "latency_hours": "1314629423086206661/1908000000000000000",
+      "tokens_per_request": {
+        "input": "226384/53",
+        "delivered": "103889/106",
+        "hidden_all": "5977623/53",
+        "reasoning": "11327755/106"
+      },
+      "source_extract_sha256": "576530a7b80e215ef5d8e493135b8d1de524c4aa0c32838c6c05d29c3b836813"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 70,
+      "qminus_count": 9,
+      "latency_hours": "887595484347536689/1272000000000000000",
+      "tokens_per_request": {
+        "input": "226384/53",
+        "delivered": "96211/106",
+        "hidden_all": "6095966/53",
+        "reasoning": "5787911/53"
+      },
+      "source_extract_sha256": "1e2d2c431c4a8ab9a4eee273495906ba366304ce6dcab64f96cdaee92478374f"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 71,
+      "qminus_count": 12,
+      "latency_hours": "318150465899898749/318000000000000000",
+      "tokens_per_request": {
+        "input": "226384/53",
+        "delivered": "98859/106",
+        "hidden_all": "6147521/53",
+        "reasoning": "5859706/53"
+      },
+      "source_extract_sha256": "53fbbca44df0928de9c68f4effe41d3b0a95631be26bc837217ae8f5b368ad12"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 56,
+      "qminus_count": 6,
+      "latency_hours": "15590732704966372721/23850000000000000000",
+      "tokens_per_request": {
+        "input": "28298/53",
+        "delivered": "71567/106",
+        "hidden_all": "693481/53",
+        "reasoning": "1364653/106"
+      },
+      "source_extract_sha256": "373ae1dd794897c7dd558edd0260866b5f5b08b0f11266ec394e520981db0733"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 54,
+      "qminus_count": 4,
+      "latency_hours": "5152582299789614041/7632000000000000000",
+      "tokens_per_request": {
+        "input": "28298/53",
+        "delivered": "34751/53",
+        "hidden_all": "1445091/106",
+        "reasoning": "711766/53"
+      },
+      "source_extract_sha256": "5ab3c8de403a6ad068e1f51fe10622e981ad3c477990f7231d173827b9c44aab"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 52,
+      "qminus_count": 3,
+      "latency_hours": "239578459732781941/254400000000000000",
+      "tokens_per_request": {
+        "input": "28298/53",
+        "delivered": "30171/53",
+        "hidden_all": "763732/53",
+        "reasoning": "753822/53"
+      },
+      "source_extract_sha256": "ebe742bd4a70f3770dd923cd41a840188c225e5df155794599de98237a345e94"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 72,
+      "qminus_count": 10,
+      "latency_hours": "63818147753254603753/38160000000000000000",
+      "tokens_per_request": {
+        "input": "226384/53",
+        "delivered": "52079/53",
+        "hidden_all": "228879/2",
+        "reasoning": "5766708/53"
+      },
+      "source_extract_sha256": "9e6dcb1738d18d4ec07d59fd05cdd0d5fe9670673d3ab1271b1afff80bd227df"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 69,
+      "qminus_count": 12,
+      "latency_hours": "732103822386445893/424000000000000000",
+      "tokens_per_request": {
+        "input": "226384/53",
+        "delivered": "51533/53",
+        "hidden_all": "12021587/106",
+        "reasoning": "5707900/53"
+      },
+      "source_extract_sha256": "e64524db82e92ef289ed278c50501fb8faa7cb42f73783b07182581804218fea"
+    },
+    {
+      "stratum": "nemotron-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 69,
+      "qminus_count": 12,
+      "latency_hours": "90883740320938523057/38160000000000000000",
+      "tokens_per_request": {
+        "input": "226384/53",
+        "delivered": "50944/53",
+        "hidden_all": "6101607/53",
+        "reasoning": "11596743/106"
+      },
+      "source_extract_sha256": "484d05c083bdfa2402eb61aaf3287fc33aa6b75da2f9406826e0e75b9e83c5f1"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 42,
+      "qminus_count": 1,
+      "latency_hours": "9948136303560063229/38160000000000000000",
+      "tokens_per_request": {
+        "input": "57817/106",
+        "delivered": "12200/53",
+        "hidden_all": "1978801/106",
+        "reasoning": "18637"
+      },
+      "source_extract_sha256": "3709299e57d8c7b327d0f50de2976516365aad8bee3504ea20a4330b87cb9458"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 43,
+      "qminus_count": 3,
+      "latency_hours": "10005576601353753371/38160000000000000000",
+      "tokens_per_request": {
+        "input": "57817/106",
+        "delivered": "28761/106",
+        "hidden_all": "987628/53",
+        "reasoning": "1967715/106"
+      },
+      "source_extract_sha256": "af3b2597a2e04a727e5db4d16fdab36e43bfded3a210b44c1bdb4d3b15f36366"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 40,
+      "qminus_count": 1,
+      "latency_hours": "4935341880046064023/19080000000000000000",
+      "tokens_per_request": {
+        "input": "57817/106",
+        "delivered": "12755/53",
+        "hidden_all": "1965547/106",
+        "reasoning": "980293/53"
+      },
+      "source_extract_sha256": "38a26177e4a9fff2c31d7175a2b918a8f830ea401287565913ff8c912713823f"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 56,
+      "qminus_count": 4,
+      "latency_hours": "642953793980348857/763200000000000000",
+      "tokens_per_request": {
+        "input": "231268/53",
+        "delivered": "43927/106",
+        "hidden_all": "15950093/106",
+        "reasoning": "15764979/106"
+      },
+      "source_extract_sha256": "88333da620e74d39c56b9c0c9b501bd57c7c0a477364c14bd0ede0e088b07c71"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 52,
+      "qminus_count": 4,
+      "latency_hours": "3771318362472297149/3816000000000000000",
+      "tokens_per_request": {
+        "input": "231268/53",
+        "delivered": "37149/106",
+        "hidden_all": "16030203/106",
+        "reasoning": "15815071/106"
+      },
+      "source_extract_sha256": "1baca57148e43e53c371368405597af45ce8da7b7a8bc61a4afa4111e91ae6c7"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 56,
+      "qminus_count": 3,
+      "latency_hours": "267655805624676673/318000000000000000",
+      "tokens_per_request": {
+        "input": "231268/53",
+        "delivered": "19554/53",
+        "hidden_all": "15849105/106",
+        "reasoning": "7822001/53"
+      },
+      "source_extract_sha256": "f2beef3499c5de32b5e9905895bb68df949c4d71400a622838678766a8d6665e"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 42,
+      "qminus_count": 2,
+      "latency_hours": "7672297426770471503/3816000000000000000",
+      "tokens_per_request": {
+        "input": "57817/106",
+        "delivered": "26375/106",
+        "hidden_all": "993915/53",
+        "reasoning": "992397/53"
+      },
+      "source_extract_sha256": "82e2fc8adc50e8443aa619acca483aa6a1adedc151c62b83fa2e6fef46982b23"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 45,
+      "qminus_count": 2,
+      "latency_hours": "7323331589926278701/3816000000000000000",
+      "tokens_per_request": {
+        "input": "57817/106",
+        "delivered": "13433/53",
+        "hidden_all": "1972615/106",
+        "reasoning": "1970725/106"
+      },
+      "source_extract_sha256": "e9f4060089b849f308efd22adeb723134045b9ca62203bb928853b0864309884"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 41,
+      "qminus_count": 0,
+      "latency_hours": "7574845568076411719/3816000000000000000",
+      "tokens_per_request": {
+        "input": "57817/106",
+        "delivered": "12715/53",
+        "hidden_all": "1961007/106",
+        "reasoning": "979465/53"
+      },
+      "source_extract_sha256": "fb248955c59ff4a1d5ce35f34d0ea07e66bb267257ac5d9ec4638e713e204479"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 55,
+      "qminus_count": 4,
+      "latency_hours": "3320390710475943803/1272000000000000000",
+      "tokens_per_request": {
+        "input": "231268/53",
+        "delivered": "38331/106",
+        "hidden_all": "7981464/53",
+        "reasoning": "15774507/106"
+      },
+      "source_extract_sha256": "f3825de8cb6c5c6eea906f2f8899763f94948ba2c0e203c088e1867f6299e381"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 50,
+      "qminus_count": 6,
+      "latency_hours": "6755094188951393563/2544000000000000000",
+      "tokens_per_request": {
+        "input": "231268/53",
+        "delivered": "18561/53",
+        "hidden_all": "8018843/53",
+        "reasoning": "7928581/53"
+      },
+      "source_extract_sha256": "245e709b6b814c67152d17e350f17ba9a10f960c4fa31571f9255c24a58d1c8f"
+    },
+    {
+      "stratum": "q35-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 54,
+      "qminus_count": 4,
+      "latency_hours": "16663394245661876639/6360000000000000000",
+      "tokens_per_request": {
+        "input": "231268/53",
+        "delivered": "41495/106",
+        "hidden_all": "7910159/53",
+        "reasoning": "15617029/106"
+      },
+      "source_extract_sha256": "37b9dc6c33e0b9b736c7ad518ade56ceeb76947cdd31d40142a0aec2f775c5f6"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 50,
+      "qminus_count": 8,
+      "latency_hours": "8710328829954820709/19080000000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "118673/53",
+        "hidden_all": "307529/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "106c3f8cefcf252c35d02e1d92566909a28e829c10ce8a7b97ce6bdcc10f8a8b"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 44,
+      "qminus_count": 9,
+      "latency_hours": "899644223776187273/1908000000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "72269/53",
+        "hidden_all": "198222/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "31237898f101cb08da98d7564d25e9abb5e8d44844044260ae15beff26275e09"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 45,
+      "qminus_count": 4,
+      "latency_hours": "2006854697955785219/4240000000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "73408/53",
+        "hidden_all": "393481/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "0e4cec6f52876bfe965b2aa1c82ef688e5322a837f520c1492e4daba954a1ade"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 69,
+      "qminus_count": 16,
+      "latency_hours": "30172023329512123/30528000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "444351/106",
+        "hidden_all": "1940533/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "ef2e02f3b799236a9b8f265f48e8e335805c1068a9eeff35559a8c9708813a79"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 67,
+      "qminus_count": 14,
+      "latency_hours": "830000440538139083/954000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "346629/106",
+        "hidden_all": "1977199/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "a32742681fc3e4586d5526a4793aae26e985dafb1c91657ab7c806f832afef43"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 71,
+      "qminus_count": 14,
+      "latency_hours": "1884478366086471371/1908000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "169661/53",
+        "hidden_all": "1990021/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "fae7ed9b61e6f236f1ff532cbe174dd7dd2cd0da8af50453536ffd43d24b367b"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch64",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 43,
+      "qminus_count": 5,
+      "latency_hours": "953111775978954971/3816000000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "86202/53",
+        "hidden_all": "393617/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "ec23ff366c8c5ac32a0c1f979b4d9e3b0acaf222b8c3bf109dbd8ef25d4cbe18"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch64",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 47,
+      "qminus_count": 10,
+      "latency_hours": "234443634217727813/954000000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "107039/53",
+        "hidden_all": "178069/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "35727b76efb3cc5a89fc4305bbe55e7ce192fffb410100b28e6cea921e667e04"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch64",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 43,
+      "qminus_count": 7,
+      "latency_hours": "1854372494883053/7632000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "166865/106",
+        "hidden_all": "349931/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "549e84567e5ef66627895b24d160d2a422a68157accf7ff378790e4b3f3ea58f"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch64",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 68,
+      "qminus_count": 14,
+      "latency_hours": "4414098445876138273/3816000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "193835/53",
+        "hidden_all": "2015786/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "64aaab4605acdda0c4cb8a196f409fd3fc68d80e840444e1764e175bec51af55"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch64",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 69,
+      "qminus_count": 11,
+      "latency_hours": "70331642922638963/76320000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "346591/106",
+        "hidden_all": "2034870/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "0f069498375f0400ee2f8bcde0a06e30ef2be82e6c39c00dd893d54278c01091"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "batch64",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 73,
+      "qminus_count": 14,
+      "latency_hours": "3937582832049394511/3816000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "215972/53",
+        "hidden_all": "3856189/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "7c69604cba1575073cb09eb1af141ff0486704553264c6adc9495856a994228b"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 49,
+      "qminus_count": 7,
+      "latency_hours": "861132689628649183/508800000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "92390/53",
+        "hidden_all": "364599/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "806b3e484fb997db4c45c1a18f17f9c3fc056a6678508a81b33b342142e18112"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 49,
+      "qminus_count": 5,
+      "latency_hours": "838140553873899627/530000000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "169999/106",
+        "hidden_all": "196965/53",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "b58193515fc7c649e81335b2b287987f782c468ff41ae8244ecb95dcac4b40f1"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 44,
+      "qminus_count": 7,
+      "latency_hours": "149318907342272377/101760000000000000",
+      "tokens_per_request": {
+        "input": "58029/106",
+        "delivered": "178737/106",
+        "hidden_all": "308481/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "1014fb8046cbbce8c9c7767c9fbc78fb353475efdf1a7f3be36c60709f54d95e"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 71,
+      "qminus_count": 13,
+      "latency_hours": "53268627856809564229/19080000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "351955/106",
+        "hidden_all": "3869469/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "ae594cdf9c221465abedfe7e89909c446078b77e50d3d1106768e1c1b8e015a1"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 73,
+      "qminus_count": 13,
+      "latency_hours": "324123388630549953/106000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "423547/106",
+        "hidden_all": "4079695/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "cb93e98e9ac4d13eb6c53c5622d659c8ac27790a1dd17b58fe44caff234c532b"
+    },
+    {
+      "stratum": "q38-nonthinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 65,
+      "qminus_count": 18,
+      "latency_hours": "115516345657130679667/38160000000000000000",
+      "tokens_per_request": {
+        "input": "232116/53",
+        "delivered": "196203/53",
+        "hidden_all": "3853957/106",
+        "reasoning": "0"
+      },
+      "source_extract_sha256": "1788b2f0117dc17a47e0346f6c4e03e660c04c3353410523d48e458366c53cda"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 64,
+      "qminus_count": 4,
+      "latency_hours": "227953359363190363/381600000000000000",
+      "tokens_per_request": {
+        "input": "60573/106",
+        "delivered": "36503/106",
+        "hidden_all": "868389/106",
+        "reasoning": "853239/106"
+      },
+      "source_extract_sha256": "f13e6ed0bed1ef8dd6f74b675f665dd7b93131135a435f9562912a3eec2485b5"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 60,
+      "qminus_count": 5,
+      "latency_hours": "2199091217285137963/3816000000000000000",
+      "tokens_per_request": {
+        "input": "60573/106",
+        "delivered": "16540/53",
+        "hidden_all": "857527/106",
+        "reasoning": "842379/106"
+      },
+      "source_extract_sha256": "1055c14fec8c840e43accbb45381cf8fd67e6b95458989620c946b99ee45ce2d"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "batch16",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 60,
+      "qminus_count": 6,
+      "latency_hours": "8810501181804316027/19080000000000000000",
+      "tokens_per_request": {
+        "input": "60573/106",
+        "delivered": "16618/53",
+        "hidden_all": "442152/53",
+        "reasoning": "435008/53"
+      },
+      "source_extract_sha256": "913796b3c8aa0c0d308de4ac2afc36039555878660396adc73b9a8033618fc7e"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 85,
+      "qminus_count": 7,
+      "latency_hours": "6120394225282242979/3816000000000000000",
+      "tokens_per_request": {
+        "input": "242292/53",
+        "delivered": "54653/106",
+        "hidden_all": "3487766/53",
+        "reasoning": "3317856/53"
+      },
+      "source_extract_sha256": "c35418b5d1369d394a1e57dcf1fa6490d90579ede31d4f1c7c7c7ea1302d54f1"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 81,
+      "qminus_count": 7,
+      "latency_hours": "1803482427860565943/1272000000000000000",
+      "tokens_per_request": {
+        "input": "242292/53",
+        "delivered": "52341/106",
+        "hidden_all": "7152183/106",
+        "reasoning": "6806647/106"
+      },
+      "source_extract_sha256": "606cfaff03ffca2a2eb8500c43a4ce0352fc21598da5d996f57ac63a01f9e90d"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "batch16",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 83,
+      "qminus_count": 7,
+      "latency_hours": "638830772668334303/763200000000000000",
+      "tokens_per_request": {
+        "input": "242292/53",
+        "delivered": "26851/53",
+        "hidden_all": "7048707/106",
+        "reasoning": "3351453/53"
+      },
+      "source_extract_sha256": "51b813805566ad5c19fd818dfe1aef06afb7bd764661fbf526c8e6198a7f0590"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 0,
+      "qplus_count": 64,
+      "qminus_count": 5,
+      "latency_hours": "12522288401408703113/4770000000000000000",
+      "tokens_per_request": {
+        "input": "60573/106",
+        "delivered": "18940/53",
+        "hidden_all": "446510/53",
+        "reasoning": "440690/53"
+      },
+      "source_extract_sha256": "4132721cd2f2baebe388e43be17f4346eb8a75649c98ff2cc73ed0d88c25f23b"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 1,
+      "qplus_count": 63,
+      "qminus_count": 5,
+      "latency_hours": "85027427302110241699/38160000000000000000",
+      "tokens_per_request": {
+        "input": "60573/106",
+        "delivered": "17170/53",
+        "hidden_all": "412715/53",
+        "reasoning": "815287/106"
+      },
+      "source_extract_sha256": "00ab156909be942160382bd707c7191761f4d1d314d276167b4e282e4260a229"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "serial",
+      "k": 1,
+      "rep": 2,
+      "qplus_count": 62,
+      "qminus_count": 5,
+      "latency_hours": "8626215707090533427/4770000000000000000",
+      "tokens_per_request": {
+        "input": "60573/106",
+        "delivered": "35005/106",
+        "hidden_all": "414213/53",
+        "reasoning": "406323/53"
+      },
+      "source_extract_sha256": "a0b8ee7315ce822b43ae46a455f84114468507442012241056ba384d43aa5276"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 0,
+      "qplus_count": 82,
+      "qminus_count": 6,
+      "latency_hours": "25348550419598666539/6360000000000000000",
+      "tokens_per_request": {
+        "input": "242292/53",
+        "delivered": "26335/53",
+        "hidden_all": "7283287/106",
+        "reasoning": "6936209/106"
+      },
+      "source_extract_sha256": "a36a8871bc2a057bcc371ee297e6abd551d6bdc3ffbd70f99eb8b4b48923a6cc"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 1,
+      "qplus_count": 82,
+      "qminus_count": 6,
+      "latency_hours": "9062715166122035569/2385000000000000000",
+      "tokens_per_request": {
+        "input": "242292/53",
+        "delivered": "51353/106",
+        "hidden_all": "3594845/53",
+        "reasoning": "3428189/53"
+      },
+      "source_extract_sha256": "b66173868de9d5de505438f6aa08412fc0141c86dfd5e7c84ab8be2a185ac3fa"
+    },
+    {
+      "stratum": "q38-thinking",
+      "config": "serial",
+      "k": 8,
+      "rep": 2,
+      "qplus_count": 80,
+      "qminus_count": 7,
+      "latency_hours": "3106266763337880217/1060000000000000000",
+      "tokens_per_request": {
+        "input": "242292/53",
+        "delivered": "24694/53",
+        "hidden_all": "7044597/106",
+        "reasoning": "63194"
+      },
+      "source_extract_sha256": "51fe6221404e66de3f464683c5520148f266e22714d21b2b19b7e478d719dd3e"
+    }
+  ]
+}

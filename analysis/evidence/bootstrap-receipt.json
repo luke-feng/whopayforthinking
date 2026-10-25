@@ -1,0 +1,555 @@
+{
+  "schema": "paired-prompt-bootstrap-receipt-v1",
+  "date": "2026-10-24",
+  "base_commit": "a29c2374fdfb5d54e10305b9f95e4c9e8b49e33c",
+  "input_sha256": "e0a96d1791ae920527daf83ac5e4c7a7de10b7ab0110dfcaf95ed92b4708baa1",
+  "result_sha256": "07a5504c58a34bc8d4b9502d907476c927d214d0a054b2a2aef70369fedb4c47",
+  "implementation_sha256": "25b158a1620c884fd5aa8c179f961d54b7cd643a5fe26ef8d47058b21c6ae767",
+  "method_reference_commit": "43db14772555005af3ccb02f84b2cf8278dd337e",
+  "percentile_and_resampler_ast_equal_to_reference": true,
+  "independent_reference_replay": "10000-draw replay using only the hash-checked 43db147 percentile and paired_percentiles functions. The surrounding current engine is not claimed unchanged and the registered primary pipeline is not executed.",
+  "cost_reconciliation": {
+    "checks": 2352,
+    "mismatches": 0,
+    "basis": "Exact original resources reproduce the printed per-seed fixed-configuration cost columns at their published precision."
+  },
+  "local_tests_passed": 8,
+  "cost_pause_retained": true,
+  "serial_budget_across_seed_ranges": {
+    "coder-nonthinking": {
+      "billed_input_tokens": {
+        "point_range": [
+          3684.9056603773583,
+          3684.9056603773583
+        ],
+        "interval_endpoint_range": [
+          3424.64929245283,
+          3960.360613207547
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "delivered_output_tokens": {
+        "point_range": [
+          36.632075471698116,
+          46.79245283018868
+        ],
+        "interval_endpoint_range": [
+          16.22570754716981,
+          70.33962264150944
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "generation_latency_s": {
+        "point_range": [
+          40.16203097355297,
+          51.27057721482739
+        ],
+        "interval_endpoint_range": [
+          36.529665780947255,
+          55.99272493152508
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_correct": {
+        "point_range": [
+          0.04716981132075472,
+          0.09433962264150944
+        ],
+        "interval_endpoint_range": [
+          0.009433962264150943,
+          0.1509433962264151
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_wrong": {
+        "point_range": [
+          0.05660377358490566,
+          0.09433962264150944
+        ],
+        "interval_endpoint_range": [
+          0.018867924528301886,
+          0.1509433962264151
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "reasoning_tokens_all": {
+        "point_range": [
+          0.0,
+          0.0
+        ],
+        "interval_endpoint_range": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "refusal": {
+        "point_range": [
+          -0.16037735849056603,
+          -0.12264150943396226
+        ],
+        "interval_endpoint_range": [
+          -0.2358490566037736,
+          -0.0660377358490566
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "unselected_final_tokens": {
+        "point_range": [
+          2004.1415094339623,
+          2051.2830188679245
+        ],
+        "interval_endpoint_range": [
+          1845.7330188679246,
+          2220.345047169811
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      }
+    },
+    "nemotron-thinking": {
+      "billed_input_tokens": {
+        "point_range": [
+          3737.4716981132074,
+          3737.4716981132074
+        ],
+        "interval_endpoint_range": [
+          3476.754716981132,
+          4012.073113207547
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "delivered_output_tokens": {
+        "point_range": [
+          338.5377358490566,
+          382.02830188679246
+        ],
+        "interval_endpoint_range": [
+          163.2254716981132,
+          580.7365566037736
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "generation_latency_s": {
+        "point_range": [
+          5063.770857242329,
+          5119.180380478018
+        ],
+        "interval_endpoint_range": [
+          4553.510728583955,
+          5650.138806636082
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_correct": {
+        "point_range": [
+          0.14150943396226415,
+          0.20754716981132076
+        ],
+        "interval_endpoint_range": [
+          0.07547169811320754,
+          0.29245283018867924
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_wrong": {
+        "point_range": [
+          0.0,
+          0.0660377358490566
+        ],
+        "interval_endpoint_range": [
+          -0.0660377358490566,
+          0.1320754716981132
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "reasoning_tokens_all": {
+        "point_range": [
+          94351.15094339622,
+          95682.2641509434
+        ],
+        "interval_endpoint_range": [
+          82354.95518867925,
+          107625.25754716981
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "refusal": {
+        "point_range": [
+          -0.2641509433962264,
+          -0.20754716981132076
+        ],
+        "interval_endpoint_range": [
+          -0.3490566037735849,
+          -0.1320754716981132
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "unselected_final_tokens": {
+        "point_range": [
+          5395.735849056604,
+          5553.471698113208
+        ],
+        "interval_endpoint_range": [
+          4367.263443396227,
+          6607.973349056604
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      }
+    },
+    "q35-thinking": {
+      "bill_headline_usd": {
+        "point_range": [
+          0.01996067641509434,
+          0.020267361320754716
+        ],
+        "interval_endpoint_range": [
+          0.01843330120283019,
+          0.021740238962264152
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "billed_input_tokens": {
+        "point_range": [
+          3818.103773584906,
+          3818.103773584906
+        ],
+        "interval_endpoint_range": [
+          3551.0438679245285,
+          4098.372877358491
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "delivered_output_tokens": {
+        "point_range": [
+          78.40566037735849,
+          196.5
+        ],
+        "interval_endpoint_range": [
+          21.59316037735849,
+          287.6056603773585
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "generation_latency_s": {
+        "point_range": [
+          2004.456466187264,
+          2677.2046429545417
+        ],
+        "interval_endpoint_range": [
+          1790.910943348502,
+          2957.417094477914
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_correct": {
+        "point_range": [
+          0.05660377358490566,
+          0.1320754716981132
+        ],
+        "interval_endpoint_range": [
+          0.018867924528301886,
+          0.19811320754716982
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_wrong": {
+        "point_range": [
+          0.018867924528301886,
+          0.03773584905660377
+        ],
+        "interval_endpoint_range": [
+          -0.018867924528301886,
+          0.08490566037735849
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "reasoning_tokens_all": {
+        "point_range": [
+          128734.18867924529,
+          130804.07547169812
+        ],
+        "interval_endpoint_range": [
+          118484.64056603773,
+          140719.46485849057
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "refusal": {
+        "point_range": [
+          -0.1509433962264151,
+          -0.07547169811320754
+        ],
+        "interval_endpoint_range": [
+          -0.22641509433962265,
+          -0.018867924528301886
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "unselected_final_tokens": {
+        "point_range": [
+          1668.0943396226414,
+          1687.8584905660377
+        ],
+        "interval_endpoint_range": [
+          1255.1115566037736,
+          2114.0429245283017
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      }
+    },
+    "q38-nonthinking": {
+      "bill_headline_usd": {
+        "point_range": [
+          0.08699137358490566,
+          0.09033184528301887
+        ],
+        "interval_endpoint_range": [
+          0.07012974962264151,
+          0.10756377754716981
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "billed_input_tokens": {
+        "point_range": [
+          3832.103773584906,
+          3832.103773584906
+        ],
+        "interval_endpoint_range": [
+          3565.0438679245285,
+          4112.372877358491
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "delivered_output_tokens": {
+        "point_range": [
+          1494.2924528301887,
+          2439.0943396226417
+        ],
+        "interval_endpoint_range": [
+          747.0858490566038,
+          3567.396933962264
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "generation_latency_s": {
+        "point_range": [
+          3341.2563943650644,
+          4708.271719929764
+        ],
+        "interval_endpoint_range": [
+          3010.997910390256,
+          5211.197571337726
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_correct": {
+        "point_range": [
+          0.1792452830188679,
+          0.2358490566037736
+        ],
+        "interval_endpoint_range": [
+          0.09433962264150944,
+          0.330188679245283
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_wrong": {
+        "point_range": [
+          0.08490566037735849,
+          0.09433962264150944
+        ],
+        "interval_endpoint_range": [
+          0.018867924528301886,
+          0.16037735849056603
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "reasoning_tokens_all": {
+        "point_range": [
+          0.0,
+          0.0
+        ],
+        "interval_endpoint_range": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "refusal": {
+        "point_range": [
+          -0.32075471698113206,
+          -0.27358490566037735
+        ],
+        "interval_endpoint_range": [
+          -0.41509433962264153,
+          -0.1792452830188679
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "unselected_final_tokens": {
+        "point_range": [
+          32162.962264150945,
+          34331.877358490565
+        ],
+        "interval_endpoint_range": [
+          25760.977358490567,
+          41095.892216981134
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      }
+    },
+    "q38-thinking": {
+      "bill_headline_usd": {
+        "point_range": [
+          0.1457784169811321,
+          0.1496339358490566
+        ],
+        "interval_endpoint_range": [
+          0.11809937094339623,
+          0.1790261041745283
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "billed_input_tokens": {
+        "point_range": [
+          4000.103773584906,
+          4000.103773584906
+        ],
+        "interval_endpoint_range": [
+          3733.0438679245285,
+          4280.372877358491
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "delivered_output_tokens": {
+        "point_range": [
+          100.29245283018868,
+          160.16981132075472
+        ],
+        "interval_endpoint_range": [
+          39.80896226415094,
+          228.69811320754718
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "generation_latency_s": {
+        "point_range": [
+          4163.86331161588,
+          7028.930739170757
+        ],
+        "interval_endpoint_range": [
+          3680.736737075073,
+          7742.958319915613
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_correct": {
+        "point_range": [
+          0.1320754716981132,
+          0.16981132075471697
+        ],
+        "interval_endpoint_range": [
+          0.0660377358490566,
+          0.25471698113207547
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "q_wrong": {
+        "point_range": [
+          0.009433962264150943,
+          0.02830188679245283
+        ],
+        "interval_endpoint_range": [
+          -0.02830188679245283,
+          0.07547169811320754
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "reasoning_tokens_all": {
+        "point_range": [
+          54683.72641509434,
+          56271.65094339623
+        ],
+        "interval_endpoint_range": [
+          43572.11391509434,
+          68097.64174528302
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "refusal": {
+        "point_range": [
+          -0.19811320754716982,
+          -0.14150943396226415
+        ],
+        "interval_endpoint_range": [
+          -0.27358490566037735,
+          -0.07547169811320754
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      },
+      "unselected_final_tokens": {
+        "point_range": [
+          3132.0188679245284,
+          3207.3396226415093
+        ],
+        "interval_endpoint_range": [
+          2718.8158018867925,
+          3645.9924528301885
+        ],
+        "interpretation": "Range of three separately computed intervals, not one pooled confidence interval."
+      }
+    }
+  },
+  "scope": "Conditional prompt diagnostics outside the paused registered pipeline, for 72 main pipeline cells. Cost on each window or generation-span basis stays fixed. No hardware-composite or merged-seed bootstrap, candidate execution, welfare interval or registered primary inference.",
+  "summary": {
+    "serial_correct_gain_positive_intervals": 15,
+    "serial_wrong_gain_positive_intervals": 7,
+    "serial_refusal_decline_intervals": 15,
+    "fixed_financial_rows": 588,
+    "diagnostic_menu_rows": 336,
+    "fixed_financial_nonnegative_gap_upper_endpoints": 0,
+    "retained_cost_pause_scenarios": 42,
+    "frozen_roster_order_verified": true,
+    "fixed_financial_extended_rows": 84
+  },
+  "engine_sources": {
+    "registered_commit": "43db14772555005af3ccb02f84b2cf8278dd337e",
+    "registered_file_sha256": "4900995d62276a4ec1bfdfc2b7d7272ce05a1f50184e050a6fa7141fe5e7a8cd",
+    "current_engine_file_sha256": "8c64ea46ed45d1aea4ec7751ece781773f445984445376a649b8c51d8aefee07",
+    "current_engine_field_in_inputs": "method_source_sha256",
+    "unchanged_components": [
+      "percentile",
+      "paired_percentiles"
+    ],
+    "whole_engine_unchanged": false
+  },
+  "metadata_correction": {
+    "original_result_commit": "4ce9a1a06a7bc8c4aaac8c5a4baf437503e95e55",
+    "original_result_sha256": "5b6bb852e37136c0508030f072feac6fef92bbed7df21a6f46e7a16dd759dccc",
+    "unchanged_numerical_payload_sha256": "fd8efe82bb5d3a48688bd8fb55e0e9c1cfa528e64e5652c6c7703bfcf3507f1f",
+    "numerical_payload_keys": [
+      "cells",
+      "paired_contrasts",
+      "financial",
+      "h2",
+      "cost_pause_audit"
+    ],
+    "description": "Metadata-only disclosure correction. All numerical results, draws, cell and scenario records are unchanged. Conditional diagnostics were calculated outside the registered gate, which withholds the entire primary bootstrap in these 42 paused financial scenarios.",
+    "validation": {
+      "paper_tests": 18,
+      "bootstrap_tests": 8,
+      "reference_points_or_endpoints": 18,
+      "isolated_python_versions": [
+        "3.9.6",
+        "3.12.14"
+      ]
+    }
+  },
+  "reference_replay": {
+    "script": "verify_bootstrap_reference.py",
+    "script_sha256": "3bba0e28b448e43a33ace532540aa725c8cccefde0e9677e0efdd6ff8d0b3172",
+    "output": "bootstrap-reference-replay.json",
+    "output_sha256": "ba59298d15ed8d8d2c555a27fa4d66af37cd5d9d69b4de22ee09a4fcc8d9b10e",
+    "exact_points_and_endpoints": 18
+  }
+}

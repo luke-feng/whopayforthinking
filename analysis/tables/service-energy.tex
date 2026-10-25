@@ -1,0 +1,19 @@
+% Follow-up inputs: lean-service-resources-2-2026-10-25.tsv=e6284f2cfd9d lean-service-theory-3-2026-10-25.tsv=2e565c482232 lean-a100-resources-2-2026-10-25.tsv=47cc1774e65a lean-a100-theory-3-2026-10-25.tsv=20b4e519bb26 service-followup-provenance.json=44d8059444b0
+
+\begin{table*}[t]
+\caption{Service energy-corner H1 (USD/1,000 requests).}
+\label{tab:service-energy}
+\centering\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Stratum, pooled & 0.25 & 0.5 & 1 & 2 & 2.4 & 3 & 4 \\
+\midrule
+Coder, batch16 & 0.02 & 0.06 & 0.15 & 0.32 & 0.39 & 0.49 & 0.66 \\
+Nemotron, batch16 & 2.13 & 4.93 & 10.52 & 21.68 & 26.15 & 32.84 & 44.01 \\
+Qwen3.5 thinking, batch16 & $-$2.20 & $-$1.67 & $-$0.61 & 1.51 & 2.30 & 3.28 & 4.92 \\
+Qwen3.8 non-thinking, batch16 & 1.56 & 4.98 & 11.81 & 25.47 & 30.94 & 39.14 & 52.81 \\
+Qwen3.8 non-thinking, batch64 & 0.83 & 3.56 & 9.02 & 19.94 & 24.31 & 30.86 & 41.78 \\
+Qwen3.8 thinking, batch16 & $-$2.24 & $-$0.43 & 3.20 & 10.44 & 13.34 & 17.68 & 24.93 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,38 @@
+% Replicate-level pooling contrasts. Made by paper/www27/make_result_tables.py from: lean-main-resources-4-2026-10-23.tsv=f3f03c78d9c2 lean-main-theory-5-2026-10-24.tsv=b82f5c7ed9ac lean-service-resources-1-2026-10-24.tsv=b2aa64c2b890 lean-service-theory-2-2026-10-24.tsv=1358a7b525f3 lean-a100-resources-1-2026-10-24.tsv=331c2056bdce lean-a100-theory-2-2026-10-24.tsv=b81ace06fd57
+
+\begin{table*}[t]
+\caption{Pipeline contrasts by repetition.}
+\label{tab:replicates}
+\centering\small
+\begin{tabular}{llcclrrr}
+\toprule
+Stratum & Pooled & Replicate & GPUs & Matched & H1 (GPU s) & H1/$d_0$ window & H1/$d_0$ span \\
+\midrule
+Qwen2.5-Coder-7B & batch16 & r0 & EEEE & yes & 6.3 & 10\% & 62\% \\
+ & batch16 & r1 & HHHH & yes & 4.8 & 8\% & 61\% \\
+ & batch16 & r2 & HHHH & yes & 3.6 & 7\% & 62\% \\
+\addlinespace
+Nemotron-3-Nano-30B & batch16 & r0 & NNNN & yes & 52.7 & 48\% & 58\% \\
+ & batch16 & r1 & HHHH & yes & 57.8 & 49\% & 63\% \\
+ & batch16 & r2 & HHHH & yes & 55.9 & 48\% & 63\% \\
+\addlinespace
+Qwen3.5-9B thinking & batch16 & r0 & EEEE & yes & 11.2 & 22\% & 26\% \\
+ & batch16 & r1 & NNNN & yes & 4.3 & 8\% & 15\% \\
+ & batch16 & r2 & EEEE & yes & 14.6 & 27\% & 30\% \\
+\addlinespace
+Qwen3.8-27B non-thinking & batch16 & r0 & EEHH & no & 33.8 & 38\% & 57\% \\
+ & batch16 & r1 & HHEE & no & 67.0 & 60\% & 79\% \\
+ & batch16 & r2 & EEHH & no & 41.3 & 43\% & 64\% \\
+ & batch64 & r0 & EEHH & no & 21.4 & 24\% & 40\% \\
+ & batch64 & r1 & HHEE & no & 64.8 & 58\% & 80\% \\
+ & batch64 & r2 & EEHH & no & 34.2 & 35\% & 54\% \\
+\addlinespace
+Qwen3.8-27B thinking & batch16 & r0 & HNHH & no & 8.3 & 9\% & 20\% \\
+ & batch16 & r1 & HHHH & yes & 20.9 & 19\% & 25\% \\
+ & batch16 & r2 & EHEE & no & 112.0 & 73\% & 83\% \\
+ & batch64$^\dagger$ & r0 & HNHH & no & $-$9.5 & $-$10\% & 1\% \\
+ & batch64$^\dagger$ & r1 & HHHH & yes & 5.4 & 5\% & 7\% \\
+ & batch64 & r2 & EHEE & no & 93.5 & 61\% & 77\% \\
+\bottomrule
+\end{tabular}
+\end{table*}

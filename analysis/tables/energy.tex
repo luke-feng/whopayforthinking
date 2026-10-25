@@ -1,0 +1,22 @@
+% Independent energy endpoint sensitivity. Made by paper/www27/make_result_tables.py from: lean-main-resources-4-2026-10-23.tsv=f3f03c78d9c2 lean-main-theory-5-2026-10-24.tsv=b82f5c7ed9ac lean-service-resources-1-2026-10-24.tsv=b2aa64c2b890 lean-service-theory-2-2026-10-24.tsv=1358a7b525f3 lean-a100-resources-1-2026-10-24.tsv=331c2056bdce lean-a100-theory-2-2026-10-24.tsv=b81ace06fd57
+
+\begin{table*}[t]
+\caption{Pipeline energy-corner H1 (USD/1,000 requests).}
+\label{tab:energy-box}
+\centering\small
+\begin{tabular}{llrrrrrrr}
+\toprule
+Stratum, pooled & GPU & 0.25 & 0.5 & 1 & 2 & 2.4 & 3 & 4 \\
+\midrule
+Qwen2.5-Coder-7B, batch16 & H100 & 0.20 & 0.50 & 1.08 & 2.26 & 2.73 & 3.43 & 4.61 \\
+Nemotron-3-Nano-30B, batch16 & H100 & 3.07 & 7.01 & 14.91 & 30.70 & 37.02 & 46.50 & 62.29 \\
+Qwen3.5-9B thinking, batch16 & H200 & $-$1.13 & $-$0.24 & 1.55 & 5.12 & 6.55 & 8.70 & 12.27 \\
+Qwen3.8-27B non-thinking, batch16 & H100 & 2.06 & 5.93 & 13.69 & 29.19 & 35.40 & 44.70 & 60.21 \\
+Qwen3.8-27B non-thinking, batch16 & H200 & 2.24 & 5.62 & 12.39 & 25.91 & 31.32 & 39.44 & 52.97 \\
+Qwen3.8-27B non-thinking, batch64 & H100 & 1.35 & 4.55 & 10.95 & 23.74 & 28.86 & 36.54 & 49.33 \\
+Qwen3.8-27B non-thinking, batch64 & H200 & 2.20 & 5.43 & 11.88 & 24.79 & 29.95 & 37.69 & 50.59 \\
+Qwen3.8-27B thinking, batch16 & H100 & $-$2.72 & $-$1.36 & 1.37 & 6.82 & 9.00 & 12.28 & 17.73 \\
+Qwen3.8-27B thinking, batch64$^\dagger$ & H100 & $-$4.04 & $-$3.83 & $-$3.42 & $-$2.59 & $-$2.26 & $-$1.76 & $-$0.93 \\
+\bottomrule
+\end{tabular}
+\end{table*}
